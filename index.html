@@ -39,8 +39,14 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="question-count">Количество вопросов:</label>
-                    <input type="number" id="question-count" value="20" min="5" max="100">
+                    <label for="range-select">Выберите диапазон вопросов:</label>
+                    <select id="range-select">
+                        <!-- Динамически заполняется -->
+                    </select>
+                </div>
+                <div class="form-group" style="display: flex; align-items: center; gap: 10px;">
+                    <input type="checkbox" id="random-checkbox" style="width: auto;" checked>
+                    <label for="random-checkbox" style="margin: 0; cursor: pointer;">Перемешать вопросы</label>
                 </div>
                 <button id="btn-start" class="btn primary">Начать тест</button>
             </div>

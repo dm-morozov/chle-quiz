@@ -10,7 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const ui = {
         totalQuestions: document.getElementById('total-questions'),
         sectionSelect: document.getElementById('section-select'),
-        questionCount: document.getElementById('question-count'),
+        rangeSelect: document.getElementById('range-select'),
+        randomCheckbox: document.getElementById('random-checkbox'),
         btnStart: document.getElementById('btn-start'),
         
         progressBarFill: document.getElementById('progress-bar-fill'),
@@ -52,7 +53,34 @@ document.addEventListener('DOMContentLoaded', () => {
             ui.sectionSelect.appendChild(option);
         });
 
+        updateRangeSelect();
         switchScreen('start');
+    }
+
+    function updateRangeSelect() {
+        const selectedSection = ui.sectionSelect.value;
+        let filtered = allQuestions;
+        if (selectedSection !== 'all') {
+            filtered = allQuestions.filter(q => q.section === selectedSection);
+        }
+
+        ui.rangeSelect.innerHTML = '';
+        const total = filtered.length;
+        const step = 50;
+        
+        const allOption = document.createElement('option');
+        allOption.value = 'all';
+        allOption.textContent = `Все вопросы (${total})`;
+        ui.rangeSelect.appendChild(allOption);
+
+        for (let i = 0; i < total; i += step) {
+            const start = i + 1;
+            const end = Math.min(i + step, total);
+            const option = document.createElement('option');
+            option.value = `${i}-${end}`;
+            option.textContent = `Вопросы ${start} - ${end}`;
+            ui.rangeSelect.appendChild(option);
+        }
     }
 
     function switchScreen(screenName) {
@@ -61,21 +89,31 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Event Listeners
+    ui.sectionSelect.addEventListener('change', updateRangeSelect);
     ui.btnStart.addEventListener('click', startQuiz);
     ui.btnNext.addEventListener('click', handleNext);
     ui.btnRestart.addEventListener('click', () => switchScreen('start'));
 
     function startQuiz() {
         const selectedSection = ui.sectionSelect.value;
-        let count = parseInt(ui.questionCount.value) || 20;
+        const selectedRange = ui.rangeSelect.value;
+        const isRandom = ui.randomCheckbox.checked;
 
         let filtered = allQuestions;
         if (selectedSection !== 'all') {
             filtered = allQuestions.filter(q => q.section === selectedSection);
         }
 
-        // Shuffle and slice
-        currentQuizQuestions = [...filtered].sort(() => 0.5 - Math.random()).slice(0, count);
+        if (selectedRange !== 'all') {
+            const [startIdx, endIdx] = selectedRange.split('-').map(Number);
+            filtered = filtered.slice(startIdx, endIdx);
+        }
+
+        currentQuizQuestions = [...filtered];
+        
+        if (isRandom) {
+            currentQuizQuestions.sort(() => 0.5 - Math.random());
+        }
         
         if (currentQuizQuestions.length === 0) {
             alert('Нет вопросов по выбранным критериям!');
