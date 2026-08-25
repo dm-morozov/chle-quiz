@@ -28,9 +28,10 @@ def parse_pdf():
     current_options = {}
     current_opt_letter = None
     
-    answer_keys = {} # dict of section -> dict of q_num -> correct_letter
+    # Store answer keys by the section prefix (e.g., '3.1', '3.4.1')
+    answer_keys = {} 
+    current_answer_prefix = None
     
-    section_name_regex = re.compile(r'^(\d+\.\d+(?:\.\d+)?)\s*(.*)')
     q_start_regex = re.compile(r'^(\d+)\.\s+(.*)')
     opt_start_regex = re.compile(r'^([A-ZА-Я])\.\s+(.*)')
     ans_key_regex = re.compile(r'(\d+)\.-([A-ZА-Я])')
@@ -40,14 +41,15 @@ def parse_pdf():
         if not line:
             continue
             
-        # Ignore page footers like "22.04.2026 Страница 3-12"
         if re.search(r'\d{2}\.\d{2}\.\d{4}\s+Страница\s+\d+-\d+', line) or line.startswith('Издание 2, Ревизия 0'):
             continue
             
-        # Check for answer keys block
         if "Перечень правильных ответов" in line:
             parsing_answers = True
             parsing_questions = False
+            m_prefix = re.match(r'^(3\.\d+(?:\.\d+)?)\.\d+', line)
+            if m_prefix:
+                current_answer_prefix = m_prefix.group(1)
             continue
             
         if "Перечень вопросов" in line:
@@ -56,27 +58,23 @@ def parse_pdf():
             continue
             
         if parsing_answers:
-            # Look for answer keys like 1.-B; 2.-C;
             matches = ans_key_regex.findall(line)
             for m in matches:
                 qnum = int(m[0])
                 ans = m[1].upper()
-                if current_section not in answer_keys:
-                    answer_keys[current_section] = {}
-                answer_keys[current_section][qnum] = ans
+                if current_answer_prefix not in answer_keys:
+                    answer_keys[current_answer_prefix] = {}
+                answer_keys[current_answer_prefix][qnum] = ans
             
-            # If we see a new section header, we stop parsing answers
-            m_sec = section_name_regex.match(line)
-            if m_sec and not line.endswith('ответов'):
+            m_sec = re.match(r'^(3\.\d+(?:\.\d+)?)\.?\s+([А-ЯA-Z].*)', line)
+            if m_sec and 'Перечень' not in line and 'Список' not in line and '...' not in line:
                 current_section = line
                 parsing_answers = False
             continue
             
         if parsing_questions:
-            # Is it a new question?
             m_q = q_start_regex.match(line)
             if m_q:
-                # Save previous question
                 if current_q_num is not None:
                     questions.append({
                         'section': current_section,
@@ -90,23 +88,20 @@ def parse_pdf():
                 current_opt_letter = None
                 continue
                 
-            # Is it an option?
             m_opt = opt_start_regex.match(line)
             if m_opt:
                 current_opt_letter = m_opt.group(1).upper()
                 current_options[current_opt_letter] = m_opt.group(2)
                 continue
                 
-            # It's continuation of either question or current option
             if current_q_num is not None:
                 if current_opt_letter is not None:
                     current_options[current_opt_letter] += " " + line
                 else:
                     current_q_text.append(line)
             else:
-                # Might be a section header
-                m_sec = section_name_regex.match(line)
-                if m_sec and not line.endswith('вопросов'):
+                m_sec = re.match(r'^(3\.\d+(?:\.\d+)?)\.?\s+([А-ЯA-Z].*)', line)
+                if m_sec and 'Перечень' not in line and 'Список' not in line and '...' not in line:
                     current_section = line
 
     # Add last question
@@ -126,18 +121,13 @@ def parse_pdf():
         sec = q['section']
         qnum = q['id']
         correct = None
-        if sec in answer_keys and qnum in answer_keys[sec]:
-            correct = answer_keys[sec][qnum]
-        elif '3.1. Воздушный кодекс, Положение об использовании воздушного пространства' in sec:
-            # we can do fuzzy match on section names
-            pass
-            
-        # let's try fuzzy matching for answers
-        for ak_sec, keys in answer_keys.items():
-            if sec and ak_sec and (sec[:5] == ak_sec[:5]): # e.g. "3.1. "
-                if qnum in keys:
-                    correct = keys[qnum]
-                    break
+        
+        if sec:
+            m_prefix = re.match(r'^(3\.\d+(?:\.\d+)?)', sec)
+            if m_prefix:
+                prefix = m_prefix.group(1)
+                if prefix in answer_keys and qnum in answer_keys[prefix]:
+                    correct = answer_keys[prefix][qnum]
         
         if correct:
             q['correct_answer'] = correct
