@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тренажер ЧЛЭ - Вопросы и Ответы</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Loading Screen -->
+        <div id="loading-screen" class="screen active">
+            <div class="loader"></div>
+            <h2>Загрузка вопросов...</h2>
+        </div>
+
+        <!-- Start Screen -->
+        <div id="start-screen" class="screen">
+            <header>
+                <h1>Тренажер для ЧЛЭ</h1>
+                <p>База тестовых вопросов и ответов из PDF</p>
+            </header>
+            <div class="stats-card">
+                <div class="stat-item">
+                    <span class="stat-value" id="total-questions">-</span>
+                    <span class="stat-label">Вопросов доступно</span>
+                </div>
+            </div>
+            
+            <div class="settings">
+                <h3>Настройки тестирования</h3>
+                <div class="form-group">
+                    <label for="section-select">Выберите раздел (или оставьте все):</label>
+                    <select id="section-select">
+                        <option value="all">Все разделы</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="question-count">Количество вопросов:</label>
+                    <input type="number" id="question-count" value="20" min="5" max="100">
+                </div>
+                <button id="btn-start" class="btn primary">Начать тест</button>
+            </div>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div id="quiz-screen" class="screen">
+            <div class="quiz-header">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-bar-fill"></div>
+                </div>
+                <div class="quiz-stats">
+                    <span id="current-question-num">Вопрос 1 из 20</span>
+                    <span class="score-badge">Счет: <span id="score">0</span></span>
+                </div>
+            </div>
+            
+            <div class="question-container">
+                <div id="question-section" class="section-tag">Раздел</div>
+                <h2 id="question-text">Текст вопроса</h2>
+                <div id="options-container" class="options">
+                    <!-- Options will be injected here -->
+                </div>
+            </div>
+            
+            <div class="quiz-footer">
+                <button id="btn-next" class="btn secondary" disabled>Далее</button>
+            </div>
+        </div>
+
+        <!-- Result Screen -->
+        <div id="result-screen" class="screen">
+            <div class="result-card">
+                <h2>Тест завершен!</h2>
+                <div class="final-score">
+                    <span id="final-score-value">0</span> / <span id="final-score-total">0</span>
+                </div>
+                <p id="result-message" class="result-message">Отличный результат!</p>
+                <div class="action-buttons">
+                    <button id="btn-restart" class="btn primary">Начать заново</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
