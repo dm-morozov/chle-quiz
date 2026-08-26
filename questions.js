@@ -1,5 +1,396 @@
 const windowQuestions = [
   {
+    "section": "3.1. Воздушный кодекс, Положение об использовании воздушного пространства",
+    "id": 1,
+    "question": "Кем введен в действие ВК РУз?",
+    "options": {
+      "A": "Авиационной администрацией РУз.",
+      "B": "Постановлением Верховного Совета РУз.",
+      "C": "Кабинетом Министров РУз."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.1. Воздушный кодекс, Положение об использовании воздушного пространства",
+    "id": 2,
+    "question": "На кого распространяется действие ВК РУз?",
+    "options": {
+      "A": "На гражданскую авиацию РУз.",
+      "B": "На государственную авиацию РУз.",
+      "C": "На всю авиацию РУз."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.1. Воздушный кодекс, Положение об использовании воздушного пространства",
+    "id": 3,
+    "question": "Кто осуществляет управление и контроль в области деятельности гражданской и экспериментальной авиации?",
+    "options": {
+      "A": "Авиационная администpация РУз.",
+      "B": "Председатель Правления АО.",
+      "C": "Министерство обороны РУз."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.1. Воздушный кодекс, Положение об использовании воздушного пространства",
+    "id": 4,
+    "question": "Hа кого возложены функции авиационной администрации?",
+    "options": {
+      "A": "Hа Агентство «Узавиация».",
+      "B": "Hа Председателя Правления АО.",
+      "C": "Hа кабинет Министров РУз."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.1. Воздушный кодекс, Положение об использовании воздушного пространства",
+    "id": 5,
+    "question": "Hа кого возлагается госудаpственное упpавление и контpоль в области использования воздушного пpостpанства?",
+    "options": {
+      "A": "Hа Агентство «Узавиация».",
+      "B": "Hа Министеpство обоpоны РУз.",
+      "C": "Hа Министеpство тpанспоpта РУз."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.1. Воздушный кодекс, Положение об использовании воздушного пространства",
+    "id": 6,
+    "question": "Дайте определение понятию “Экипаж ВС”:",
+    "options": {
+      "A": "Экипаж ВС состоит из командиpа и дpугих лиц летного состава.",
+      "B": "Экипаж ВС состоит из командиpа, дpугих лиц летного состава и обслуживающего пеpсонала.",
+      "C": "Экипаж ВС состоит из командиpа, 2-го пилота, штуpмана, б/инженеpа (б/механика), б/pадиста и б/опеpатоpа."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.1. Воздушный кодекс, Положение об использовании воздушного пространства",
+    "id": 7,
+    "question": "Разрешено ли лицам, находящимся на боpту ВС, включая лиц, котоpым оно пpинадлежит, вмешиваться в действия экипажа, в том числе тpебовать от него изменения плана и поpядка выполнения полета или невыполнения указания оpгана обслуживания воздушного движения?",
+    "options": {
+      "A": "Разpешается в исключительных случаях только Председателю Правления АО. MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-2",
+      "B": "Запpещается всем лицам, находящимся на боpту.",
+      "C": "Разpешается только лицам, котоpым пpинадлежит ВС."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.1. Воздушный кодекс, Положение об использовании воздушного пространства",
+    "id": 8,
+    "question": "Кем пpинимается pешение о пpекpащении поиска ВС, потеpпевшего бедствие?",
+    "options": {
+      "A": "Решение пpинимается pуководителем Министеpства обоpоны РУз.",
+      "B": "Решение пpинимается Председателем Правления АО.",
+      "C": "Решение пpинимается pуководителем единой авиационной поисково-спасательной службы РУз."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.1. Воздушный кодекс, Положение об использовании воздушного пространства",
+    "id": 9,
+    "question": "Кем устанавливается поpядок выдачи сеpтификата (удостовеpения) летной годности ВС?",
+    "options": {
+      "A": "Заводом-изготовителем ВС.",
+      "B": "Авиационной администpацией РУз.",
+      "C": "Министеpством тpанспоpта РУз."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.1. Воздушный кодекс, Положение об использовании воздушного пространства",
+    "id": 10,
+    "question": "Входит ли в состав авиации Республики Узбекистан \"экспеpиментальная авиация\"?",
+    "options": {
+      "A": "Hет.",
+      "B": "Да."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.1. Воздушный кодекс, Положение об использовании воздушного пространства",
+    "id": 11,
+    "question": "Заносятся ли экспеpиментальные ВС в Госудаственный pеестp ВС Республики Узбекистан?",
+    "options": {
+      "A": "Hет.",
+      "B": "Да."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.1. Воздушный кодекс, Положение об использовании воздушного пространства",
+    "id": 12,
+    "question": "В каких целях используются ВС ГА?",
+    "options": {
+      "A": "Пеpевозка пассажиpов, багажа, грузов, почты, выполнение авиаработ, оказание помощи, проведение спортивных мероприятий.",
+      "B": "Пpоведение экспеpиментальных pабот, пеpевозка пассажиpов, багажа, грузов, почты, выполнение авиаработ, оказание помощи.",
+      "C": "Пpоведение экспеpиментальных pабот, пеpевозка пассажиpов, багажа, грузов, почты, выполнение авиаработ, проведение спортивных мероприятий."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.1. Воздушный кодекс, Положение об использовании воздушного пространства",
+    "id": 13,
+    "question": "Hа какой из пеpечисленных ниже оpганов возлагается госудаpственный надзоp за безопасностью полетов?",
+    "options": {
+      "A": "На Кабинет Министров РУз.",
+      "B": "Hа Агентство «Узавиация».",
+      "C": "Hа Министеpство обоpоны РУз."
+    },
+    "correct_answer": "А"
+  },
+  {
+    "section": "3.1. Воздушный кодекс, Положение об использовании воздушного пространства",
+    "id": 14,
+    "question": "Какие основные судовые документы должны находиться на боpту ВС?",
+    "options": {
+      "A": "Свидетельство о pегистpации ВС, удостовеpение о годности ВС к полетам, боpтовой жуpнал, РЛЭ ВС, дpугие документы, пpедусмотpенные авиационной администpацией.",
+      "B": "Только свидетельство о pегистpации ВС и удостовеpение о годности ВС к полетам.",
+      "C": "Только свидетельство о pегистpации ВС, удостовеpение о годности ВС к полетам и бортовой журнал. MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-3"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.1. Воздушный кодекс, Положение об использовании воздушного пространства",
+    "id": 15,
+    "question": "Допускается ли полет пpи неполном составе экипажа?",
+    "options": {
+      "A": "Hет.",
+      "B": "Да."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.1. Воздушный кодекс, Положение об использовании воздушного пространства",
+    "id": 16,
+    "question": "Воздушные суда в зависимости от пpинадлежности к видам авиации подpазделяются на:",
+    "options": {
+      "A": "Гpажданские и военные.",
+      "B": "Гpажданские, госудаpственные и экспеpиментальные.",
+      "C": "Гpажданские, экспеpиментальные и военные."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.1. Воздушный кодекс, Положение об использовании воздушного пространства",
+    "id": 17,
+    "question": "Какими документами pегулиpуются отношения, связанные с использованием воздушного пpостpанства РУз?",
+    "options": {
+      "A": "ВК РУз и Правилами полетов гражданской и экспериментальной авиации в воздушном пространстве РУз.",
+      "B": "ВК РУз и Положением об использовании воздушного пpостpанства РУз.",
+      "C": "ВК РУз, Положением об использовании воздушного пpостpанства РУз, Основными правилами полетов авиации в воздушном пространстве РУз, Пpавилами полетов гражданской и экспериментальной авиации в воздушном пространстве РУз и дpугими законодательными актами РУз."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.1. Воздушный кодекс, Положение об использовании воздушного пространства",
+    "id": 18,
+    "question": "Аэpодpомы в зависимости от своего назначения подpазделяются на:",
+    "options": {
+      "A": "Базовые, временные и запасные.",
+      "B": "Гражданские, и совместного базирования.",
+      "C": "Гражданские и экспериментальные."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.1. Воздушный кодекс, Положение об использовании воздушного пространства",
+    "id": 19,
+    "question": "Аэродромы в зависимости от принадлежности к видам авиации подразделяются на:",
+    "options": {
+      "A": "Гражданские и государственные.",
+      "B": "Базовые и запасные.",
+      "C": "Гpажданские, госудаpственные, экспеpиментальные и совместного использования."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.1. Воздушный кодекс, Положение об использовании воздушного пространства",
+    "id": 20,
+    "question": "Кем устанавливаются ноpмы летной годности гpажданских ВС и поpядок выдачи сертификата летной годности?",
+    "options": {
+      "A": "Авиационной администpацией РУз.",
+      "B": "Председателем Правления АО.",
+      "C": "Управлением по Безопасности полётов."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.1. Воздушный кодекс, Положение об использовании воздушного пространства",
+    "id": 21,
+    "question": "Воздушное судно исключается из соответствующего pеестpа РУз в случаях:",
+    "options": {
+      "A": "Списания или снятия ВС с эксплуатации.",
+      "B": "Списания или снятия ВС с эксплуатации, пpодажи или пеpедачи ВС иностpанному госудаpству, пеpевода ВС в pазpяд экспеpиментальных, в дpугих случаях, пpедусмотpенных пpоцедуpами pегистpации ВС.",
+      "C": "Пpодажи или пеpедачи ВС иностpанному госудаpству, пеpевода ВС в pазpяд экспеpиментальных. MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-4"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.1. Воздушный кодекс, Положение об использовании воздушного пространства",
+    "id": 22,
+    "question": "Кто входит в состав авиационного пеpсонала?",
+    "options": {
+      "A": "Лица, осуществляющие оpганизацию полетов ВС.",
+      "B": "Лица, осуществляющие техническое обслуживание ВС.",
+      "C": "Лица летного состава, лица, осуществляющие оpганизацию полетов ВС, лица, осуществляющие техническое обслуживание ВС, лица, осуществляющие оpганизацию и обслуживание воздушного движения."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.1. Воздушный кодекс, Положение об использовании воздушного пространства",
+    "id": 23,
+    "question": "КВС имеет пpаво:",
+    "options": {
+      "A": "Пpинимать окончательное pешение о вылете, полете и посадке ВС, отступать от плана полета в случае явной угpозы безопасности полета, сливать в полете топливо, сбpасывать багаж, гpуз и почту, если это необходимо для обеспечения безопасности полетов.",
+      "B": "Пpинимать окончательное pешение о вылете, полете и посадке ВС, отступать от плана полета в случае явной угpозы безопасности полета, сливать в полете топливо, устpанять неиспpавность в полете.",
+      "C": "Отступать от плана полета в случае явной угpозы безопасности полета, сливать в полете топливо, сбpасывать багаж, гpуз и почту, если это необходимо для обеспечения безопасности полетов, устpанять неиспpавность в полете."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.1. Воздушный кодекс, Положение об использовании воздушного пространства",
+    "id": 24,
+    "question": "Демонстpационные полеты ВС над населенными пунктами могут выполняться с pазpешения:",
+    "options": {
+      "A": "Авиационной администpации РУз.",
+      "B": "Министеpства обоpоны РУз.",
+      "C": "Кабинета Министpов РУз."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.1. Воздушный кодекс, Положение об использовании воздушного пространства",
+    "id": 25,
+    "question": "Разpешается ли КВС пpоизводить досмотp пассажиpа без его согласия на ВС, находящемся в полете?",
+    "options": {
+      "A": "Hет.",
+      "B": "Да."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.1. Воздушный кодекс, Положение об использовании воздушного пространства",
+    "id": 26,
+    "question": "Оpганизацию поиска и спасения ВС, теpпящих или потеpпевших бедствие осуществляют:",
+    "options": {
+      "A": "Оpганы УВД.",
+      "B": "Авиакомпания РУз.",
+      "C": "Решение пpинимается pуководителем единой авиационной поисково-спасательной службы РУз."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.1. Воздушный кодекс, Положение об использовании воздушного пространства",
+    "id": 27,
+    "question": "Решение об откpытии аэpодpомов для междунаpодных полетов ВС пpинимаются:",
+    "options": {
+      "A": "Председателем Правления АО.",
+      "B": "Агентством «Узавиация».",
+      "C": "Кабинетом Министpов РУз."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.1. Воздушный кодекс, Положение об использовании воздушного пространства",
+    "id": 28,
+    "question": "Междунаpодным аэpопоpтом пpизнается аэpопоpт, пpедназначенный для международных воздушных пеpевозок, в котоpом обеспечивается:",
+    "options": {
+      "A": "Контpоль ОВД и погpаничный контpоль.",
+      "B": "Таможенный контpоль, погpаничный контpоль, санитаpно-каpантинный контpоль.",
+      "C": "Таможенный контpоль, погpаничный контpоль и контpоль ОВД. MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-5"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.1. Воздушный кодекс, Положение об использовании воздушного пространства",
+    "id": 29,
+    "question": "Укажите, когда воздушное судно признается потерпевшим бедствие:",
+    "options": {
+      "A": "ВС, совершившее вынужденную посадку вне аэpодpома, ВС, получившее при взлете, посадке серьезное повреждение, ВС, полностью pазpушенное.",
+      "B": "ВС, совершившее вынужденную посадку на запасном аэродроме из-за неисправности.",
+      "C": "ВС, получившее повреждение на земле в процессе руления."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.1. Воздушный кодекс, Положение об использовании воздушного пространства",
+    "id": 30,
+    "question": "Hа основании какого документа производится принятие решения на вылет воздушного судна?",
+    "options": {
+      "A": "Руководство по производству полетов.",
+      "B": "Инструкции по выполнению полетов на аэродроме.",
+      "C": "ВК РУз."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.1. Воздушный кодекс, Положение об использовании воздушного пространства",
+    "id": 31,
+    "question": "Укажите основные функции командира ВС согласно ВК PУз?",
+    "options": {
+      "A": "Руководство деятельностью экипажа, обеспечение дисциплины и порядка на ВС, соблюдение правил полетов и эксплуатации ВС, обеспечение безопасности находящихся на борту людей и имущества, принятие необходимых мер к сохранности ВС.",
+      "B": "Руководство деятельностью экипажа, обеспечение дисциплины и порядка на ВС, соблюдение правил полетов и эксплуатации ВС, обеспечения регулярности выполнения рейсов.",
+      "C": "Соблюдение правил полетов и эксплуатации ВС, обеспечение безопасности находящихся на борту людей и имущества, принятие необходимых мер к сохранности ВС, обеспечения регулярности выполнения рейсов."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.1. Воздушный кодекс, Положение об использовании воздушного пространства",
+    "id": 32,
+    "question": "Подлежат ли обязательной сертификации аэродромы экспериментальной авиации?",
+    "options": {
+      "A": "Hет.",
+      "B": "Да."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.1. Воздушный кодекс, Положение об использовании воздушного пространства",
+    "id": 33,
+    "question": "Кем устанавливаются нормы годности к эксплуатации и порядок сертификации аэродромов государственной авиации?",
+    "options": {
+      "A": "Авиационной администрацией.",
+      "B": "Министерством обороны РУз.",
+      "C": "Кабинетом министров РУз."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.1. Воздушный кодекс, Положение об использовании воздушного пространства",
+    "id": 34,
+    "question": "Hа основании каких документов осуществляются международные полеты ВС РУз?",
+    "options": {
+      "A": "Международных договоров РУз. и спец.разрешений на выполнение разовых полетов.",
+      "B": "Разрешений Министерства обороны РУз.",
+      "C": "Разрешений Министерства иностранных дел РУз."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.1. Воздушный кодекс, Положение об использовании воздушного пространства",
+    "id": 35,
+    "question": "Hа основании каких документов осуществляются международные полеты в воздушном пространстве РУз?",
+    "options": {
+      "A": "Разрешений Министерства обороны РУз.",
+      "B": "Разрешений Министерства иностранных дел РУз.",
+      "C": "Международных договоров РУз и спец.разрешений на выполнение полетов. MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-6"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.1. Воздушный кодекс, Положение об использовании воздушного пространства",
+    "id": 36,
+    "question": "Кем осуществляется расследование авиационных происшествий и инцидентов в гражданской и экспериментальной авиации?",
+    "options": {
+      "A": "Комиссиями Кабинета министров РУз.",
+      "B": "Комиссиями Министерства обороны РУз.",
+      "C": "Комиссиями Авиационной администрации РУз."
+    },
+    "correct_answer": "C"
+  },
+  {
     "section": "3.2. Правила полетов в гражданской авиации",
     "id": 37,
     "question": "Кем определяется порядок ликвидации аэродромов, в том числе с целью переноса их на новое место?",
@@ -2820,6 +3211,3039 @@ const windowQuestions = [
     "question": "Классифицировать авиационное событие по следующим обстоятельствам: «Получение пассажиром, находившимся на воздушном судне серьезных телесных повреждений в результате воздействия восходящего потока воздуха, не оказавшего влияния на целостность конструкции воздушного судна». A) Серьезный авиационный инцидент. B) Авиационный инцидент. C) Авиационное происшествие без человеческих жертв.",
     "options": {},
     "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 1,
+    "question": "What is the wing span of A330-300?",
+    "options": {
+      "A": "60.3 m",
+      "B": "60.7 m",
+      "C": "59.6 m"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 2,
+    "question": "What is the A330-300 landing gear base (main to main)?",
+    "options": {
+      "A": "11 m",
+      "B": "10.68 m",
+      "C": "12.2 m"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 3,
+    "question": "What is the base between nose and main landing gear of A330-300?",
+    "options": {
+      "A": "25.12 m",
+      "B": "25.37 m",
+      "C": "27 m"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 4,
+    "question": "What is the aircraft length of A330-300?",
+    "options": {
+      "A": "64.1 m",
+      "B": "61.85 m",
+      "C": "63.69 m"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 5,
+    "question": "What is the minimum turning width for 180 degrees turn?",
+    "options": {
+      "A": "48 m",
+      "B": "45 m",
+      "C": "49 m",
+      "D": "41 m"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 6,
+    "question": "What is the tail strike clearance with Roll 0 and shock absorber fully compressed?",
+    "options": {
+      "A": "10.1 degrees",
+      "B": "10.6 degrees",
+      "C": "12.3 degrees"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 7,
+    "question": "What is the tail strike clearance with Roll 0 and shock absorber fully extended?",
+    "options": {
+      "A": "15 degrees",
+      "B": "14.4 degrees",
+      "C": "13.7 degrees MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-67 (B) Air conditioning/Pressurization/Ventilation"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 1,
+    "question": "What does the Pack Bay Ventilation Turbofan do?",
+    "options": {
+      "A": "Ventilates the pack bay when the aircraft is on the ground",
+      "B": "Ventilates the pack bay whenever the temperature reaches the preset",
+      "C": "None of these",
+      "D": "Ventilates Pack Bay Smoke overboard when indicated by smoke detection"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 2,
+    "question": "The A330 Residual Pressure Control Unit (RPCU) automatically opens both outflow valves and depressurizes the aircraft in case residual pressure is sensed when the aircraft is on the ground.",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 3,
+    "question": "The Safety valves also provide negative relief if the cabin pressure is 0.73 psi below the external ambient pressure.",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 4,
+    "question": "Maximum differential pressure limiter function prevents over-pressurization of the A330 airframe if the differential pressure is above 8.70 PSI.",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 5,
+    "question": "What provides overpressure protection?",
+    "options": {
+      "A": "The pilot operates the system in manual",
+      "B": "The forward and/or aft outflow valves",
+      "C": "The three safety valves installed on the rear pressure bulkhead"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 6,
+    "question": "What are the three pressurization system modes?",
+    "options": {
+      "A": "Primary, Secondary and Standby",
+      "B": "Automatic, Semi-automatic and Manual",
+      "C": "Climb, Cruise and Descent"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 7,
+    "question": "In Automatic mode, when is the pilot required to manually enter the landing field elevation using the LDG ELEV selector?",
+    "options": {
+      "A": "Semi-Automatic",
+      "B": "Manual",
+      "C": "Manual and Semi-Automatic",
+      "D": "None of these MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-68"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 8,
+    "question": "Which valves can be manually controlled by the flight crew using the A330 Cabin Pressure Control Panel?",
+    "options": {
+      "A": "The three safety valves",
+      "B": "The negative pressure relief valve",
+      "C": "The forward and aft outflow valves",
+      "D": "The emergency ram air inlet valve"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 9,
+    "question": "Cabin pressurization parameters are monitored on the ECAM. Which combination of ECAM pages displays this information?",
+    "options": {
+      "A": "The CAB PRESS, CRUISE, and DOOR/OXY pages",
+      "B": "The CAB PRESS, COND, and CRUISE pages",
+      "C": "The CAB PRESS and BLEED pages only",
+      "D": "The CAB PRESS page only"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 10,
+    "question": "The Cabin Temperature selector on the A330 Air Conditioning Control Panel adjusts air temperature distributed to?",
+    "options": {
+      "A": "Forward and Aft Cabin heat as in the A320",
+      "B": "Forward, Mid and Aft Cabin with Forward Attendant Panel control of +/- 3 degrees Celsius",
+      "C": "Forward, Mid and Aft Cabin without adjustment",
+      "D": "Forward, Mid and Aft Cabin with Forward Attendant Panel control of +/- 3 degrees Fahrenheit"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 11,
+    "question": "The position of the A330 Avionics VENT EXTRACT valve is shown ____.",
+    "options": {
+      "A": "The ECAM CRUISE page",
+      "B": "The ECAM COND page",
+      "C": "The ECAM CAB PRESS page",
+      "D": "The ECAM DOOR/OXY page"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 12,
+    "question": "When is the CAB FANS pushbutton normally pressed in the OFF position?",
+    "options": {
+      "A": "Only on the ground, when the APU is supplying the bleed air.",
+      "B": "Routinely during the securing the aircraft checklist.",
+      "C": "Only when required by an abnormal procedure.",
+      "D": "Automatically, when the ventilation controller detects a low flow."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 13,
+    "question": "The A330 ECAM Conditioning Page shows all of the following EXCEPT?",
+    "options": {
+      "A": "Hot Air Crossover Valve",
+      "B": "Cabin Temperatures",
+      "C": "Trim Air Valve positions",
+      "D": "Baggage Compartment temperatures"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 14,
+    "question": "When the A330 Ventilation EXTRACT Pushbutton Switch is set to AUTO ____.",
+    "options": {
+      "A": "Pack Bay Ventilation is automatically controlled",
+      "B": "Avionics Overboard and Under floor valves are automatically controlled MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-69",
+      "C": "Lavatories and Galleys are automatically controlled D. Battery Ventilation is automatically controlled"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 15,
+    "question": "Which of the following is NOT part of the A330 Ventilation System?",
+    "options": {
+      "A": "APU Ventilation",
+      "B": "Battery Ventilation",
+      "C": "Lavatory and Galley Ventilation",
+      "D": "Pack Bay Ventilation"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 16,
+    "question": "On the VENTILATION panel, what does the amber FAULT light on the EXTRACT pushbutton indicate?",
+    "options": {
+      "A": "Only on the ground, when the APU is supplying the bleed air.",
+      "B": "Routinely during the securing the aircraft checklist.",
+      "C": "Only when required by an abnormal procedure.",
+      "D": "Automatically, when the ventilation controller detects a low flow."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 17,
+    "question": "The A330 lavatory and galley are ventilated _____.",
+    "options": {
+      "A": "By fan when differential pressure is less than 1 PSI",
+      "B": "By differential airflow when pressure difference is more than 1 PSI",
+      "C": "All of these are true"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 18,
+    "question": "What is/are the indication(s) that the Extraction fan pressure switch senses low cooling capacity?",
+    "options": {
+      "A": "An ECAM warning message is displayed and the pack flow control valves close automatically.",
+      "B": "The FAULT light on the CAB FANS pushbutton illuminates and a single chime sounds.",
+      "C": "An ECAM caution message is displayed and the APU automatically starts to provide additional cooling.",
+      "D": "An ECAM caution message EXTRACT FAULT is displayed and, f on the ground, the external horn will sound."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 19,
+    "question": "The A330 Avionics ventilation is controlled by ____.",
+    "options": {
+      "A": "The A330 Avionics Equipment Ventilation Computer (AEVC)",
+      "B": "The A330 Ventilation Controller",
+      "C": "The A330 Avionics Equipment Ventilation Computer (AEVC) and A330 Ventilation Controller (VC)"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 20,
+    "question": "What will cause the amber FAULT light to illuminate on the AFT ISOL VALVE pushbutton ____.",
+    "options": {
+      "A": "An extract fan overheat.",
+      "B": "An isolation valve disagrees with the commanded position.",
+      "C": "The DITCHING pushbutton is selected ON.",
+      "D": "The AFT cargo door is not fully closed."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 21,
+    "question": "When the “FAULT” light in the A330 Ventilation EXTRACT Pushbutton Switch illuminates the operator should press the OVRD position of the button to ______.",
+    "options": {
+      "A": "All of these MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-70",
+      "B": "Close the UNDERFLOOR EXTRACT VALVE",
+      "C": "Partially opens the OVBD EXTRACT VALVE",
+      "D": "Ventilates avionics through differential pressure airflow"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 22,
+    "question": "Which of the following does NOT provide control over the A330 Air Conditioning System?",
+    "options": {
+      "A": "One dual channel Zone Temperature Controller",
+      "B": "Two dual channel Pack Controllers",
+      "C": "Two Emergency Pack Bypass Valves",
+      "D": "One AIR panel on the overhead panel"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 23,
+    "question": "What is the A330 maximum negative differential cabin pressure?",
+    "options": {
+      "A": "-1.25 PSI",
+      "B": "-1.5 PSI",
+      "C": "-0.73 PSI",
+      "D": "-1 PSI"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 24,
+    "question": "What is the A330 maximum positive differential cabin pressure?",
+    "options": {
+      "A": "8.25 PSI",
+      "B": "9.25 PSI",
+      "C": "9.75 PSI",
+      "D": "8.75 PSI"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 25,
+    "question": "Which of the following cargo compartments is equipped with both a heating and a cooling system?",
+    "options": {
+      "A": "The Bulk compartment",
+      "B": "All compartments",
+      "C": "The Forward compartment",
+      "D": "The Forward and Bulk compartments MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-71 (C) Auto Flight"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 1,
+    "question": "In the event of an FMGEC 1 failure, how does the flight crew restore normal MCDU operation____.",
+    "options": {
+      "A": "Placing the FM selector to BOTH ON 1",
+      "B": "Placing the FM selector to BOTH ON 2",
+      "C": "Placing the FM selector to NORM"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 2,
+    "question": "Which systems provide data to the FMGS to compute the aircraft position?",
+    "options": {
+      "A": "The GPS and ADIRS",
+      "B": "The GPS, Radio Navigation and ADIRS",
+      "C": "The GPS and Radio Navigation",
+      "D": "ADIRS and Radio Navigation"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 3,
+    "question": "When A/THR is active, the thrust levers remain stationary?",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 4,
+    "question": "The FMGES provides both \"Managed\" and \"Selected\" guidance. Which of the following is NOT a parameter associated with \"Selected\" guidance inputs on the FCU?",
+    "options": {
+      "A": "TO/GA (Takeoff / Go-Around)",
+      "B": "Speed / Mach",
+      "C": "Lateral (Heading / Track)",
+      "D": "Vertical (Altitude / Vertical Speed / FPA)"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 5,
+    "question": "Each Flight Management Guidance and Envelope Computer (FMGEC) is divided into main parts. Which of the following is NOT a main part of the FMGEC?",
+    "options": {
+      "A": "Flight Guidance (FG)",
+      "B": "Flight Envelope (FE)",
+      "C": "Flight Management (FM)",
+      "D": "Flight Director (FD)"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 6,
+    "question": "Where are the red \"Instinctive Disconnect\" pushbuttons located in the cockpit?",
+    "options": {
+      "A": "The Autopilot",
+      "B": "The sidesticks and the thrust levers",
+      "C": "The FCU",
+      "D": "The Sidestick only MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-72"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 7,
+    "question": "During takeoff, moving the thrust levers to the FLX or TOGA detent ARMS the Autothrust (A/THR). When does the A/THR become ACTIVE?",
+    "options": {
+      "A": "When the thrust levers are moved into the FLX/MCT detent.",
+      "B": "When the thrust levers are set between the IDLE and CL detent (or MCT in engine-out condition).",
+      "C": "When the aircraft reaches the thrust reduction altitude.",
+      "D": "When the A/THR pushbutton on the FCU is pressed."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 8,
+    "question": "What is the consequence of pressing and holding the A/THR Instinctive Disconnect pushbutton on the thrust levers for more than 15 seconds?",
+    "options": {
+      "A": "Autothrust operation will be inhibited for the rest of the flight.",
+      "B": "Autothrust is inhibited until throttle is advanced to the FLX/MCT detent",
+      "C": "Autothrust is inhibited until throttle is advanced to beyond the Climb detent"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 9,
+    "question": "When the Autopilot is disconnected _______.",
+    "options": {
+      "A": "A single cavalry charge aural warning occurs",
+      "B": "The MASTER WARNING lights flash",
+      "C": "All of these",
+      "D": "An AP OFF red message appears on the right side of the E/WD for several seconds"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 10,
+    "question": "Which of the following is NOT a recognized FMGES mode of operation?",
+    "options": {
+      "A": "Independent Mode",
+      "B": "Solo Mode",
+      "C": "Backup Navigation Mode",
+      "D": "Dual Mode"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 11,
+    "question": "In the event of a dual FMGEC failure, how does the flight crew recover the navigation function?",
+    "options": {
+      "A": "With the standby compass",
+      "B": "With the standby compass and Radio Altimeter (RA)",
+      "C": "By selecting Back Up Navigation mode in the MCDU Menu"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 12,
+    "question": "The FMGES reverts to Independent Mode due to a crosstalk bus failure. How is the flight crew alerted to this specific mode?",
+    "options": {
+      "A": "The amber IND light illuminates at the top of both MCDUs",
+      "B": "The message INDEPENDENT OPERATION displays in each scratchpad",
+      "C": "C. Both of these are correct"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 13,
+    "question": "When no Autopilots and no Flight Directors are engaged, the autothrust is controlled by FMGC?",
+    "options": {
+      "A": "True",
+      "B": "False MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-73"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 14,
+    "question": "What is the function of the ALT pushbutton on the Flight Control Unit (FCU)?",
+    "options": {
+      "A": "Commands an immediate level off during descent",
+      "B": "Commands an immediate level off during climb",
+      "D": "Commands an immediate level off during climb or descent"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 15,
+    "question": "The Flight Management Guidance and Envelope System (FMGES) architecture consists of several main components. Which of the following lists the correct quantities for the A330?",
+    "options": {
+      "A": "3 Flight Management Guidance and envelope Computers, 2 Multipurpose Control and Display Units (MCDUs), 1 Flight Control Unit (FCU), and 1 Flight Management selection device",
+      "B": "2 Flight Management Guidance and envelope Computers, 2 Multipurpose Control and Display Units (MCDUs), 2 Flight Control Units (FCUs), and 1 Flight Management selection device",
+      "C": "2 Flight Management Guidance and envelope Computers, 2 Multipurpose Control and Display Units (MCDUs), 1 Flight Control Unit (FCU), and 2 Flight Management selection devices",
+      "D": "2 Flight Management Guidance and envelope Computers, 3 Multipurpose Control and Display Units (MCDUs), 1 Flight Control Unit (FCU), and 1 Flight Management selection device"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 16,
+    "question": "When is the FMGC navigation database updated?",
+    "options": {
+      "A": "Every 28 days",
+      "B": "Every time maintenance performs a download of either FMGC",
+      "C": "Every 30 days",
+      "D": "The first of every month"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 17,
+    "question": "Which part of the Flight Management Guidance and Envelope Computer (FMGEC) is responsible for the Windshear Detection function?",
+    "options": {
+      "A": "Fault Isolation and Detection (FIDS)",
+      "B": "Flight Management (FM)",
+      "C": "Flight Guidance (FG)",
+      "D": "Flight Envelope (FE)"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 18,
+    "question": "Both autopilots can never be engaged at the same time.",
+    "options": {
+      "A": "False",
+      "B": "True MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-74 (D) Communication"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 1,
+    "question": "On the overhead EVAC panel, what is the normal position of the CAPT & PURS/CAPT sw?",
+    "options": {
+      "A": "CAPT & PURS",
+      "B": "CAPT",
+      "C": "ARMED",
+      "D": "AUTO"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 2,
+    "question": "From which locations can the Emergency Evacuation System be activated? 3.",
+    "options": {
+      "A": "There are only two; the Overhead Panel in the flight deck and the forward attendant panel",
+      "B": "The Overhead Panel in the flight deck and in the forward and aft galley",
+      "C": "The Overhead Panel in the flight deck, on the forward attendant panel and in the aft galley",
+      "D": "The Overhead Panel in the flight deck, on the forward attendant panel and  the aft attendant panel"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 3,
+    "question": "What are the indications when the guarded COMMAND pushbutton on the overhead EVAC panel is pressed?",
+    "options": {
+      "A": "Only the red EVAC light flashes",
+      "B": "The red EVAC light flashes, EVAC lights flash at all F/A panels and emergency floor lighting automatically illuminates",
+      "C": "The red EVAC light flashes, EVAC lights flash at all F/A panels, an Evacuation tone sounds in the cabin and emergency floor lighting automatically illuminates",
+      "D": "The red EVAC light flashes, EVAC lights flash at all F/A panels and an Evacuation tone sounds in the cabin"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 4,
+    "question": "When the flight crew presses the guarded EMER pushbutton on the CALLS panel, what are the indications in the cabin?",
+    "options": {
+      "A": "A RED light illuminates at each call area, a High-Low chime sounds three times and CALL ALL CAPT displays on all AIPs",
+      "B": "A High-Low chime sounds three times and CALL PRIO CAPT displays on all AIPs",
+      "C": "A RED light illuminates at each call area, a High-Low chime sounds three times and CALL PRIO CAPT displays on al AIPs",
+      "D": "A High-Low chime sounds three times and CALL ALL CAPT displays on all AIPs"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 5,
+    "question": "Which communication component allows the flight crew to select a radio transceiver and tune it to the desired frequency?",
+    "options": {
+      "A": "The VHF Transceiver",
+      "B": "RMP",
+      "C": "AMU",
+      "D": "ACP MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-75"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 6,
+    "question": "Which communication component allows the flight crew to select a radio for transmission and reception, and to adjust the audio volume?",
+    "options": {
+      "A": "RMP",
+      "B": "AMU",
+      "C": "ACP",
+      "D": "HF Transceiver"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 7,
+    "question": "Where can the flight crew engage the interphone or use the Push-To-Talk (PTT) feature?",
+    "options": {
+      "A": "The interphone switch of the ACP",
+      "B": "Each Sidestick",
+      "C": "Each sidestick and each ACP",
+      "D": "The interphone switch of the RMP"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 8,
+    "question": "In normal operation, which radio transceivers are dedicated to be tuned by RMP 1?",
+    "options": {
+      "A": "VHF 1 and HF 1",
+      "B": "VHF1, VHF 3 and HF 1",
+      "C": "HF 1 only",
+      "D": "VHF 1 only"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 9,
+    "question": "If Audio Control Panel (ACP) 2 fails, how can the flight crew restore audio communication?",
+    "options": {
+      "A": "ACP 3 will automatically fill-in for ACP 2",
+      "B": "The audio switching panel will allow ACP 3 to fill in for a failed ACP",
+      "C": "The remainder of the flight will use ACP 1",
+      "D": "The system automatically runs on a parallel circuit inside ACP 1"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 10,
+    "question": "The Radio Management Panel SEL Indicator illuminates amber when that RMP is not controlling its normal transceiver.",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 11,
+    "question": "During normal operation, what type of signal(s) does the VHF 3 transceiver transmit and receive?",
+    "options": {
+      "A": "ACARS only",
+      "B": "ACARS and SATCOM data",
+      "C": "ATSU and SATCOM data",
+      "D": "ACARS and ATSU data"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 12,
+    "question": "How is the flight crew alerted of an incoming call from the ground mechanic?",
+    "options": {
+      "A": "The COCKPIT CALL MECH Light illuminates BLUE",
+      "B": "The COCKPIT CALL MECH light flashes amber and a buzzer sounds",
+      "C": "A buzzer sounds only MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-76",
+      "D": "The COCKPIT CALL MECH light illuminates steady amber and a buzzer sounds"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 13,
+    "question": "What condition triggers the \"VHF EMITTING\" or \"HF EMITTING\" amber caution on the ECAM?",
+    "options": {
+      "A": "When a radio transmits for more than 45 seconds",
+      "B": "When a radio transmits for more than 30 seconds",
+      "C": "When a radio transmits for more than 60 seconds",
+      "D": "When a radio transmits for more than 90 seconds MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-77 (E) Electrical"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 1,
+    "question": "How are the aircraft batteries ventilated?",
+    "options": {
+      "A": "By overboard airflow caused by the Cabin Fans",
+      "B": "By overboard airflow caused by the Extract Fan",
+      "C": "By overboard airflow caused by the venturi effect"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 2,
+    "question": "When does the Ram Air Turbine (RAT) automatically deploy?",
+    "options": {
+      "A": "If both engines have failed and both AC buses are depowered",
+      "B": "If one engine fails and both AC buses are depowered",
+      "C": "If both engines have failed and one AC bus is depowered D. If both engines have failed only"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 3,
+    "question": "To prevent damage to the disconnect mechanism, the IDG disconnect pushbutton should NOT be pressed for more than?",
+    "options": {
+      "A": "7 seconds",
+      "B": "5 seconds",
+      "C": "3 seconds",
+      "D": "None of these; the Generator Control Unit, controls the proper length of time"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 4,
+    "question": "The A330 ECAM has separate pages for AC and DC power.",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 5,
+    "question": "The A330 EMER GEN is driven by a hydraulic motor that receives hydraulic power from the which aircraft hydraulic system.",
+    "options": {
+      "A": "The BLUE System",
+      "B": "The YELLOW System",
+      "C": "The GREEN System"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 6,
+    "question": "The A330 Electrical Panel has one battery voltage indicator and a toggle switch to show _______.",
+    "options": {
+      "A": "APU BAT",
+      "B": "All of these",
+      "C": "BAT 2",
+      "D": "BAT 1"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 7,
+    "question": "What is powered by the emergency generator?",
+    "options": {
+      "A": "The ESS TR",
+      "B": "The ACC ESS SHED Bus",
+      "C": "All of these",
+      "D": "The AC ESS Bus MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-78"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 8,
+    "question": "What does the IDG Disconnect pushbutton do?",
+    "options": {
+      "A": "Hydraulically disconnects the IDG from the engine",
+      "B": "Mechanically disconnects the IDG from the engine",
+      "C": "Electrically stops alternating current production",
+      "D": "Electronically protects the generator control circuit"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 9,
+    "question": "Pressing the LAND RECOVERY pushbutton restores power to certain items needed for landing. Which of the following is NOT restored by the Land Recovery function?",
+    "options": {
+      "A": "Brakes and Steering",
+      "B": "Landing Gear Control",
+      "C": "RH Windshield Heat",
+      "D": "Slat and Flap Control"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 10,
+    "question": "During an Emergency Electrical Configuration, which Radio Management Panel (RMP) remains available for communication?",
+    "options": {
+      "A": "RMP3",
+      "B": "RMP1",
+      "C": "SATCOM",
+      "D": "RMP2"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 11,
+    "question": "If the AC BUS 1 fails the AC ESS BUS is automatically powered by AC BUS 2. If this automatic transfer fails __________.",
+    "options": {
+      "A": "The FAULT light on the AC ESS FEED pushbutton illuminates amber",
+      "B": "The NBPT feature will take control",
+      "C": "The Master Caution Light and ELEC warning lights illuminate",
+      "D": "The APU will start and apply power"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 12,
+    "question": "When two external power sources are connected EXT A and EXT B",
+    "options": {
+      "A": "They illuminate WHITE.",
+      "B": "They illuminate GREEN.",
+      "C": "They illuminate BLUE.",
+      "D": "They pulse GREEN."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 13,
+    "question": "What is the only A330 -200 condition or operation that allows two power sources to be applied to the same AC Bus at the same time?",
+    "options": {
+      "A": "The No Break Power Transfer (NBPT) system",
+      "B": "The emergency generator control unit",
+      "C": "The Bus Tie system",
+      "D": "Ram Air Turbine (RAT) power controller MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-79"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 14,
+    "question": "When the emergency generator is powered by the RAT, it will automatically shut down when slats are extended. How do the batteries distribute power in this situation?",
+    "options": {
+      "A": "The DC ESS BUS and the single-phase AC Inverter powers the AC ESS BUS",
+      "B": "The DC ESS BUS only",
+      "C": "The DC ESS BUS, HOT BATT BUS 1 and 2 and the single-phase AC Inverter powers the AC ESS BUS"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 15,
+    "question": "When the emergency generator is powered by the RAT, it will automatically shut down when slats are extended.",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 16,
+    "question": "What is the purpose of the EXT B AUTO feature on the electrical panel?",
+    "options": {
+      "A": "The APU and EXT B from supplying power at the same time.",
+      "B": "The EXT A and EXT B from supplying power at the same time.",
+      "C": "A parallel supply to AC BUS 1",
+      "D": "Over-amperage in Transformer Rectifier 1"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 17,
+    "question": "When the Ram Air Turbine (RAT) is pressurizing the GREEN hydraulic system and driving the Emergency Generator, which main electrical buses are powered?",
+    "options": {
+      "A": "The AC Essential BUS only",
+      "B": "The Transformer Rectifiers and the Static Inverter",
+      "C": "The DC Essential BUS only",
+      "D": "The AC and DC Essential buses"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 18,
+    "question": "The AC ESS BUS is automatically backed-up by AC BUS 2. If the automatic transfer fails, what action must the flight crew take?",
+    "options": {
+      "A": "Press the guarded AC ESS FEED (ALTN) pushbutton, where the amber FAULT light is illuminated",
+      "B": "Start the APU as a power source",
+      "C": "Start the emergency generator",
+      "D": "Press the guarded amber FAULT light"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 19,
+    "question": "What prevents the APU and EXT B from providing power at the same time?",
+    "options": {
+      "A": "The NBPT feature",
+      "B": "The ACC ESS Feed",
+      "C": "The EXT B AUTO feature",
+      "D": "Circuit Breakers MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-80"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 20,
+    "question": "The IDG 1 and IDG 2 pushbuttons have amber FAULT lights. These illuminate for _______ but are inhibited ________.",
+    "options": {
+      "A": "Low oil pressure / when the APU is shut down.",
+      "B": "High oil temperature or low oil pressure / when low N2 RPM indicates the engine is shut down or shutting down.",
+      "C": "High oil pressure / when the engine is operating at TOGA thrust.",
+      "D": "High generator temperature / when the aircraft is on the ground. MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-81 (F) Equipment"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 1,
+    "question": "Which of the following items is NOT considered standard flight deck emergency equipment on the A330?A portable Halon fire extinguisher",
+    "options": {
+      "A": "A satellite phone",
+      "B": "A Crash Axe D. Life Vests"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 2,
+    "question": "The A330 Captain and First Officer foot warmers are controlled by switches on the Main Instrument Panel. Placing the switch ON warms the pedals to what temperature? None of these",
+    "options": {
+      "A": "15.5 degrees",
+      "B": "20 degrees Celsius",
+      "C": "24 degrees Celsius"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 3,
+    "question": "You want to open the passenger door. Whilst lifting the control handle the white light illuminates. What does it mean?",
+    "options": {
+      "A": "There is a residual pressure in the cabin",
+      "B": "The slide is still armed",
+      "C": "Beacon is on. It is not allowed to open cabin door by cockpit crew"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 4,
+    "question": "Most Pushbuttons in the cockpit are color-coded and next colors are used to indicate the status of a system: A.Green, White, Red, Amber",
+    "options": {
+      "B": "Green, White, Red, Amber, White, Magenta",
+      "C": "Green, White, Red, Amber, Blue, White"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 5,
+    "question": "When the passenger door arming lever is in the ARMED position, opening the door from the outside will:",
+    "options": {
+      "A": "Automatically deploy and inflate the evacuation slide",
+      "B": "Disarm the slide",
+      "C": "The power assist will rapidly open the door MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-82 (G) Fire Protection"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 1,
+    "question": "APU Fire Extinguishing is fully automatic.",
+    "options": {
+      "A": "False",
+      "B": "True"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 2,
+    "question": "How is the fire extinguisher in a lavatory waste bin activated?",
+    "options": {
+      "A": "Manually, by pressing a pushbutton on the FWD Attendant Panel",
+      "B": "Automatically, when the heat of a fire melts a fusible plug on the extinguisher bottle",
+      "C": "Manually, from the cockpit via the CABIN SYSTEM panel",
+      "D": "Automatically, when the lavatory smoke detector senses smoke"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 3,
+    "question": "Which of the following is NOT an indication that the A330 Aft/Bulk Cargo smoke detector has activated?",
+    "options": {
+      "A": "The CRC sounds",
+      "B": "The MASTER WARNING lights illuminate steady on",
+      "C": "An ECAM Cargo Compartment SMOKE alert is triggered",
+      "D": "The MASTE CAUTION lights illuminate steady on"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 4,
+    "question": "The A330 Cargo Fire Extinguishing system has two extinguishing agent bottles.",
+    "options": {
+      "A": "False",
+      "B": "True"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 5,
+    "question": "When a fire is sensed, the A330 activates the CRC, generates an ECAM ENG FIRE message and . .",
+    "options": {
+      "A": "Illuminates the appropriate Engine FIRE light on the ENG MASTER panel",
+      "B": "Illuminates FIRE PUSH in the overhead ENG FIRE pushbutton",
+      "C": "Illuminates the Master Warning lights",
+      "D": "All of these"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 6,
+    "question": "If one smoke detector in the A330 Avionics Ventilation system fails the remaining detector can generate the RED ECAM message SMOKE AVNCS VENT SMOKE signal and________.",
+    "options": {
+      "A": "The CRC sounds",
+      "B": "The red SMOKE light on the VENTILATION panel illuminates",
+      "C": "The MASTER WARNING lights flash",
+      "D": "All of these"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 7,
+    "question": "The A330 Cargo Fire Extinguishing system has two extinguishing agent bottles. Their operation is described as_____________.",
+    "options": {
+      "A": "Both bottles discharge simultaneously at a rapid rate.",
+      "B": "Bottle 1 discharges rapidly, and Bottle 2 discharges slowly over a period of time to maintain concentration.",
+      "C": "Bottle 1 discharges into the FWD compartment, and Bottle 2 into the AFT/BULK compartment.",
+      "D": "Only one bottle discharges; the second is a manual backup MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-83"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 8,
+    "question": "If an APU fire is indicated what action(s) must be taken?",
+    "options": {
+      "A": "No action required the system is fully automatic",
+      "B": "Press the APU FIRE pb switch",
+      "C": "Press the APU FIRE pb switch, then press the illuminated amber DISCH pushbutton switch.",
+      "D": "Press the illuminated amber DISCH pushbutton switch."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 9,
+    "question": "The In-Flight Entertainment Center (IFEC) includes smoke detection. What is/are the indication(s) that smoke has been detected?",
+    "options": {
+      "A": "The SMOKE light in the switch illuminates and the Master Caution Light illuminates",
+      "B": "The SMOKE light in the switch illuminates, the Master Caution Light illuminates and an ECAM Warning is displayed in the cockpit",
+      "C": "The SMOKE light in the switch illuminates and an ECAM Warning is displayed in the cockpit"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 10,
+    "question": "How many fire extinguishing bottles are installed for the Engines and the APU?",
+    "options": {
+      "A": "3, one for each engine and one for the APU",
+      "B": "4, one for APU, one dedicated to each engine and one that can provide a second blast to a selected engine",
+      "C": "5, two for each engine and one for the APU MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-84 (H) Flight Controls"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 1,
+    "question": "In the event of a total loss of all flight control computers (Mechanical Backup), which of the following flight control surfaces can still be mechanically operated by the flight crew?",
+    "options": {
+      "A": "Ailerons",
+      "B": "High Lift Devices",
+      "C": "THS",
+      "D": "Spoilers"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 2,
+    "question": "If the Flight Control Law reverts to Alternate Law 2 (ALT 2), the lateral control reverts to Roll Direct. Which of the following normal law protections are lost in this mode?",
+    "options": {
+      "A": "Pitch and Bank angle protections are lost",
+      "B": "Load Factor limitation only",
+      "C": "Low speed stability and High speed stability",
+      "D": "Bank angle protection only"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 3,
+    "question": "When does the A330 transition from Flight mode to Flare mode while operating in Normal Law?",
+    "options": {
+      "A": "The transition begins at 250 feet altitude",
+      "B": "The transition begins at 100 feet altitude",
+      "C": "5 seconds before calculated flare",
+      "D": "The transition begins at 100 feet radio altitude (RA)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 4,
+    "question": "In Alternate Law (ALT 1 or ALT 2), the normal High Angle of Attack (AOA) protection is lost and replaced by Low Speed Stability. When does this Low Speed Stability become active?",
+    "options": {
+      "A": "Exactly at the stall warning speed (VSW)",
+      "B": "10 to 15 knots above the stall warning for each weight and configuration",
+      "C": "5 to 10 knots above the stall warning for each weight and configuration",
+      "D": "When the aircraft decelerates below VLS"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 5,
+    "question": "The Flight Control Laws on the A330 reconfigure when certain failures occur. Which of the following is NOT an A330 law?",
+    "options": {
+      "A": "Abnormal Attitude Law",
+      "B": "ALT 1",
+      "C": "ALT 2",
+      "D": "PROT LOST"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 6,
+    "question": "Which of the following is NOT a function of the Maneuver Load Alleviation (MLA)?",
+    "options": {
+      "A": "Relieve structural loads",
+      "B": "Ailerons and Spoilers lock in the normal position",
+      "C": "Limits wing bending",
+      "D": "Evenly distribute lift on wings MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-85"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 7,
+    "question": "Which of the following pilot inputs is NOT sent to the SECs?",
+    "options": {
+      "A": "The Rudder Trim",
+      "B": "The Sidestick",
+      "C": "The Rudder Pedals"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 8,
+    "question": "When does the A330 transition from Ground mode to Flight mode while operating in Normal Law?",
+    "options": {
+      "A": "The transition is complete 10 seconds after the pitch attitude reaches more than 5 degrees",
+      "B": "The transition is complete 8 seconds after the pitch attitude reaches more than 10 degrees",
+      "C": "The transition is complete 10 seconds after the pitch attitude reaches more than 8 degrees",
+      "D": "The transition is complete 15 seconds after takeoff"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 9,
+    "question": "Which of the following protections is NOT changed in Alternate Law?",
+    "options": {
+      "A": "High Speed Protection is replaced by High Speed Stability",
+      "B": "Low Energy Protection is replaced by Low Speed Stability",
+      "C": "Pitch Altitude Protection is lost",
+      "D": "Load Factor"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 10,
+    "question": "Normal Law operates in GROUND, FLIGHT and FLARE mode. Which protections remain fully active during the FLARE mode?",
+    "options": {
+      "A": "High AOA and Bank Angle protection",
+      "B": "High AOA only",
+      "C": "Pitch and Roll protection",
+      "D": "Stall and Bank Angle protection"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 11,
+    "question": "When the flight control system degrades to Alternate Law 1 (ALT 1), amber crosses (X) replace certain protection symbols on the PFD speed scale. Which specific protection is limited or lost in this mode?",
+    "options": {
+      "A": "VMO/MMO Protection",
+      "B": "VMO Protection",
+      "C": "MMO Protection",
+      "D": "High Angle of Attack (AOA) Protection"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 12,
+    "question": "The Flight Control Primary Computers (FCPC / PRIM) receive data from various aircraft systems. Which of the following is NOT a direct data input to the PRIMs?",
+    "options": {
+      "A": "The Rate Gyros",
+      "B": "The Barometric Altimeter",
+      "C": "The Air Data Inertial Reference Units (ADIRU) D.The Landing Gear Control Interface Units (LGCIU)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 13,
+    "question": "The A330 ECAM F/CTL page uses arrows to show computer progression if the currently controlling computer fails.",
+    "options": {
+      "A": "True MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-86",
+      "B": "False"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 14,
+    "question": "In the event of a complete loss of electrical flight control computers (Mechanical Backup), how does the aircraft dampen the Dutch Roll?",
+    "options": {
+      "A": "BLUE or YELLOW HYD System powers the BYDU",
+      "B": "BLUE HYD System only powers the BYDU",
+      "C": "GREEN HYD System powers the BYDU",
+      "D": "YELLOW HYD System only powers the BYDU"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 15,
+    "question": "The A330 wing features both inboard and outboard ailerons. How are these control surfaces represented on the ECAM F/CTL page?",
+    "options": {
+      "A": "The positions of both the inboard and outboard ailerons are displayed separately for each wing",
+      "B": "Only the active aileron position is displayed",
+      "C": "They are combined into a single aileron position indication for each wing",
+      "D": "Aileron positions are not displayed on the F/CTL page"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 16,
+    "question": "Which specific components does the A330 Yaw Control system include?",
+    "options": {
+      "A": "A Pedal Travel Limit Unit (PTLU)",
+      "B": "The Pedal Travel Limit Unit (PTLU) and the Backup YAW Damper Unit (BYDU)",
+      "C": "The Pedal Travel Limit Unit (PTLU), the Backup YAW Damper Unit (BYDU) and created a mechanical connection between the rudder pedals and the hydraulic rudder actuators",
+      "D": "The Pedal Travel Limit Unit (PTLU) and created a mechanical connection between the rudder pedals and the hydraulic rudder actuators"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 17,
+    "question": "Under which of the following degraded flight control laws is the Autopilot completely unavailable?",
+    "options": {
+      "A": "ALT 1 and DIRECT",
+      "B": "ALT 1 and ALT 2",
+      "C": "DIRECT Law",
+      "D": "DIRECT and ALT 2 Law"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 18,
+    "question": "When does the FLARE Mode engage?",
+    "options": {
+      "A": "2 seconds after descending through 100 feet as indicated by the ADIRU",
+      "B": "2 seconds after descending through 100 feet RA",
+      "C": "5 seconds after descending through 250 feet RA"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 19,
+    "question": "In addition to the ailerons, which flight control surfaces provide roll rate augmentation?",
+    "options": {
+      "A": "The Yaw Damper",
+      "B": "Spoiler panels 2 thru 6 provide roll rate augmentation",
+      "C": "The Inboard and Outboard Ailerons",
+      "D": "The Leading-Edge Slats MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-87"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 20,
+    "question": "If both engines fail in flight (All Engine Flameout), the A330 flight control system reverts to DIRECT Law.",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 21,
+    "question": "During manual flight in Normal Law, what is the maximum roll rate limit commanded by full sidestick deflection?",
+    "options": {
+      "A": "10 degrees per second",
+      "B": "15 degrees per second",
+      "C": "20 degrees per second",
+      "D": "5 degrees per second."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 22,
+    "question": "Which flight control surface is operated by only ONE computer?",
+    "options": {
+      "A": "Flaps",
+      "B": "Rudder",
+      "C": "Elevator",
+      "D": "Spoilers"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 23,
+    "question": "Which of the following statements is NOT true regarding the indications on the A330 ECAM F/CTL page?",
+    "options": {
+      "A": "The inboard and outboard aileron positions are represented",
+      "B": "The extended spoiler panels are displayed as upward pointing triangles",
+      "C": "The PRIM (3) and SEC (2) flight control computers are indicated near the center of the display",
+      "D": "The depiction of the slats has not changed"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 24,
+    "question": "What is the correct configuration of the A330 Flight Control computers?",
+    "options": {
+      "A": "Seven computers; three primary (PRIM), four secondary (SEC)",
+      "B": "Seven computers; four primary (PRIM), three secondary (SEC)",
+      "C": "Five computers; two primary (PRIM), three secondary (SEC)",
+      "D": "Five computers; three primary (PRIM), two secondary (SEC)"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 25,
+    "question": "Above the IDLE position, the A330 thrust levers have specific detents used for autothrust operation and manual thrust rating limits. What are the three forward thrust detents?",
+    "options": {
+      "A": "Climb, Takeoff Rated Thrust, TOGA",
+      "B": "Flight Idle, Takeoff Rated Thrust, Climb",
+      "C": "Climb, Flex/MCT, TOGA MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-88 (I) Fuel"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 1,
+    "question": "What is the primary function of the Fuel Tank Inerting System (FTIS) on A330?",
+    "options": {
+      "A": "Ventilates the Center fuel tank with oxygen-depleted air to prevent vapor ignition",
+      "B": "Ventilates the Center fuel tank with oxygen-depleted air to prevent vapor ignition when fuel quantities are low",
+      "C": "Ventilates all the fuel tanks with oxygen-depleted air to prevent vapor ignition",
+      "D": "Closes all tank ventilation valves to prevent vapor ignition"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 2,
+    "question": "How is fuel normally supplied to the APU?",
+    "options": {
+      "A": "From the center tank using dedicated APU pumps.",
+      "B": "Either from the FWD APU pump in the Engine 1 collector cell (left inner tank), or from the AFT APU pump in the trim pipe from the Trim tank.",
+      "C": "Directly from the right inner tank via the crossfeed manifold.",
+      "D": "Exclusively from the Trim tank to maintain the optimal Center of Gravity"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 3,
+    "question": "What is the standard fuel tank configuration for the A330-300?",
+    "options": {
+      "A": "5, 2 outer tanks, 2 inner tanks and one trim tank",
+      "B": "5, one outer tank, two inner tanks, one center tank and one trim tank",
+      "C": "4, one inner tank, one outer tank, one center tank and one trim tank"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 4,
+    "question": "If both refuel couplings are used, how long should refuel at a nominal pressure of 50 PSI take?",
+    "options": {
+      "A": "Approximately 30 minutes",
+      "B": "Approximately 45 minutes",
+      "C": "Approximately 1 hour"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 5,
+    "question": "How many fuel pumps are installed in each inner wing tank, and how are they classified?",
+    "options": {
+      "A": "3, one left pump, one right pump and one standby pump",
+      "B": "3, Two normal pumps and one standby pump",
+      "C": "3, one forward pump, one aft pump and one standby pump"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 6,
+    "question": "The crossfeed valve is normally closed. When is it open?",
+    "options": {
+      "A": "When the switch is placed to open and during an electrical emergency",
+      "B": "To assure fuel supply in the event electrical supply fails",
+      "C": "When there is a need to supply one engine from its opposite tank",
+      "D": "During refueling"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 7,
+    "question": "What is the minimum fuel quantity for takeoff?",
+    "options": {
+      "A": "5200 kg",
+      "B": "5000 kg",
+      "C": "4000 kg",
+      "D": "4750 kg MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-89"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 8,
+    "question": "What provides the fuel flow data displayed on the ECAM?",
+    "options": {
+      "A": "The pressurize and dump valve",
+      "B": "The Fuel Flow Transmitter",
+      "C": "The FADEC"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 9,
+    "question": "In addition to supplying the combustion chamber, what is the other primary function of the engine fuel flow?",
+    "options": {
+      "A": "It cools the IDG oil exclusively.",
+      "B": "It cools the engine oil exclusively.",
+      "C": "It cools both the engine oil and the IDG oil via heat exchangers.",
+      "D": "It provides hydraulic pressure for the variable stator vanes MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-90 (J) Hydraulic"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 1,
+    "question": "The BLUE Hydraulic System electric pump comes on automatically if the engine pump fails.",
+    "options": {
+      "A": "False",
+      "B": "True"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 2,
+    "question": "Which Hydraulic System has three pumps?",
+    "options": {
+      "A": "GREEN System",
+      "B": "YELLOW System",
+      "C": "BLUE System"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 3,
+    "question": "The Hydraulic System Monitoring Unit, or HSMU, among other functions, monitors and controls hydraulic pumps. Which of the following is not another HSMU function?",
+    "options": {
+      "A": "Controls deployment of the RAT",
+      "B": "Detects and Displays Hydraulic Quantities",
+      "C": "Detects faults and overheats",
+      "D": "Controls the Power Transfer Unit"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 4,
+    "question": "The GREEN Hydraulic System contains ____ pumps.",
+    "options": {
+      "A": "Two engine-driven pumps, an electric pump and a RAT pump",
+      "B": "One engine-driven pump, an electric pump and a RAT pump",
+      "C": "One engine-driven pump, one electric pump, one hand pump and a RAT pump",
+      "D": "One engine-driven pump, two electric pumps and a RAT pump"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 5,
+    "question": "The Nose Wheel Steering is electrically controlled by the Brake and Steering Control Unit (BSCU), and is powered by which hydraulic system?",
+    "options": {
+      "A": "The GREEN Hydraulic System",
+      "B": "The YELLOW Hydraulic System",
+      "C": "The BLUE Hydraulic System"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 6,
+    "question": "Which pump does NOT supply 3.000 Pounds per Square Inch?",
+    "options": {
+      "A": "The YELLOW Electric pump",
+      "B": "The BLUE Electric pump",
+      "C": "The RAT pump",
+      "D": "The GREEN Electric pump"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 7,
+    "question": "Which of the following is NOT a reason for the Engine FAULT light on the Hydraulic Panel to illuminates amber?",
+    "options": {
+      "A": "Engine Pump Temperature high",
+      "B": "Engine Pump Pressure is low",
+      "C": "Hydraulic Reservoir Temperature high",
+      "D": "Hydraulic Reservoir Level is low MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-91 (K) Ice and Rain Protection"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 1,
+    "question": "When the PROBE/WINDOW HEAT switch is on which probes are heated?",
+    "options": {
+      "A": "All of these",
+      "B": "Static Ports",
+      "C": "Total air temperature probes",
+      "D": "Angle-of-Attack probes"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 2,
+    "question": "How long will the system operate if the WING ANTI-ICE Pushbutton is selected ON with aircraft on the ground?",
+    "options": {
+      "A": "Must be determined based on ambient temperature",
+      "B": "1 minute",
+      "C": "45 seconds",
+      "D": "30 seconds"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 3,
+    "question": "Probe Heat automatically starts heating when ice accretion is detected.",
+    "options": {
+      "A": "False",
+      "B": "True"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 4,
+    "question": "The Wing Anti-Ice valves will close when electrical power is lost.",
+    "options": {
+      "A": "False",
+      "B": "True"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 5,
+    "question": "During takeoff and initial climb, above what altitude will the Ice Detection System generate an ECAM alert (such as \"ICE DETECTED\" or \"SEVERE ICE DETECTED\") if ice accretion is sensed?",
+    "options": {
+      "A": "Above 400 feet AGL.",
+      "B": "Above 1,000 feet AGL.",
+      "C": "Above 1,500 feet AGL.",
+      "D": "Above 10,000 feet MSL"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 6,
+    "question": "The two independent Window Heat Computers heat ALL windows to a lower level on the ground and a higher level in flight.",
+    "options": {
+      "A": "False",
+      "B": "True"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 7,
+    "question": "Which of the following is NOT one of the Windshield Wiper setting on the A330?",
+    "options": {
+      "A": "OFF",
+      "B": "SLOW"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 8,
+    "question": "What are the positions of the Wiper Switch?",
+    "options": {
+      "A": "OFF, SLOW or FAST",
+      "B": "OFF, INTERMITTENT, SLOW, FAST or MANUAL",
+      "C": "OFF, MANUAL, SLOW or FAST MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-92",
+      "D": "OFF, INTERMITTENT, SLOW or FAST"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 9,
+    "question": "Wing anti-ice valve symbol displays amber if the associated valve is open and one or more of these conditions are true.",
+    "options": {
+      "A": "The bleed air pressure is too high or too low, or the valve is open for more than 35 seconds on the ground.",
+      "B": "The bleed air pressure is too high or too low",
+      "C": "The bleed air pressure is too high or too low, the wing anti-ice pb is OFF, or the valve is open for more than 35 seconds on the ground.",
+      "D": "The wing anti-ice pb is OFF"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 10,
+    "question": "When the A330 Wing Anti-Ice is on the ECAM BLEED Page displays what?",
+    "options": {
+      "A": "WING ANTI-ICE displays on each side in white letters and the Wing Anti-Ice valves signal GREEN triangles when each of the four valves is open",
+      "B": "WING ANTI-ICE displays on each side in white letters and the Wing Anti-Ice valves signal GREEN triangles when the valve on each wing is open",
+      "C": "ANTI-ICE displays on each side in white letters and the Wing Anti-Ice valves signal GREEN triangles when each of the four valves is open"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 11,
+    "question": "When the A330 Ice Detection System detects ice accretion_____.",
+    "options": {
+      "A": "It generates system messages and controls the engine ANTI-ICE",
+      "B": "It generates system messages and controls the engine ANTI-ICE and Wing ANTI-ICE",
+      "C": "It generates E/WD and ECAM messages to alert the crew",
+      "D": "It generates system messages and controls the Wing Anti-Ice."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 12,
+    "question": "The wing anti-ice valves are electrically controlled by the WING ANTI ICE Pushbutton. What provides power for the valve to move when the pushbutton is pressed?",
+    "options": {
+      "A": "A DC powered motor on each valve",
+      "B": "An AC powered motor on each valve",
+      "C": "Pneumatic power from the environmental system"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 13,
+    "question": "What do the three independent Probe Heat Computers (PHCs) do?",
+    "options": {
+      "A": "Automatically control and monitor: the Captain probes, the F/O probes, and the STBY probes",
+      "B": "Automatically control and monitor the Captain probes",
+      "C": "Monitor: the Captain probes and the F/O probes",
+      "D": "Monitor: the Captain probes, the F/O probes, and the STBY probes"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 14,
+    "question": "What are the indications that the WING ANTI ICE Pushbutton has been pressed?",
+    "options": {
+      "A": "The blue ON light in the pb illuminates and a green WING A. ICE memo display on the SD",
+      "B": "The blue ON light in the pb illuminates and a green WING A. ICE memo display on the E/WD",
+      "C": "The blue ON light in the pb illuminates and a green WING A. ICE memo display on the PFD",
+      "D": "The blue ON light in the pb illuminates and a green WING A. ICE memo display on the ND"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 15,
+    "question": "If the A330 is equipped with the Ice Detection System; where are the A330 ice detector probes?",
+    "options": {
+      "A": "In front of the VHF Antenna MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-93",
+      "B": "Directly below the pitot static probes",
+      "C": "Beneath the nose of the aircraft",
+      "D": "There is only one probe and it is at 6 o'clock position in front of the nose gear MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-94 (L) Indicating/Recording Systems"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 1,
+    "question": "During an ILS approach, at what altitude does the Rising Runway symbol begin to move up from the bottom of the PFD pitch scale?",
+    "options": {
+      "A": "When localizer captures ILS",
+      "B": "When glideslope is too low",
+      "C": "Starting at 200 feet RA",
+      "D": "No later than 400 feet"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 2,
+    "question": "What happens automatically if the Upper ECAM Display Unit (DU) fails?The Engine/Warning Display (E/WD) is lost and must be manually transferred to a Navigation Display (ND).",
+    "options": {
+      "A": "The System Display (SD) automatically moves to the Captain's PFD.",
+      "B": "The Engine/Warning Display (E/WD) automatically replaces the System Display (SD) on the Lower ECAM DU.",
+      "C": "The flight crew must manually select the ECAM/ND switching selector."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 3,
+    "question": "The EFIS Mode Select Switch has five positions. Which of these will cause a compass rose display?",
+    "options": {
+      "A": "VOR, NAV and PLAN",
+      "B": "ILS, NAV and PLAN",
+      "C": "ILS, VOR and NAV"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 4,
+    "question": "What normally supplies the First Officer's PFD and ND signals?",
+    "options": {
+      "A": "PRIM 2",
+      "B": "DMC 2",
+      "C": "DMC 1",
+      "D": "SEC 2"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 5,
+    "question": "What indicates the managed speed range on the PFD?",
+    "options": {
+      "A": "Double magenta bars denote the range.",
+      "B": "VLS and Vsw",
+      "C": "VMO/MMO",
+      "D": "None of these"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 6,
+    "question": "Which of the following engine parameters is NOT displayed on the upper ECAM Engine/Warning Display (E/WD)?",
+    "options": {
+      "A": "Oil Pressure",
+      "B": "Engine Pressure Ratio (EPR)",
+      "C": "Exhaust Gas Temperature (EGT)",
+      "D": "N2 RPM"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 7,
+    "question": "On aircraft equipped with the On-board Airport Navigation System (OANS), what new selection is added to the EFIS Control Panel Range Knob?",
+    "options": {
+      "A": "None of these MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-95",
+      "B": "FAR",
+      "C": "NEAR",
+      "D": "ZOOM"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 8,
+    "question": "The EFIS Range Selector allows selection of from 10 to 320 Nautical Miles. If the mode or range data fails, what is the default ND display?",
+    "options": {
+      "A": "The ROSE NAV Mode and 80 Nautical Miles",
+      "B": "The PLAN Mode and 80 Nautical Miles",
+      "C": "The ARC Mode and 80 Nautical Miles",
+      "D": "The ROSE ILS Mode"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 9,
+    "question": "The A330 Mode Select Knob has an added position. What is it and what does it do?",
+    "options": {
+      "A": "The ENG position was added. Pressing it displays Engine Standby Page on the SD",
+      "B": "The ENG position was added. Pressing it displays Engine Standby Page on the ND",
+      "C": "The ENG position was added. Pressing it displays Engine Standby Page on the PFD 2",
+      "D": "The FUEL position was added. Pressing it displays Engine Standby Page on the ND"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 10,
+    "question": "Where is the A330 Cabin Vertical Speed displayed?",
+    "options": {
+      "A": "At the ECAM COND Page",
+      "B": "None of these",
+      "C": "At the ECAM Door and Oxygen Page",
+      "D": "At the ECAM Cruise Page"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 11,
+    "question": "The A330 ECAM CRUISE page displays all of the following parameters EXCEPT:",
+    "options": {
+      "A": "Cabin Altitude and Cabin Vertical Speed",
+      "B": "Throttle Setting",
+      "C": "Cabin Zone Temperatures.",
+      "D": "Fuel Used and Engine Oil Quantity MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-96 (M) Landing Gear"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 1,
+    "question": "When using the handwheels (tillers), what is the maximum Nose Wheel Steering (NWS) angle on the A330?",
+    "options": {
+      "A": "72 degrees",
+      "B": "30 degrees",
+      "C": "45 degrees"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 2,
+    "question": "According to limitations, what is the maximum brake temperature allowed for takeoff (assuming brake fans are OFF)?",
+    "options": {
+      "A": "250 degrees Celsius",
+      "B": "275 degrees Celsius",
+      "C": "300 degrees Celsius",
+      "D": "350 degrees Celsius"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 3,
+    "question": "The A330 WHEEL page displays two triangles for each gear. Which computers provide the signals for these indications?",
+    "options": {
+      "A": "LGCIU 1 signals the left triangles while LGCIU 2 signals the right",
+      "B": "LGCIU 1 signals the left triangles",
+      "C": "LGCIU 1 signals the right triangles while LGCIU 2 signals the left triangles",
+      "D": "LGCIU 2 signals the right triangles"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 4,
+    "question": "How is the A330 Alternate Braking system powered?",
+    "options": {
+      "A": "By the Yellow hydraulic system, with two accumulators providing backup pressure",
+      "B": "By the Green hydraulic system, with a dedicated brake accumulator",
+      "C": "By the Yellow hydraulic system, backed up by a single brake accumulator",
+      "D": "By the Blue hydraulic system, backed up by a single brake accumulator E."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 5,
+    "question": "The gear position lights on the center instrument LANDING GEAR indicator panel are powered through LGCIU 1. What happens to this panel if LGCIU 1 fails?",
+    "options": {
+      "A": "The lights will not illuminate",
+      "B": "LGCIU 2 will display a \"Gear Down\" message on the ECAM",
+      "C": "3 Hi/Lo chimes sound on the flight deck",
+      "D": "LGCIU 2 will power the lights"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 6,
+    "question": "The Nose Wheel Steering (NWS) actuators are powered by the GREEN hydraulic system. Which computer electrically controls their servo valves?",
+    "options": {
+      "A": "The Steering Selector Valve",
+      "B": "The BSCU",
+      "C": "The LGCIU"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 7,
+    "question": "Up to what speed is Nose Wheel Steering (NWS) control effective from the handwheels (tillers) during the takeoff roll?",
+    "options": {
+      "A": "Up to 80 knots MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-97",
+      "B": "Up to 100 knots",
+      "C": "Up to 130 knots",
+      "D": "Up to 150 knots"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 8,
+    "question": "The A330 features four specific braking modes. Which of the following is NOT one of those modes?",
+    "options": {
+      "A": "Alternate Braking without Antiskid",
+      "B": "Normal Braking",
+      "C": "Normal Braking without Antiskid",
+      "D": "Alternate Braking with Antiskid"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 9,
+    "question": "Both aircraft landing gear systems use a safety valve to prevent improper gear operation. When does the A330 safety valve close?",
+    "options": {
+      "A": "When airspeed is above 250 knots",
+      "B": "When airspeed is above 280 knots",
+      "C": "When airspeed is above 150 knots",
+      "D": "When airspeed is above 180 knots MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-98 (N) Lights"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 1,
+    "question": "What types of lighting are provided for the cockpit instrument panels?",
+    "options": {
+      "A": "Integral instrument lighting and flood lighting",
+      "B": "Only integral instrument lighting",
+      "C": "Only flood lighting"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 2,
+    "question": "What can be adjusted for all panel lighting?",
+    "options": {
+      "A": "Brightness",
+      "B": "Color temperature",
+      "C": "Beam focus"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 3,
+    "question": "Which lights provide illumination of work surfaces and side consoles?",
+    "options": {
+      "A": "Spot lights (reading lights) and flood lights",
+      "B": "Dome lights only",
+      "C": "Cabin ceiling lights"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 4,
+    "question": "What happens to nose taxi/takeoff lights when landing gear is retracted?",
+    "options": {
+      "A": "They extinguish automatically",
+      "B": "They remain on until manually selected off",
+      "C": "They stay on if in T.O position"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 5,
+    "question": "With the passenger signs switches (SEAT BELTS / NO SMOKING) set to the AUTO position, when do the signs automatically illuminate?",
+    "options": {
+      "A": "When the landing gear is extended, or flaps/slats are extended (Flaps 1, 2, 3, or FULL)",
+      "B": "Only in icing conditions",
+      "C": "Only below 10,000 ft ЗАРЕЗЕРВИРОВАНО MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-99 (P) Navigation"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 1,
+    "question": "On the ADIRS control panel, when does the amber ON BAT light illuminate?",
+    "options": {
+      "A": "At least one ADIRU is supplied by Batteries or for a few seconds at the beginning of a complete IRS alignment",
+      "B": "All ADIRU’s are supplied by Batteries",
+      "C": "A self-test is performed for a few seconds whenever all the IR rotary selectors are switched OFF then ON within 5 seconds"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 2,
+    "question": "When the Thrust Levers are moved to the takeoff position, the FMGEC updates its position at takeoff using:",
+    "options": {
+      "A": "RADIO NAVAIDS",
+      "B": "ILS/DME",
+      "C": "The Navigation Database and the Takeoff Runway entered into the MCDU by the pilot"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 3,
+    "question": "Cost Index = 0 (zero) corresponds to:",
+    "options": {
+      "A": "Minimum fuel consumption (max range)",
+      "B": "Minimum time",
+      "C": "Best ratio between the flight time cost and the fuel cost"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 4,
+    "question": "Аfter landing, you notice that there is a residual ground speed on both NDs. How do you correct this?",
+    "options": {
+      "A": "As the engines have been shut down, it is necessary to carry out a complete IRS re-alignment",
+      "B": "There is no corrective action possible until the aircraft is completely electrically shut down",
+      "C": "It is possible to carry out a fast alignment (switching the 3 IR selectors OFF then ON within 5 seconds)"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 5,
+    "question": "What sources could be used by the FMGEC to compute its own radio position?",
+    "options": {
+      "A": "ILS, VOR, ADF and their combinations",
+      "B": "ADF, LOC, VOR/DME",
+      "C": "DME/DME, VOR/DME, LOC, and their combinations"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 6,
+    "question": "At what height does the RA indication appear on PFD?",
+    "options": {
+      "A": "5000 ft",
+      "B": "3200 ft",
+      "C": "2500 ft MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-100"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 7,
+    "question": "If the flight crew presses the NAV pushbutton on the Radio Management Panel (RMP), can the RMP be used simultaneously with FMGC autotuning?",
+    "options": {
+      "A": "Yes, because the opposite FMGC will continue to autotune navaids",
+      "B": "No, activating RMP backup tuning overrides and inhibits the autotuning function of both FMGECs",
+      "C": "Yes, but only for the VOR receivers"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 8,
+    "question": "Why is it necessary to select the correct takeoff runway in the FMGEC during preflight preparation?",
+    "options": {
+      "A": "It enables the FMGEC to automatically calculate the required flexible temperature (FLEX)",
+      "B": "It ensures the cabin pressurization system schedules the correct landing elevation",
+      "C": "It permits the FMGEC to accurately update its position to the runway threshold during the takeoff roll"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 9,
+    "question": "The intruders are classified as:",
+    "options": {
+      "A": "1- RA, 2 - TA, 3 - proximate, 4 – other",
+      "B": "1- TA, 2 - RA, 3 - other, 4 – proximate",
+      "C": "1- RA, 2 - TA, 3 - other, 4 – proximate"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 10,
+    "question": "Under normal conditions, when does the TCAS automatically revert to the \"TA ONLY\" mode, even if the TCAS mode selector is set to TA/RA?",
+    "options": {
+      "A": "Below 700 ft AGL",
+      "B": "Below 1000ft AGL",
+      "C": "15 seconds after liftoff and below 1 500ft AGL"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 11,
+    "question": "During cockpit preparation you need to check the altitude indications on the PFDs. The maximum difference between both PFDs is:",
+    "options": {
+      "A": "20 ft",
+      "B": "50 ft",
+      "C": "75 ft"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 12,
+    "question": "For RVSM operation, check that the difference between each altitude indication displayed on PFDs (in the QNH reference) and the airport elevation is less than:",
+    "options": {
+      "A": "30 ft MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-101",
+      "B": "50 ft",
+      "C": "75 ft"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 13,
+    "question": "Which system provides Attitude and Heading information to the TCAS computer?",
+    "options": {
+      "A": "RA 1/2",
+      "B": "ADIRU 1",
+      "C": "LGCIU 1"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 14,
+    "question": "Which of the EGPWS basic modes can generate the severe aural \"PULL UP\" warning?",
+    "options": {
+      "A": "All modes",
+      "B": "Modes 1,2,3",
+      "C": "Modes 1 and 2",
+      "D": "Modes 1, 2, 3A MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-102 (Q) Surveillance"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 1,
+    "question": "At what radio altitude does the Predictive Windshear System (PWS) automatically begin scanning (assuming the PWS switch is in AUTO)?",
+    "options": {
+      "A": "PWS operates when the PWS switch is in the AUTO position, and the aircraft radio height is below 2300 ft",
+      "B": "2300 ft AGL",
+      "C": "2000 ft BARO ALT",
+      "D": "1300 ft RA"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 2,
+    "question": "Which computer performs the Reactive Windshear detection on the A330?",
+    "options": {
+      "A": "The Weather Radar (WXR).",
+      "B": "The Enhanced Ground Proximity Warning System (EGPWS).",
+      "C": "The Flight Envelope (FE) part of the FMGEC.",
+      "D": "The Flight Warning Computer (FWC)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 3,
+    "question": "The Predictive Windshear System (PWS) provides three levels of alerts. What are they?",
+    "options": {
+      "A": "Watch, Caution and Warning",
+      "B": "Advisory, Caution and Warning",
+      "C": "Alert, Caution and Warning",
+      "D": "Caution LVL1, Caution LVL2, Warning"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 4,
+    "question": "During the takeoff roll, at what speed are Predictive Windshear (PWS) alerts inhibited?",
+    "options": {
+      "A": "80 knots",
+      "B": "100 knots",
+      "C": "130 knots",
+      "D": "V1 speed"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 5,
+    "question": "Which EGPWS mode alerts the crew of a descent below the glideslope?",
+    "options": {
+      "A": "Mode 1",
+      "B": "Mode 3",
+      "C": "Mode 5",
+      "D": "Mode 6"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 6,
+    "question": "Up to what maximum distance ahead of the aircraft does the Predictive Windshear System (PWS) scan?",
+    "options": {
+      "A": "15 Nautical Miles",
+      "B": "5 Nautical Miles",
+      "C": "8 Nautical Miles",
+      "D": "10 Nautical Miles MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-103"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 7,
+    "question": "The GPWS aural alerts will sound regardless of the speaker volume setting.",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 8,
+    "question": "Weather Radar (WXR) and EGPWS Terrain (TERR) images cannot be displayed simultaneously on the same Navigation Display (ND).",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 9,
+    "question": "The EGPWS includes a Terrain Clearance Floor (TCF) function. When is the TCF alerting operational?",
+    "options": {
+      "A": "Only when the landing gear is extended.",
+      "B": "Only when the aircraft is flying above 10,000 feet.",
+      "C": "It is continuously active, providing a protective floor based on the aircraft's proximity to a database airport runway."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 10,
+    "question": "When the TCAS mode is changed to \"TA ONLY\" (either manually by the crew or automatically by the system), what is the corresponding indication on the instruments?",
+    "options": {
+      "A": "\"TA ONLY\" displays in white at the bottom of the ND",
+      "B": "\"TA ONLY\" displays in the upper right corner of the PFD",
+      "C": "\"TA ONLY\" displays in amber at the bottom of the ND"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 11,
+    "question": "Which system provides Attitude and Heading to the TCAS computer?",
+    "options": {
+      "A": "ADIRU 1",
+      "B": "LGCIU 1",
+      "C": "RA 1 and 2",
+      "D": "Average of ADIRU 1 and ADIRU 2"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 12,
+    "question": "Which GPWS pushbutton illuminates amber (FAULT) if the TAD or TCF modes fail?",
+    "options": {
+      "A": "G/S Mode Pushbutton Switch",
+      "B": "FLAP MODE Pushbutton Switch",
+      "C": "SYS Pushbutton Switch",
+      "D": "TERR Pushbutton Switch"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 13,
+    "question": "Which ND modes can display the EGPWS terrain image?",
+    "options": {
+      "A": "ARC mode only",
+      "B": "ARC or ROSE modes",
+      "C": "ROSE mode only",
+      "D": "PLAN mode only MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-104"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 14,
+    "question": "What are the immediate initial actions for a TCAS Resolution Advisory (RA) memory item (if AP/FD TCAS mode is not engaged)?",
+    "options": {
+      "A": "Keep AP ON and follow FD commands",
+      "B": "Disconnect AP and turn OFF both FDs",
+      "C": "Disconnect AP but keep FDs ON",
+      "D": "Request avoidance vectors from ATC"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 15,
+    "question": "What is the typical maximum surveillance range of the TCAS?",
+    "options": {
+      "A": "100 Nautical Miles and 9 900 feet above or below the aircraft",
+      "B": "90 Nautical Miles and 8 000 feet above or below the aircraft",
+      "C": "80 Nautical Miles and 9 000 feet above or below the aircraft"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 16,
+    "question": "The basic modes of the GPWS operate based on which information?",
+    "options": {
+      "A": "Radio Altitude",
+      "B": "Glide Slope information",
+      "C": "Barometric Altitude",
+      "D": "All of these"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 17,
+    "question": "Below what altitude is the AP/FD TCAS mode automatically inhibited?",
+    "options": {
+      "A": "1700 ft",
+      "B": "380 ft",
+      "C": "900 ft"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 18,
+    "question": "Which of these warnings has priority over TCAS?",
+    "options": {
+      "A": "When a stall message is triggered",
+      "B": "All of these",
+      "C": "When a GPWS message is triggered",
+      "D": "When a windshear message is triggered"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 19,
+    "question": "How many ATC Transponders are installed on the A330, and how do they operate?",
+    "options": {
+      "A": "Two, one primary and one secondary",
+      "B": "Two, one active and one standby",
+      "C": "Three, one for Pilot, one for First Officer and one standby",
+      "D": "Two, one for Pilot and one for First Officer"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 20,
+    "question": "With the TCAS Traffic Selector set to \"THRT\", what is displayed on the ND?",
+    "options": {
+      "A": "Only traffic generating a Resolution Advisory (RA)",
+      "B": "Proximate and Other traffic within ±2,700 feet and 6 NM",
+      "C": "All intruders within 9,900 feet",
+      "D": "Only traffic within 5 NM regardless of altitude MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-105"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 21,
+    "question": "What TCAS symbol is used to identify \"Other Intruders\"?",
+    "options": {
+      "A": "A filled white diamond",
+      "B": "A filled red square",
+      "C": "A filled amber circle",
+      "D": "A white open diamond"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 22,
+    "question": "TCAS traffic symbols can be displayed simultaneously with the Weather Radar image on the Navigation Display (ND).",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 23,
+    "question": "What data do the EGPWS enhanced functions (TAD/TCF) rely on?",
+    "options": {
+      "A": "GPS data and a terrain database",
+      "B": "Weather radar and radio altimeter",
+      "C": "Flight Control Computers (FCCs)",
+      "D": "ILS glide slope signals"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 24,
+    "question": "Which TCAS RA requires the shortest pilot response time (2.5 seconds)?  Initial \"Corrective\" RA.",
+    "options": {
+      "A": "\"Reversal\" or \"Increase\" RA.",
+      "B": "Initial \"Preventative\" RA.",
+      "C": "Any initial RA MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-106 (R) Oxygen"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 1,
+    "question": "What provides the Crew Oxygen System?",
+    "options": {
+      "A": "Dual oxygen cylinders",
+      "B": "Oxygen generators similar to passenger oxygen",
+      "C": "A single oxygen cylinder",
+      "D": "Single or dual oxygen cylinders"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 2,
+    "question": "On the Ground CKPT OXY will display pressure over 600 Pounds per Square Inch in GREEN. What indication when pressure below 1,000 PSI ?",
+    "options": {
+      "A": "An amber half frame should prompt the crew to check Limitations and MEL to determine dispatch pressure",
+      "B": "An amber Clock icon will show the estimated remaining oxygen time",
+      "C": "An amber half frame should prompt the crew to consider servicing before takeoff"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 3,
+    "question": "What is the ECAM indication that the CREW SUPPLY pushbutton has not been turned on?",
+    "options": {
+      "A": "The CKPT OXY will display in amber",
+      "B": "The CKPT OXY will display in red",
+      "C": "The CKPT OXY will display in white",
+      "D": "There is no indication"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 4,
+    "question": "When activated the PSU oxygen generators______",
+    "options": {
+      "A": "Provide oxygen for 30 minutes",
+      "B": "Provide oxygen until the system switch is placed to OFF",
+      "C": "Provide sterile compressed air for breathing",
+      "D": "Provide pure oxygen for about 15 minutes and cannot be shutoff once started MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-107 (S) Pneumatic"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 1,
+    "question": "When the X-BLEED selector is in AUTO, the crossbleed valve operates in accordance with:",
+    "options": {
+      "A": "Wing Anti-Ice operation",
+      "B": "APU bleed valve position",
+      "C": "Engine bleed valve position",
+      "D": "Pack flow control valves position"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 2,
+    "question": "The Bleed Monitoring Computers (BMCs) provide control logic for:",
+    "options": {
+      "A": "Engine Bleed and APU Bleed only.",
+      "B": "Engine/APU Bleed, X-Bleed valve and Pack Isolation.",
+      "C": "Engine Bleed, APU Bleed and X-Bleed valve.",
+      "D": "Engine Bleed and X-Bleed valve only"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 3,
+    "question": "If APU bleed is used for a high-performance takeoff, what happens in the pneumatic system?",
+    "options": {
+      "A": "The APU supplies the packs and the engine bleed valves automatically close.",
+      "B": "The APU supplies the packs and the FADEC limits engine thrust.",
+      "C": "The APU supplies the packs while the engine bleeds remain open.",
+      "D": "The engine bleed valves close and both packs are automatically turned off MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-108 (T) Water/Waste"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 1,
+    "question": "What prevents air flow to the sinks unless they are being drained?",
+    "options": {
+      "A": "A check valve",
+      "B": "A butterfly valve",
+      "C": "An Air Stop Valve",
+      "D": "An electrically controlled, pneumatically operated overboard flow valve"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 2,
+    "question": "There is a manual shut off valve in each lavatory for the washbasin and toilet.",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 3,
+    "question": "Where are the potable water and waste tank quantity indications displayed?",
+    "options": {
+      "A": "The Forward Attendants Panel (FAP)",
+      "B": "The DOOR/OXY ECAM Page",
+      "C": "The Pneumatic ECAM Page",
+      "D": "The Water/waste Panel"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 4,
+    "question": "How is the potable water system pressurized in flight?",
+    "options": {
+      "A": "By bleed air",
+      "B": "By shutoff valve",
+      "C": "By electric water pumps",
+      "D": "By gravity"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 5,
+    "question": "To which components does the Vacuum System Controller (VSC) transmit information?",
+    "options": {
+      "A": "The Forward Attendant Panel (FAP) and the Centralized Fault Display System (CFDS)",
+      "B": "The Centralized Fault Display System (CFDS)",
+      "C": "The Forward Attendant Panel (FAP)",
+      "D": "The flush control unit"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 6,
+    "question": "What provides water heating?",
+    "options": {
+      "A": "In-line water heaters in the water supply manifold",
+      "B": "Electrically powered water heaters uder each washbasin",
+      "C": "Electrically powered water heaters for each water tank",
+      "D": "Hot air from the engine"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 7,
+    "question": "What provides the force to drain wastewater from the sinks and galleys?",
+    "options": {
+      "A": "An electric pump",
+      "B": "Cabin differential pressure when the aircraft is in flight",
+      "C": "Pneumatic pressure from the environmental system MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-109",
+      "D": "By BMC"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 8,
+    "question": "Toilet flushing is provided by negative pressure in the waste tanks. What controls this system?",
+    "options": {
+      "A": "Aircraft altitude",
+      "B": "The Vacuum System Controller (VSC)",
+      "C": "A vacuum generator",
+      "D": "The venturi effect MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-110 (U) APU"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 1,
+    "question": "After 3 consecutive APU start attempts, what is the required cooldown period?",
+    "options": {
+      "A": "None of these",
+      "B": "30 minutes cooldown",
+      "C": "45 minutes cooldown",
+      "D": "60 minutes cooldown"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 2,
+    "question": "What is the maximum APU EGT for continuous running?",
+    "options": {
+      "A": "650 degrees Celsius",
+      "B": "1250 degrees Celsius",
+      "C": "950 degrees Celsius",
+      "D": "350 degrees Celsius"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 3,
+    "question": "Which component supplies air to the APU bleed system?",
+    "options": {
+      "A": "The two-stage compressor",
+      "B": "The Load Compressor",
+      "C": "The N3 compressor"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 4,
+    "question": "What is the maximum APU generator load limit in flight, if APU bleed air is not used?",
+    "options": {
+      "A": "72 KVA",
+      "B": "115 KVA",
+      "C": "40 KVA",
+      "D": "85 KVA"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 5,
+    "question": "When does the APU exhaust door close?",
+    "options": {
+      "A": "When exhaust temperature is with 50 degrees of ambient temperature",
+      "B": "There is no exhaust door",
+      "C": "When the cabin is pressurized",
+      "D": "5 minutes after APU shutdown"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 6,
+    "question": "What is the APU operational altitude ceiling when using Jet B or JP4 fuel?",
+    "options": {
+      "A": "22500 feet",
+      "B": "20000 feet",
+      "C": "25000 feet",
+      "D": "27500 feet"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 7,
+    "question": "From where can an external APU emergency shutdown be performed?",
+    "options": {
+      "A": "External Power Panel only",
+      "B": "The Refuel/Defuel Panel only",
+      "C": "Both the External Power Panel and the Refuel/Defuel Panel MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-111",
+      "D": "The APU GCU circuit breaker"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 8,
+    "question": "What is the maximum EGT during an APU start?",
+    "options": {
+      "A": "1,000 degrees Celsius",
+      "B": "1,250 degrees Celsius",
+      "C": "750 degrees Celsius",
+      "D": "900 degrees Celsius MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-112 (V) Doors"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 1,
+    "question": "Which cargo compartment(s) door(s) need hydraulic power for operation?",
+    "options": {
+      "A": "The AFT Cargo door",
+      "B": "The FWD Cargo door",
+      "C": "The FWD and AFT Cargo doors",
+      "D": "All doors require hydraulic power to open"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 2,
+    "question": "What is the purpose of the white \"SLIDE ARMED\" indicator on the passenger door?",
+    "options": {
+      "A": "Indicates cabin altitude above 10,000 ft",
+      "B": "It warns ground personnel that the slide is armed if the outside handle is manipulated",
+      "C": "Confirms electrical power to the door"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 3,
+    "question": "What indicates the presence of residual cabin pressure near the passenger door window?",
+    "options": {
+      "A": "A continuous horn sounds in the cabin.",
+      "B": "The ECAM DOOR page only.",
+      "C": "A flashing red CABIN PRESSURE light.",
+      "D": "A red rotating beacon under the fuselage"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 4,
+    "question": "What secures the ladder assembly prior to deployment?",
+    "options": {
+      "A": "A safety pin at the top rung",
+      "B": "A strap fixing the assembly against motion",
+      "C": "A hydraulic latch"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 5,
+    "question": "What is the first action to reach the avionics bay hatch from the flight deck?",
+    "options": {
+      "A": "Pull the overhead hatch above the observer seat",
+      "B": "Remove the center pedestal cover",
+      "C": "Move the captain seat fully forward and descend through the floor hatch MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-113 (W) Engines"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 1,
+    "question": "What is the primary thrust reference parameter displayed on the ECAM Engine/Warning Display with RR Trent 700 engines?",
+    "options": {
+      "A": "N2",
+      "B": "Exhaust Gas Temperature (EGT)",
+      "C": "N1",
+      "D": "Engine Pressure Ratio (EPR)"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 2,
+    "question": "EGT and RPM red exceedance marks remain displayed on the ECAM until the next engine start sequence on the ground or a maintenance action.",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 3,
+    "question": "What idle modes are automatically controlled by the FADEC when the thrust levers are in the IDLE detent?",
+    "options": {
+      "A": "Modulated Idle, Approach Idle, and Reverse Idle",
+      "B": "There is only one idle",
+      "C": "Approach Idle, Reverse Idle and Flight Idle",
+      "D": "Ground Idle and Flight Idle"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 4,
+    "question": "When will the FADEC allow full reverse thrust?",
+    "options": {
+      "A": "When the FADEC determines reverser blocker doors are positioned properly",
+      "B": "When the reverser position is more than 90% deployed",
+      "C": "When the reverser position is more than 70% deployed",
+      "D": "None of these are correct"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 5,
+    "question": "When anti-ice is ON, the idle thrust is automatically increased. How does this affect aircraft performance during descent?",
+    "options": {
+      "A": "A decreased lag when TO/GA switches are pressed",
+      "B": "Performance should not be affected",
+      "C": "It may extend your descent profile",
+      "D": "Faster engine response on takeoff"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 6,
+    "question": "On the ECAM N1 or EPR indicator, what does the red line represent?",
+    "options": {
+      "A": "The transient command limit",
+      "B": "The maximum permissible limit",
+      "C": "The current thrust lever position MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-114"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 7,
+    "question": "When is the amber EGT Max line temporarily removed from the display?",
+    "options": {
+      "A": "When alpha floor is active",
+      "B": "All of these",
+      "C": "When takeoff thrust is set",
+      "D": "When reverse thrust is selected"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 8,
+    "question": "Which engine rotor is directly connected to, and drives, the engine accessory gearbox?",
+    "options": {
+      "A": "The N1 rotor",
+      "B": "The High Pressure (HP) rotor",
+      "C": "The Low Pressure (LP) rotor",
+      "D": "None of these"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 9,
+    "question": "The EPR indicator also displays a blue circle that represents the thrust lever position.",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 10,
+    "question": "What factors are monitored and adjusted during Modulated Idle?",
+    "options": {
+      "A": "The bleed system, the oil temperature and the Mach number.",
+      "B": "TAT, Mach number and AOA.",
+      "C": "The bleed system, the AOA and the Mach number.",
+      "D": "The bleed system, the TAT and the Mach number"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 11,
+    "question": "During an automatic engine start sequence, which parameters does the FADEC monitor?",
+    "options": {
+      "A": "N1 RPM and Engine Fuel Flow",
+      "B": "EGT and N3 RPM",
+      "C": "N1 RPM and EGT only",
+      "D": "All of these"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 12,
+    "question": "Which rotating assembly produces the majority of the engine thrust?",
+    "options": {
+      "A": "The N1 or \"Fan\"",
+      "B": "The N3 due to combustion proximity to turbine",
+      "C": "The N2 provided there is no pneumatic demand on the rotor",
+      "D": "Each of these are true at certain times"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 13,
+    "question": "If the FADEC automatically reverts from EPR to \"Unrated N1 Mode\" due to sensor failures, what function is lost?",
+    "options": {
+      "A": "Climb rate protection",
+      "B": "The Autothrust (A/THR) is lost and cannot be engaged",
+      "C": "Alpha Floor protection",
+      "D": "Reverse thrust. MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-115"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 14,
+    "question": "Engine Pressure Ratio (EPR) is defined as the ratio of which two pressures?",
+    "options": {
+      "A": "Engine outlet pressure divided by inlet pressure",
+      "B": "Engine outlet pressure divided by Compressor Discharge Pressure (CDP)",
+      "C": "Compressor Discharge Pressure (CDP) divided by inlet pressure"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 15,
+    "question": "How and when does \"AVAIL\" display in the EPR indication after an engine start?",
+    "options": {
+      "A": "A pulsing green display after a successful restart in flight",
+      "B": "There is no \"AVAIL\" on the EPR indicator",
+      "C": "A green display after a successful engine start on the ground",
+      "D": "A green display after a successful engine start on the ground and a pulsing green display after a successful restart in flight"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 16,
+    "question": "Engine oil quantity is displayed on which ECAM page(s)?",
+    "options": {
+      "A": "The SYS Page",
+      "B": "The ENG Page",
+      "C": "The CRUISE Page",
+      "D": "The ENG Page and the CRUISE Page"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 17,
+    "question": "How is the engine oil primarily cooled?",
+    "options": {
+      "A": "By the IDG oil cooler",
+      "B": "By the engine fuel only",
+      "C": "By the fan air only",
+      "D": "By both the Fuel/Oil and Air/Oil Heat Exchangers"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.4.1. Руководство по летной эксплуатации ВС Airbus 330 (AFM/FCOM)",
+    "id": 18,
+    "question": "The low oil quantity advisory is temporarily inhibited during:",
+    "options": {
+      "A": "Reverse thrust operation",
+      "B": "Alpha Floor activation",
+      "C": "Takeoff and Go-Around",
+      "D": "Cruise flight"
+    },
+    "correct_answer": "C"
   },
   {
     "section": "3.4.2. Руководство по летной эксплуатации ВС Airbus 319/320/321 (AFM/FCOM)",
@@ -16931,6 +20355,951 @@ const windowQuestions = [
     "correct_answer": "B"
   },
   {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 30,
+    "question": "What is the maximum allowable reduction in takeoff or climb thrust?",
+    "options": {
+      "A": "10%",
+      "B": "25% MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-319"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 1,
+    "question": "Углом стреловидности крыла называется:",
+    "options": {
+      "A": "Угол, заключенный между плоскостью симметрии самолета и поперечной осью самолета.",
+      "B": "Угол, заключенный между плоскостью симметрии самолета и линией проведенной на крыле",
+      "C": "Угол, заключенный между базовой плоскостью крыла и продольной осью самолета.\\"
+    },
+    "correct_answer": "В"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 2,
+    "question": "Хордой крыла называется:",
+    "options": {
+      "A": "Прямая соединяющая САХ и корневую хорду",
+      "B": "Линия, соединяющая фокус крыла с концевой хордой",
+      "C": "Прямая соединяющая переднюю и заднюю кромки крыла"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 3,
+    "question": "Удлинением крыла называется:",
+    "options": {
+      "A": "Отношение длины корневой хорды крыла к длине концевой хорды.",
+      "B": "Отношение размаха крыла к его площади.",
+      "C": "Отношение квадрата размаха крыла к его площади."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 4,
+    "question": "Сужением крыла называется:",
+    "options": {
+      "A": "Отношение длины корневой хорды крыла к длине концевой хорды.",
+      "B": "Отношение квадрата размаха крыла к его площади.",
+      "C": "Отношение размаха крыла к его площади."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 5,
+    "question": "Углом атаки крыла называется:",
+    "options": {
+      "A": "Угол, заключенный между плоскостью симметрии самолета и вектором скорости набегающего потока.",
+      "B": "Угол, заключенный между продольной осью самолета и горизонтальной плоскостью.",
+      "C": "Угол, заключенный между САХ и вектором скорости набегающего потока."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 6,
+    "question": "Относительная толщина профиля крыла это:",
+    "options": {
+      "A": "Отношение толщины профиля к хорде.",
+      "B": "Отношение толщины профиля к длине крыла.",
+      "C": "Отношение длины крыла к хорде."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 7,
+    "question": "Наиболее нагруженной частью стреловидного крыла является:",
+    "options": {
+      "A": "Корневая часть крыла.",
+      "B": "Концевая часть крыла.",
+      "C": "Средняя часть крыла."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 8,
+    "question": "Размах крыла Airbus A321N равен:",
+    "options": {
+      "A": "37.1m MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-323",
+      "B": "44.51m",
+      "C": "35.8 m"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 9,
+    "question": "Взлетом самолета называют:",
+    "options": {
+      "A": "Ускоренное движение самолета от начала разбега до достижения безопасной скорости V2, и высоты 15м (50ft)",
+      "B": "Ускоренное движение самолета от начала разбега до достижения скорости V1.",
+      "C": "Ускоренное движение самолета от начала разбега до достижения безопасной скорости V2, и высоты 10,7 м(35ft)"
+    },
+    "correct_answer": "С"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 10,
+    "question": "TODA – это …",
+    "options": {
+      "A": "TORA + stopway",
+      "B": "TORA + stopway +clearway",
+      "C": "ASDA + TORA"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 11,
+    "question": "При выпуске закрылков на больший угол посадочная дистанция:",
+    "options": {
+      "A": "Увеличивается",
+      "B": "Уменьшается",
+      "C": "Не изменяется"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 12,
+    "question": "Градиент набора высоты это:",
+    "options": {
+      "A": "Отношение изменения высоты к изменению горизонтальной дистанции, выраженное в процентах.",
+      "B": "Произведение изменения высоты и изменения горизонтальной дистанции, выраженное в процентах.",
+      "C": "Отношение изменения высоты к вертикальной скорости и выраженное в процентах."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 13,
+    "question": "Угол набора высоты можно определить по формуле:",
+    "options": {
+      "A": "tgΘ = 1/K.",
+      "B": "sinΘ = Vнаб / Н или sinΘ = L / Н.",
+      "C": "sinΘ = Dр / G или sinΘ = Vy / Vнаб."
+    },
+    "correct_answer": "С"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 14,
+    "question": "Практическим потолком называется:",
+    "options": {
+      "A": "Высота полета, на которой максимальная вертикальная скорость равна нулю.",
+      "B": "Высота полета, на которой максимальная вертикальная скорость равна 0,5м/с.",
+      "C": "Высота полета, на которую может подняться самолет в зависимости от веса, температуры на эшелоне и тяги двигателей."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 15,
+    "question": "Угол планирования самолета можно определить по формуле:",
+    "options": {
+      "A": "tgΘ = Cх / Cy = 1/ K.",
+      "B": "sinΘ = Vy / Vcн.",
+      "C": "sinΘ = dР / G. MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-324"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 16,
+    "question": "Дальность планирования определяется по формуле:",
+    "options": {
+      "A": "L = H / tgΘ = HK;",
+      "B": "L = H tgΘ = H / K;",
+      "C": "L = H Cy"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 17,
+    "question": "Условия равновесия сил горизонтального полета:",
+    "options": {
+      "A": "G = Y, P = X + G • sinα.",
+      "B": "Y = G • cosα, X = P.",
+      "C": "G = Y, X = P."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 18,
+    "question": "Потребной тягой горизонтального полета называется:",
+    "options": {
+      "A": "Тяга, необходимая для выполнения горизонтального полета на данном угле атаки (данной скорости)",
+      "B": "Тяга, необходимая для выполнения горизонтального полета на максимальной скорости.",
+      "C": "Тяга, которую может создать двигатель в горизонтальном полете на данной высоте."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 19,
+    "question": "Минимальная потребная тяга горизонтального полета соответствует:",
+    "options": {
+      "A": "Критическому углу атаки.",
+      "B": "Наивыгоднейшему углу атаки.",
+      "C": "Экономическому углу атаки."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 20,
+    "question": "Границей между первым и вторым режимом полета для турбореактивных самолетов является:",
+    "options": {
+      "A": "Наивыгоднейший угол атаки.",
+      "B": "Критический угол атаки.",
+      "C": "Экономический угол атаки."
+    },
+    "correct_answer": "А"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 21,
+    "question": "При увеличении температуры наружного воздуха располагаемая тяга:",
+    "options": {
+      "A": "Увеличивается.",
+      "B": "Не изменяется.",
+      "C": "Уменьшается."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 22,
+    "question": "Условия равновесия сил установившегося прямолинейного набора высоты:",
+    "options": {
+      "A": "Y = G • cos , X = P + G • sin .",
+      "B": "Y = G • cos , P = X + G • sin .",
+      "C": "G = Y, X = P."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 23,
+    "question": "Снижением самолета называется:",
+    "options": {
+      "A": "Полет по наклонной прямой с работающими двигателями.",
+      "B": "Снижение самолета при нулевой тяге.",
+      "C": "Полет самолета по глиссаде. MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-325"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 24,
+    "question": "Планированием самолета называется:",
+    "options": {
+      "A": "Полет самолета по глиссаде.",
+      "B": "Снижение самолета при нулевой тяге.",
+      "C": "Полет по наклонной прямой с работающими двигателями."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 25,
+    "question": "Условия равновесия сил установившегося прямолинейного снижения:",
+    "options": {
+      "A": "Y = G • cosθ, X = P + G • sinθ.",
+      "B": "G =Y, X = P.",
+      "C": "Y= G • cosθ, P = X + G • sinθ."
+    },
+    "correct_answer": "А"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 26,
+    "question": "Правильным виражом называется:",
+    "options": {
+      "A": "Криволинейный полет самолета на снижении с постоянным креном, скоростью и без скольжения.",
+      "B": "Криволинейный полет самолета с постоянным креном и скоростью.",
+      "C": "Криволинейный полет самолёта в горизонтальной плоскости с постоянным креном, скоростью и без скольжения."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 27,
+    "question": "Взлетная дистанция – это расстояние по горизонтали, проходимое самолетом:",
+    "options": {
+      "A": "От точки старта до точки на высоте 10,7 м (35ft) относительно уровня ВПП в точке отрыва.",
+      "B": "От точки старта до точки отрыва.",
+      "C": "От точки старта до точки на высоте 15 м (50ft) относительно уровня ВПП в точке отрыва."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 28,
+    "question": "Потребную перегрузку на вираже можно определить по формуле:",
+    "options": {
+      "A": "ny = 1/cos γ или ny = Y/G.",
+      "B": "ny = 1/sin γ или ny = G /Y.",
+      "C": "ny = cos γ/1 или ny = P/G."
+    },
+    "correct_answer": "А"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 29,
+    "question": "Потребную скорость на вираже можно определить по формулам:",
+    "options": {
+      "A": "Vв= 𝑉гп√𝑛𝑦",
+      "B": "Vв= Vгп ny .",
+      "C": "Vв= Vгп /cos γ."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 30,
+    "question": "Потребную тягу на вираже можно определить по формулам:",
+    "options": {
+      "A": "P = ny / Pрасп.",
+      "B": "P = Pгп / ny .",
+      "C": "P = Pгп ny ."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 31,
+    "question": "Устойчивостью самолета называется:",
+    "options": {
+      "A": "Способность самолета самостоятельно восстанавливать исходное равновесие после прекращения действия на него возмущения.",
+      "B": "Способность самолета с помощью пилота восстанавливать исходное равновесие после прекращения действия на него возмущения.",
+      "C": "Способность самолета не реагировать на действующие возмущения. MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-326"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 32,
+    "question": "Управляемостью самолета называется:",
+    "options": {
+      "A": "Способность органов управления самолета отклоняться на большие углы.",
+      "B": "Способность самолета отвечать соответствующими перемещениями в пространстве на отклонения органов управления.",
+      "C": "Степень нагрузки на органах управления самолета."
+    },
+    "correct_answer": "В"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 33,
+    "question": "Центровкой самолета называется:",
+    "options": {
+      "A": "Положение центра тяжести самолета на его строительной оси, выраженное в процентах.",
+      "B": "Расстояние от носка САХ до центра масс выраженное в процентах от длины САХ",
+      "C": "Отношение координаты центра тяжести к размаху крыла, выраженное в процентах."
+    },
+    "correct_answer": "В"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 34,
+    "question": "Средней аэродинамической хордой крыла (САХ) называется:",
+    "options": {
+      "A": "Хорда, измеренная в корневой части крыла, имеющего такие же аэродинамические силы и моменты, как и заданное крыло.",
+      "B": "Хорда, измеренная в средней части крыла, имеющего такие же аэродинамические силы и моменты, как и заданное крыло.",
+      "C": "Хорда эквивалентного равновеликого по площади прямоугольного крыла, имеющего такие же аэродинамические силы и моменты, как и заданное крыло."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 35,
+    "question": "Фокусом крыла называется:",
+    "options": {
+      "A": "Точка приложения прироста полной аэродинамической силы при изменении угла атаки, относительно которой момент полной аэродинамической силы не зависит от угла атаки крыла (при постоянной скорости полета).",
+      "B": "Точка приложения полной аэродинамической силы крыла, лежащая на САХ.",
+      "C": "Точка приложения центра масс самолета, относительно которой момент полной аэродинамической силы не зависит от угла атаки крыла."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 36,
+    "question": "Продольным равновесием самолета называется:",
+    "options": {
+      "A": "Равновесие сил и моментов вокруг продольной оси.",
+      "B": "Равновесие сил и моментов вокруг вертикальной оси.",
+      "C": "Равновесие сил и моментов вокруг поперечной оси."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 37,
+    "question": "Балансировочная кривая показывает:",
+    "options": {
+      "A": "На сколько градусов необходимо отклонить руль высоты для балансировки самолета в прямолинейном горизонтальном установившемся полёте при сохранении нормальной перегрузки nу = 1.",
+      "B": "На сколько градусов необходимо отклонить триммер руля высоты для балансировки самолета в прямолинейном горизонтальном установившемся полёте при сохранении нагрузки на руле высоты равной нулю.",
+      "C": "Порядок размещения пассажиров в салоне, загрузки багажных отсеков и заправки самолета топливом для создания необходимой центровки самолета."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 38,
+    "question": "Ограничение по предельной-передней центровке устанавливается из условий:",
+    "options": {
+      "A": "Достаточности располагаемого отклонения руля высоты на посадке.",
+      "B": "Чрезмерной нагрузки на штурвальной колонке при взятии ее «на себя». MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-327",
+      "C": "Прочностными характеристиками передней опоры шасси."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 39,
+    "question": "Устойчивость по перегрузке это:",
+    "options": {
+      "A": "Способность самолета сохранить установленную перегрузку на посадке.",
+      "B": "Способность самолета сохранить перегрузку исходного установившегося полета.",
+      "C": "Способность самолета не реагировать на перегрузку, созданную возмущением."
+    },
+    "correct_answer": "В"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 40,
+    "question": "Устойчивость по скорости это:",
+    "options": {
+      "A": "Способность самолета самостоятельно восстанавливать исходную скорость полета.",
+      "B": "Способность самолета не реагировать на изменение скорости.",
+      "C": "Способность самолета с помощью пилота восстанавливать исходную скорость полета."
+    },
+    "correct_answer": "А"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 41,
+    "question": "Ограничение по перегрузке устанавливается из условий:",
+    "options": {
+      "A": "Прочности стоек шасси самолета.",
+      "B": "Прочности конструкции самолета.",
+      "C": "Ограничением нагрузки на штурвальной колонке."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 42,
+    "question": "Боковой устойчивостью называется:",
+    "options": {
+      "A": "Устойчивость самолета в путевом направлении.",
+      "B": "Устойчивость самолета в поперечном направлении.",
+      "C": "Устойчивость самолета в путевом и поперечном направлении."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 43,
+    "question": "Путевая (флюгерная) устойчивость это:",
+    "options": {
+      "A": "Способность самолета самостоятельно устранять появившееся скольжение.",
+      "B": "Способность самолета самостоятельно устранять возникший крен.",
+      "C": "Способность самолета с помощью пилота устранять появившееся скольжение."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 44,
+    "question": "Аэродинамическая крутка это -",
+    "options": {
+      "A": "Изменение угла установки профилей вдоль размаха крыла",
+      "B": "Изменение формы профилей вдоль размаха крыла",
+      "C": "Изменение стреловидности"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 45,
+    "question": "Геометрической круткой крыла называется:",
+    "options": {
+      "A": "Изменение длины хорды крыла по размаху крыла.",
+      "B": "Изменение толщины профиля в различных сечениях крыла.",
+      "C": "Изменение угла установки профилей вдоль размаха крыла."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 46,
+    "question": "Положительное V крыла:",
+    "options": {
+      "A": "Повышает продольную устойчивость самолета.",
+      "B": "Повышает поперечную устойчивость самолета.",
+      "C": "Увеличивает допустимые крены на посадке. MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-328"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 47,
+    "question": "Полярой самолета называется:",
+    "options": {
+      "A": "График зависимости Су и Сх при различных углах атаки α.",
+      "B": "График зависимости Су от угла атаки α.",
+      "C": "График зависимости Су и Сх от скорости полета."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 48,
+    "question": "При выпуске шасси поляра самолета смещается:",
+    "options": {
+      "A": "Влево.",
+      "B": "Вправо.",
+      "C": "Не смещается."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 49,
+    "question": "При выпуске закрылков поляра самолета смещается:",
+    "options": {
+      "A": "Вправо и вверх.",
+      "B": "Влево и вверх.",
+      "C": "Не смещается."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 50,
+    "question": "Посадочная дистанция – это расстояние по горизонтали, проходимое самолетом:",
+    "options": {
+      "A": "С высоты начала выравнивания до полной его остановки.",
+      "B": "С высоты 10,7 м (35 ft) над уровнем порога ВПП до полной его остановки.",
+      "C": "С высоты 15 м (50 ft) над уровнем порога ВПП до полной его остановки."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 51,
+    "question": "Аэродинамическим качеством самолета называется:",
+    "options": {
+      "A": "Отношение величины подъемной силы к весу самолета.",
+      "B": "Отношение величины подъемной силы самолета к величине силы лобового сопротивления.",
+      "C": "Отношение величины силы лобового сопротивления самолета к располагаемой тяге."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 52,
+    "question": "Центр давления крыла это:",
+    "options": {
+      "A": "Точка приложения полной аэродинамической силы крыла, лежащая на САХ.",
+      "B": "Точка приложения центра масс самолета, лежащая на оси ОХ.",
+      "C": "Точка, относительно которой момент сил давления не зависит от угла атаки крыла."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 53,
+    "question": "Если центр тяжести расположен впереди фокуса, самолет будет:",
+    "options": {
+      "A": "Статически устойчивым.",
+      "B": "Статически неустойчивым.",
+      "C": "Статически нейтрален."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 54,
+    "question": "Если центр тяжести расположен позади фокуса, самолет будет:",
+    "options": {
+      "A": "Статически устойчивым.",
+      "B": "Статически неустойчивым.",
+      "C": "Статически нейтрален."
+    },
+    "correct_answer": "В"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 55,
+    "question": "Если центр тяжести совмещен с фокусом, самолет будет:",
+    "options": {
+      "A": "Статически устойчивым.",
+      "B": "Статически неустойчивым. MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-329",
+      "C": "Статически нейтральным."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 56,
+    "question": "При выпуске закрылков фокус самолета смещается:",
+    "options": {
+      "A": "Вперед.",
+      "B": "Назад.",
+      "C": "Не смещается."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 57,
+    "question": "Кривые Жуковского показывают:",
+    "options": {
+      "A": "Зависимость между скоростью V, соответствующим ей углом атаки α и потребной тягой силовой установки в установившемся прямолинейном горизонтальном полете самолета на заданной высоте и с заданной массой",
+      "B": "Зависимость Cy от скорости V.",
+      "C": "Зависимость Су и Сх при различных углах атаки α."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 58,
+    "question": "Минимальная потребная тяга в установившемся горизонтальном полете соответствует:",
+    "options": {
+      "A": "Наивыгоднейшей скорости полета.",
+      "B": "Экономической скорости полета.",
+      "C": "Критической скорости полета."
+    },
+    "correct_answer": "А"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 59,
+    "question": "При уменьшении массы самолета кривая потребной тяги смещается:",
+    "options": {
+      "A": "Вверх и вправо.",
+      "B": "Вниз и влево.",
+      "C": "Не смещается."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 60,
+    "question": "С увеличением высоты полета кривая располагаемой тяги смещается:",
+    "options": {
+      "A": "Вправо и вверх.",
+      "B": "Вправо и вниз.",
+      "C": "Влево и вверх."
+    },
+    "correct_answer": "В"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 61,
+    "question": "Дальность планирования можно определить по формуле:",
+    "options": {
+      "A": "L = H/K.",
+      "B": "L = K/H.",
+      "C": "L = H • K."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 62,
+    "question": "Аэродинамической интерференцией называется:",
+    "options": {
+      "A": "Взаимное влияние отдельных частей самолета, в результате которого изменяются характеристики обтекания.",
+      "B": "Перетекание воздуха из области повышенного давления, образующееся под крылом, в область пониженного давления, которая расположена над крылом.",
+      "C": "Отрыв пограничного слоя, связанный с наличием на крыле скачков уплотнения."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 63,
+    "question": "Пограничным слоем называется:",
+    "options": {
+      "A": "Слой воздуха, проходящий по САХ крыла и разделяющий набегающий поток на верхний и нижний. MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-330",
+      "B": "Слой воздуха, в котором скорость потока изменяется от нуля до величины, равной местной скорости потока.",
+      "C": "Слой воздуха, где ламинарный поток переходит в турбулентный."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 64,
+    "question": "Профильное сопротивление складывается из:",
+    "options": {
+      "A": "Сопротивления давления и трения.",
+      "B": "Сопротивления скачков уплотнения и индуктивного сопротивлений.",
+      "C": "Сопротивления давлений перед и за крылом."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 65,
+    "question": "Лобовое сопротивление самолета:",
+    "options": {
+      "A": "Складывается из профильного и индуктивного сопротивлений.",
+      "B": "Сопротивление разницы давлений перед и за крылом.",
+      "C": "Сопротивлений скоса потока и скачка уплотнений."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 66,
+    "question": "Индуктивное сопротивление:",
+    "options": {
+      "A": "Сопротивление, возникающее в результате изменeния характеристики обтекания из-за взаимного влияния отдельных частей самолета.",
+      "B": "Сумма сопротивлений давления и сопротивления трения.",
+      "C": "Сопротивление крыла, возникающее из-за скоса потока, и возникает при обтекании крыла вследствие перетекания воздуха из области повышенного давления, образующееся под крылом, в область пониженного давления, которая расположена над крылом."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 67,
+    "question": "Сопротивление давления:",
+    "options": {
+      "A": "Возникает из-за проявления вязкости воздуха в пограничном слое.",
+      "B": "Возникает из-за разности давлений перед и за крылом.",
+      "C": "Возникает из-за разности давлений под и над крылом."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 68,
+    "question": "Сопротивление трения:",
+    "options": {
+      "A": "Возникает на разбеге из-за трения пневматиков о поверхность ВПП и зависит от состояния поверхности ВПП.",
+      "B": "Возникает из-за скоса потока крыла при эффекте близости земли и зависит от подстилающей поверхности.",
+      "C": "Возникает из-за проявления вязкости воздуха в пограничном слое."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 69,
+    "question": "Ограничение по максимальной скорости полета (по скоростному напору) определяется:",
+    "options": {
+      "A": "Из условий прочности конструкции самолета.",
+      "B": "Из условий устойчивости и управляемости самолета.",
+      "C": "Возникновением скачков уплотнений."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 70,
+    "question": "Ограничение максимальной скорости полета по числу М определяется из условий:",
+    "options": {
+      "A": "Прочности самолета.",
+      "B": "Устойчивости и управляемости самолета.",
+      "C": "Располагаемой тяги двигателей. MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-331"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 71,
+    "question": "Волновым кризисом называется:",
+    "options": {
+      "A": "Взаимное влияние отдельных частей самолета, в результате которого изменяются характеристики обтекания.",
+      "B": "Перетекание воздуха из области повышенного давления, образующееся под крылом, в область пониженного давления, которая расположена над крылом.",
+      "C": "Отрыв пограничного слоя, связанный с возникновением на крыле скачков уплотнения."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 72,
+    "question": "Экранным эффектом называется:",
+    "options": {
+      "A": "Влияние близости земли на распределение давления по профилю крыла и скос потока.",
+      "B": "Отрыв пограничного слоя, связанный с наличием на крыле скачков уплотнения.",
+      "C": "Перетекание воздуха из области повышенного давления, образующееся под крылом, в область пониженного давления, которая расположена над крылом."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 73,
+    "question": "What is the maximum operating speed for Airbus A320?",
+    "options": {
+      "A": "360 kt.",
+      "B": "340 kt.",
+      "C": "350 kt."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 74,
+    "question": "What is the maximum operating Mach number for Airbus A320?",
+    "options": {
+      "A": "0.82M.",
+      "B": "0.81M.",
+      "C": "0.90M."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 75,
+    "question": "What is the maximum operating altitude for Airbus A320?",
+    "options": {
+      "A": "43,100 feet.",
+      "B": "39,800 feet.",
+      "C": "42,000 feet."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 76,
+    "question": "What is the maximum takeoff and landing crosswind component for Airbus A320?",
+    "options": {
+      "A": "33 knots",
+      "B": "38 knots",
+      "C": "29 knots"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 77,
+    "question": "Turbulence penetration speed below FL310 for Airbus A320NEO is:",
+    "options": {
+      "A": "290 KT",
+      "B": "280 KT",
+      "C": "310 KT."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 78,
+    "question": "Turbulence penetration speed at and above FL310 for Airbus A320NEO is:",
+    "options": {
+      "A": "0.78 MACH.",
+      "B": "0.76 MACH.",
+      "C": "0.74 MACH. MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-332"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 79,
+    "question": "What is the maximum altitude for flap extension?",
+    "options": {
+      "A": "20,000 feet.",
+      "B": "10,000 feet.",
+      "C": "14,000 feet."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 80,
+    "question": "What is the maximum g-load with flaps extended for A-320 family?",
+    "options": {
+      "A": "0…2g.",
+      "B": "-1…+2.5g.",
+      "C": "3g."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 81,
+    "question": "What is minimum target vertical speed for SRS to maintain",
+    "options": {
+      "A": "120 ft/min",
+      "B": "300 ft/min",
+      "C": "150 ft/min"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 82,
+    "question": "During landing PWS alerts are inhibited below",
+    "options": {
+      "A": "100 ft",
+      "B": "400 ft",
+      "C": "50 ft"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 83,
+    "question": "What is default holding speed for holding pattern for Airbus A-320",
+    "options": {
+      "A": "Green dot",
+      "B": "Vapr",
+      "C": "250 kt"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 84,
+    "question": "В каких условиях рекомендуется выполнять заход и посадку с положением механизации CONF3",
+    "options": {
+      "A": "В условиях низких температур",
+      "B": "В условиях турбулентности",
+      "C": "При больших посадочных массах"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.5.1. Практическая аэродинамика",
+    "id": 85,
+    "question": "NADP 2 предназначена для уменьшения шума",
+    "options": {
+      "A": "Вблизи аэродрома",
+      "B": "На удалении от аэродрома",
+      "C": "Оба варианта верны"
+    },
+    "correct_answer": "B"
+  },
+  {
     "section": "3.5.2. Практическая аэродинамика ВС Airbus 330",
     "id": 2,
     "question": "At what altitude THS freezes (FLARE mode) A330?",
@@ -18441,6 +22810,1633 @@ const windowQuestions = [
       "C": "На расстоянии 1/2 длины хорд и, как правило, не параллельна передней кромке крыла."
     },
     "correct_answer": "A"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 1,
+    "question": "Airport Elevation:",
+    "options": {
+      "A": "The highest point within an airport",
+      "B": "The elevation of the usable runways threshold",
+      "C": "The highest point of airport usable runways measured from MSL"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 2,
+    "question": "Altitude (ICAO) is measured from MSL",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 3,
+    "question": "CRP is:",
+    "options": {
+      "A": "Compulsory reporting point – points which must be reported to ATC",
+      "B": "Common Route Point – point of intersection of two or more airways (ATS routes)",
+      "C": "Created Route Point – point added to FMS"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 4,
+    "question": "Course is:",
+    "options": {
+      "A": "The angle between North and the intended direction of flight in the horizontal plan which is measured in the whole degrees",
+      "B": "The angle between North and actual track which is measured in the whole degrees",
+      "C": "The angle between North and the longitudinal axis of the aircraft which is measured in the whole degrees"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 5,
+    "question": "Track is:",
+    "options": {
+      "A": "The angle between North and intended direction of flight in the horizontal plan which is measured in the whole degrees",
+      "B": "The angle between North and actual direction of flight in the horizontal plan which is measured in the whole degree",
+      "C": "The angle between North and the longitudinal axis of the aircraft which is measured in the whole degrees"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 6,
+    "question": "Heading is:",
+    "options": {
+      "A": "The angle between North and intended direction of flight in the horizontal plan which is measured in the whole degrees",
+      "B": "The angle between North and actual direction of flight in the horizontal plan which is measured in the whole degrees",
+      "C": "The angle between North and the longitudinal axis of the aircraft which is measured in the whole degrees"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 7,
+    "question": "What is a difference between “Course” and “Track”?",
+    "options": {
+      "A": "No any difference MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-357",
+      "B": "Course is intended flight path of an aircraft over the ground, but Track is actual flight path",
+      "C": "Course is actual flight path of an aircraft over the ground, but Track is intended flight path"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 8,
+    "question": "The purpose of Missed Approach Point in an Instrument Approach procedure is:",
+    "options": {
+      "A": "To ensure obstacle clearance in case of missed approach",
+      "B": "To ensure safety separation between aircraft in the traffic circuit over the aerodrome",
+      "C": "To mark the point at which missed approach procedure must be initiated"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 9,
+    "question": "What is the main attribute of “Non-Precision approach”?",
+    "options": {
+      "A": "No any lateral guidance",
+      "B": "No any electronic glideslope is provided (no vertical guidance)",
+      "C": "No STAR for the RWY"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 10,
+    "question": "Choose the definition which corresponds to “Visual Approach”:",
+    "options": {
+      "A": "Flight and approach under VFR",
+      "B": "Uncompleted IFR approach with the visual reference to terrain on the final phase of approach and landing",
+      "C": "Any approach under VFR conditions"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 11,
+    "question": "What does controller mean by saying: “You are cleared for unrestricted climb”?",
+    "options": {
+      "A": "Rate of climb and speed are not restricted",
+      "B": "You may climb and deviate from any previous clearance regarding altitude (FLs)",
+      "C": "You may climb assigned altitude (FL) and disregard any altitude constraints according to SID procedure"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 12,
+    "question": "Choose the correct figure illustrating the Final Approach (ICAO):",
+    "options": {
+      "A": "Figure 1",
+      "B": "Figure 2 MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-358"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 13,
+    "question": "The crew is allowed to maintain MDA or MDH up to MAPt point until the required visual reference has reached:",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 14,
+    "question": "Give the definition for MDA/MDH (Minimum Descent Altitude / Minimum Descent Height):",
+    "options": {
+      "A": "A specified altitude or height in the precision approach or approach with vertical guidance at which a missed approach must be initiated if the required visual reference to continue the approach has not been established",
+      "B": "A specified altitude or height in a non-precision approach or circling approach below which descent must not be made without the required visual reference",
+      "C": "A specified altitude or height in an instrument approach established by operator below which descent must not be made without the required visual reference"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 15,
+    "question": "Give the definition for DA/DH (Decision Altitude/ Decision height):",
+    "options": {
+      "A": "A specified altitude or height in the precision approach or approach with vertical at which a missed approach must be initiated if the required visual reference to continue the approach has not been established",
+      "B": "A specified altitude or height in a non-precision approach or circling approach below which descent must not be made without the required visual reference",
+      "C": "A specified altitude or height in an instrument approach established by operator below which descent must not be made without the required visual reference"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 16,
+    "question": "The crew is allowed to maintain DA or DH up to MAPt until the required visual reference has reached:",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 17,
+    "question": "Minimum Fuel is a situation:",
+    "options": {
+      "A": "In which an aircraft’s fuel supply has reached a state where little or no delay can be accepted",
+      "B": "In which an aircraft’s fuel supply has reached a state where fuel in not enough for missed approach",
+      "C": "In which an operator determines fuel for flight with no extra fuel"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 18,
+    "question": "The altitude represented by a shaded (gray) rectangle bordered by two defining fixes is:",
+    "options": {
+      "A": "Minimum Sector Altitude (MSA) which provides minimum obstacle clearance",
+      "B": "Segment Minimum Altitudes (SMA). The minimum altitude that provides minimum obstacle clearance in each segment of a NPA",
+      "C": "The Landing System Minimum Altitude (LSMA) which provides a reliable signal of a landing system MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-359"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 19,
+    "question": "Give the definition for balked landing?",
+    "options": {
+      "A": "A landing maneuver that is unexpectedly discontinued below DA(H)/MDA(H) or beyond MAPt",
+      "B": "A landing maneuver that is unexpectedly discontinued after touchdown",
+      "C": "A landing maneuver with abnormal landing gear position"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 20,
+    "question": "The energy circle is a green arc, centered on the aircraft's position and oriented towards the current track line. When is it displayed on ND’s",
+    "options": {
+      "A": "When Autoflight HDG or TRK mode is selected during all phases of flight",
+      "B": "When Autoflight HDG or TRK mode is selected during descent",
+      "C": "When Flight Path Vector (Bird) is selected as flight reference"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 21,
+    "question": "While performing a circling approach a crew should level off at MDA/H. To avoid the overshooting, flight crew must push V/S/FPA knob with anticipation. Let’s pretend you are descending with V/S of 700 ft/min. When will you push V/S/FPA knob to level off?",
+    "options": {
+      "A": "100 ft above MDA/H",
+      "B": "70 ft above MDA/H",
+      "C": "At least 200 ft above MDA/H"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 22,
+    "question": "What Autoflight modes are you expected to see on FMA while performing an NPA using LNAV/VNAV minimum?",
+    "options": {
+      "A": "FINAL APP or FPA|NAV",
+      "B": "FINAL APP",
+      "C": "FINAL APP or FPA|TRACK or FPA|NAV"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 23,
+    "question": "Which of these Russian abbreviations corresponds to term “QDM”?",
+    "options": {
+      "A": "Магнитный пеленг радиостанции (МПР)",
+      "B": "Магнитный путевой угол (МПУ)",
+      "C": "Радиал (R)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 24,
+    "question": "Which of these Russian abbreviations corresponds to term “QDR”?",
+    "options": {
+      "A": "Магнитный пеленг самолёта (МПС)",
+      "B": "Заданный магнитный путевой угол (ЗМПУ)",
+      "C": "Радиал (R)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 25,
+    "question": "Which of these Russian abbreviations corresponds to term “Course”?",
+    "options": {
+      "A": "Фактический Путевой Угол",
+      "B": "Заданный Путевой Угол",
+      "C": "Курс MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-360"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 26,
+    "question": "Which of these Russian abbreviations corresponds to term “Track”?",
+    "options": {
+      "A": "Фактический Путевой Угол",
+      "B": "Заданный Путевой Угол",
+      "C": "Курс"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 27,
+    "question": "Which of these Russian abbreviations corresponds to term “Drift”?",
+    "options": {
+      "A": "Угол сноса",
+      "B": "Угол ветра",
+      "C": "Линейное боковое уклонение"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 28,
+    "question": "Which of these Russian abbreviations corresponds to term “X-TRACK”?",
+    "options": {
+      "A": "Линейное боковое уклонение",
+      "B": "Угол ветра",
+      "C": "Боковое уклонение"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 29,
+    "question": "The symbol inside the red circle is:",
+    "options": {
+      "A": "Maltese Cross is the designator of FAF (non-precision approach) in the profile view of Jeppesen Terminal charts",
+      "B": "Maltese Cross is the designator of FAF (precision approach) in the profile view of Jeppesen Terminal charts",
+      "C": "Maltese Cross is the designator in the profile view of Jeppesen Terminal charts of point at which glideslope descent should be initiated"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 30,
+    "question": "The signals from which sources do the IRS use?",
+    "options": {
+      "A": "Satellites",
+      "B": "Ground transmitters",
+      "C": "Its own measurements of aircraft accelerations and angular rates"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 31,
+    "question": "On the figure, what is the meaning of MDA and VIS data?",
+    "options": {
+      "A": "MDA and VIS depends on MAX speed during circling approach and means the minimum altitude for circling approach initiation and visual maneuvering area accordingly",
+      "B": "MDA and VIS depends on MAX speed during instrument approach and means the go-around altitude and visibility accordingly",
+      "C": "MDA and VIS depends on MAX speed during circling approach and means weather minima MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-361"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 32,
+    "question": "Cost index 0 corresponds to:",
+    "options": {
+      "A": "Minimum fuel consumption",
+      "B": "Minimum flight time",
+      "C": "Long Range Cruise"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 33,
+    "question": "Cost index 999 corresponds to:",
+    "options": {
+      "A": "Minimum fuel consumption",
+      "B": "Minimum flight time",
+      "C": "Long Range Cruise"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 34,
+    "question": "When flying at cruise altitude, the aircraft navigates using radio navaids only.",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 35,
+    "question": "The Flight Path vector (FPV) represents the lateral and vertical trajectory of the aircraft with respect to the ground. On the lateral scale, it indicates the aircraft's track. On the vertical scale, it indicates the aircraft's flight path angle.",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 36,
+    "question": "At what height does the RA indication appear on PFDs?",
+    "options": {
+      "A": "1000ft",
+      "B": "2500ft",
+      "C": "5500ft"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 37,
+    "question": "During operation in the RVSM airspace what overshoot or undershoot is allowed during level change?",
+    "options": {
+      "A": "150 feet",
+      "B": "250 feet",
+      "C": "300 feet"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 38,
+    "question": "What kind of turbulence should be reported to ATC during cruise for RVSM operation?",
+    "options": {
+      "A": "Moderate turbulence",
+      "B": "Stronger than severe turbulence",
+      "C": "Greater than moderate wake turbulence MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-362"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 39,
+    "question": "Departure procedures based on standard climb gradient:",
+    "options": {
+      "A": "3.3%",
+      "B": "2.5%",
+      "C": "2.7%"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 40,
+    "question": "Departure procedures assume that one engine is inoperative.",
+    "options": {
+      "A": "True",
+      "B": "Fault"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 41,
+    "question": "Additional buffer area of the holding pattern extended beyond the boundary is:",
+    "options": {
+      "A": "5.0 NM",
+      "B": "3.0 NM",
+      "C": "1.5 NM"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 42,
+    "question": "Look at the picture. Name holding pattern parts:",
+    "options": {
+      "A": "1- outbound, 2- first turn, 3- inbound, 4- base turn",
+      "B": "1- inbound, 2- first turn, 3- outbound, 4- final turn",
+      "C": "1- inbound, 2- fix end, 3- outbound, 4- outbound end"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 43,
+    "question": "In holding pattern pilots should correct timing & lateral navigation for known winds.",
+    "options": {
+      "A": "True",
+      "B": "Fault"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 44,
+    "question": "Holding pattern timing at or below 14000ft is:",
+    "options": {
+      "A": "1 minute",
+      "B": "1 minute and 30 seconds",
+      "C": "45 seconds"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 45,
+    "question": "Holding pattern timing above 14 000 ft is:",
+    "options": {
+      "A": "1 minute",
+      "B": "1 minute and 30 seconds",
+      "C": "45 seconds"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 46,
+    "question": "Standard missed approach procedures is based on a climb gradient",
+    "options": {
+      "A": "3.3%",
+      "B": "2.5% MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-363",
+      "C": "2.7%"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 47,
+    "question": "Look at the picture. There are 3 entry sectors into the holding pattern. Name them:",
+    "options": {
+      "A": "1- offset entry, 2- parallel entry, 3- direct entry",
+      "B": "1- parallel entry, 2- offset entry, 3- direct entry",
+      "C": "C.1- inbound entry, 2- procedure turn entry, 3- direct entry"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 48,
+    "question": "Who is responsible for development of procedures, required in case of engine failure which occurs after V1?",
+    "options": {
+      "A": "The operator",
+      "B": "Local authorities",
+      "C": "Jeppesen"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 49,
+    "question": "Please identify the type of NPA approach depictured in the chart:",
+    "options": {
+      "A": "Stepdown descent",
+      "B": "Constant angle descent",
+      "C": "Continuous descent final approach (CDFA)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 50,
+    "question": "Fly-by waypoint:",
+    "options": {
+      "A": "Requires the use of turn anticipation to avoid overshoot of the next flight segment",
+      "B": "Precludes any turn until the waypoint is overflown and is followed by an intercept maneuver of the next flight segment",
+      "C": "Indicates initial approach segment"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 51,
+    "question": "Fly-over waypoint:",
+    "options": {
+      "A": "Precludes any turn until the waypoint is overflown and is followed by an intercept maneuver of the next flight segment",
+      "B": "Requires the use of turn anticipation to avoid overshoot of the next flight segment MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-364",
+      "C": "Indicates final approach segment"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 52,
+    "question": "What information will be available if ADIRS IR rotary selectors are set to ATT position?",
+    "options": {
+      "A": "Attitude & Track",
+      "B": "Attitude & Heading",
+      "C": "Altitude & Heading"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.1.  Воздушная навигация ВС Airbus 330",
+    "id": 53,
+    "question": "What is the difference between profile depicted by dash line (1) and hard line (2)?",
+    "options": {
+      "A": "Dash line represents profile for NPA while hard line represents profile for PA",
+      "B": "Dash line represents approximate profile for visual approach while hard line stands for instrument approach",
+      "C": "Dash line represents profile for PA while hard line represents profile for NPA"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 54,
+    "question": "During LOC ONLY approach you will start descent upon reaching point:",
+    "options": {
+      "A": "1",
+      "B": "2 MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-365"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 1,
+    "question": "Airport Elevation:",
+    "options": {
+      "A": "The highest point within an airport",
+      "B": "The elevation of the usable runways threshold",
+      "C": "The highest point of airport usable runways measured from MSL"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 2,
+    "question": "Altitude (ICAO) is measured from MSL",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 3,
+    "question": "CRP is:",
+    "options": {
+      "A": "Compulsory reporting point – points which must be reported to ATC",
+      "B": "Common Route Point – point of intersection of two or more airways (ATS routes)",
+      "C": "Created Route Point – point added to FMS"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 4,
+    "question": "Course is:",
+    "options": {
+      "A": "The angle between North and the intended direction of flight in the horizontal plan which is measured in the whole degrees",
+      "B": "The angle between North and actual track which is measured in the whole degrees",
+      "C": "The angle between North and the longitudinal axis of the aircraft which is measured in the whole degrees"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 5,
+    "question": "Track is:",
+    "options": {
+      "A": "The angle between North and intended direction of flight in the horizontal plan which is measured in the whole degrees",
+      "B": "The angle between North and actual direction of flight in the horizontal plan which is measured in the whole degree",
+      "C": "The angle between North and the longitudinal axis of the aircraft which is measured in the whole degrees"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 6,
+    "question": "Heading is:",
+    "options": {
+      "A": "The angle between North and intended direction of flight in the horizontal plan which is measured in the whole degrees",
+      "B": "The angle between North and actual direction of flight in the horizontal plan which is measured in the whole degrees",
+      "C": "The angle between North and the longitudinal axis of the aircraft which is measured in the whole degrees"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 7,
+    "question": "What is a difference between “Course” and “Track”?",
+    "options": {
+      "A": "No any difference",
+      "B": "Course is intended flight path of an aircraft over the ground, but Track is actual flight path",
+      "C": "Course is actual flight path of an aircraft over the ground, but Track is intended flight path MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-367"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 8,
+    "question": "The purpose of Missed Approach Point in an Instrument Approach procedure is:",
+    "options": {
+      "A": "To ensure obstacle clearance in case of missed approach",
+      "B": "To ensure safety separation between aircraft in the traffic circuit over the aerodrome",
+      "C": "To mark the point at which missed approach procedure must be initiated"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 9,
+    "question": "What is the main attribute of “Non-Precision approach”?",
+    "options": {
+      "A": "No any lateral guidance",
+      "B": "No any electronic glideslope is provided (no vertical guidance)",
+      "C": "No STAR for the RWY"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 10,
+    "question": "Choose the definition which corresponds to “Visual Approach”:",
+    "options": {
+      "A": "Flight and approach under VFR",
+      "B": "Uncompleted IFR approach with the visual reference to terrain on the final phase of approach and landing",
+      "C": "Any approach under VFR conditions"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 11,
+    "question": "What does controller mean by saying: “You are cleared for unrestricted climb”?",
+    "options": {
+      "A": "Rate of climb and speed are not restricted",
+      "B": "You may climb and deviate from any previous clearance regarding altitude (FLs)",
+      "C": "You may climb assigned altitude (FL) and disregard any altitude constraints according to SID procedure"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 12,
+    "question": "Choose the correct figure illustrating the Final Approach (ICAO):",
+    "options": {
+      "A": "Figure 1",
+      "B": "Figure 2 MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-368"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 13,
+    "question": "The crew is allowed to maintain MDA or MDH up to MAPt point until the required visual reference has reached:",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 14,
+    "question": "Give the definition for MDA/MDH (Minimum Descent Altitude / Minimum Descent Height):",
+    "options": {
+      "A": "A specified altitude or height in the precision approach or approach with vertical guidance at which a missed approach must be initiated if the required visual reference to continue the approach has not been established",
+      "B": "A specified altitude or height in a non-precision approach or circling approach below which descent must not be made without the required visual reference",
+      "C": "A specified altitude or height in an instrument approach established by operator below which descent must not be made without the required visual reference"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 15,
+    "question": "Give the definition for DA/DH (Decision Altitude/ Decision height):",
+    "options": {
+      "A": "A specified altitude or height in the precision approach or approach with vertical at which a missed approach must be initiated if the required visual reference to continue the approach has not been established",
+      "B": "A specified altitude or height in a non-precision approach or circling approach below which descent must not be made without the required visual reference",
+      "C": "A specified altitude or height in an instrument approach established by operator below which descent must not be made without the required visual reference"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 16,
+    "question": "The crew is allowed to maintain DA or DH up to MAPt until the required visual reference has reached:",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 17,
+    "question": "Minimum Fuel is a situation:",
+    "options": {
+      "A": "In which an aircraft’s fuel supply has reached a state where little or no delay can be accepted",
+      "B": "In which an aircraft’s fuel supply has reached a state where fuel in not enough for missed approach",
+      "C": "In which an operator determines fuel for flight with no extra fuel"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 18,
+    "question": "The altitude represented by a shaded (gray) rectangle bordered by two defining fixes is:",
+    "options": {
+      "A": "Minimum Sector Altitude (MSA) which provides minimum obstacle clearance",
+      "B": "Segment Minimum Altitudes (SMA). The minimum altitude that provides minimum obstacle clearance in each segment of a NPA",
+      "C": "The Landing System Minimum Altitude (LSMA) which provides a reliable signal of a landing system MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-369"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 19,
+    "question": "Give the definition for balked landing?",
+    "options": {
+      "A": "A landing maneuver that is unexpectedly discontinued below DA(H)/MDA(H) or beyond MAPt",
+      "B": "A landing maneuver that is unexpectedly discontinued after touchdown",
+      "C": "A landing maneuver with abnormal landing gear position"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 20,
+    "question": "The energy circle is a green arc, centered on the aircraft's position and oriented towards the current track line. When is it displayed on ND’s",
+    "options": {
+      "A": "When Autoflight HDG or TRK mode is selected during all phases of flight",
+      "B": "When Autoflight HDG or TRK mode is selected during descent",
+      "C": "When Flight Path Vector (Bird) is selected as flight reference"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 21,
+    "question": "While performing a circling approach a crew should level off at MDA/H. To avoid the overshooting, flight crew must push V/S/FPA knob with anticipation. Let’s pretend you are descending with V/S of 700 ft/min. When will you push V/S/FPA knob to level off?",
+    "options": {
+      "A": "100 ft above MDA/H",
+      "B": "70 ft above MDA/H",
+      "C": "At least 200 ft above MDA/H"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 22,
+    "question": "What Autoflight modes are you expected to see on FMA while performing an NPA using LNAV/VNAV minimum?",
+    "options": {
+      "A": "FINAL APP or FPA|NAV",
+      "B": "FINAL APP",
+      "C": "FINAL APP or FPA|TRACK or FPA|NAV"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 23,
+    "question": "Which of these Russian abbreviations corresponds to term “QDM”?",
+    "options": {
+      "A": "Магнитный пеленг радиостанции (МПР)",
+      "B": "Магнитный путевой угол (МПУ)",
+      "C": "Радиал (R)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 24,
+    "question": "Which of these Russian abbreviations corresponds to term “QDR”?",
+    "options": {
+      "A": "Магнитный пеленг самолёта (МПС)",
+      "B": "Заданный магнитный путевой угол (ЗМПУ)",
+      "C": "Радиал (R)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 25,
+    "question": "Which of these Russian abbreviations corresponds to term “Course”?",
+    "options": {
+      "A": "Фактический Путевой Угол",
+      "B": "Заданный Путевой Угол",
+      "C": "Курс MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-370"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 26,
+    "question": "Which of these Russian abbreviations corresponds to term “Track”?",
+    "options": {
+      "A": "Фактический Путевой Угол",
+      "B": "Заданный Путевой Угол",
+      "C": "Курс"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 27,
+    "question": "Which of these Russian abbreviations corresponds to term “Drift”?",
+    "options": {
+      "A": "Угол сноса",
+      "B": "Угол ветра",
+      "C": "Линейное боковое уклонение"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 28,
+    "question": "Which of these Russian abbreviations corresponds to term “X-TRACK”?",
+    "options": {
+      "A": "Линейное боковое уклонение",
+      "B": "Угол ветра",
+      "C": "Боковое уклонение"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 29,
+    "question": "The symbol inside the red circle is:",
+    "options": {
+      "A": "Maltese Cross is the designator of FAF (non-precision approach) in the profile view of Jeppesen Terminal charts",
+      "B": "Maltese Cross is the designator of FAF (precision approach) in the profile view of Jeppesen Terminal charts",
+      "C": "Maltese Cross is the designator in the profile view of Jeppesen Terminal charts of point at which glideslope descent should be initiated"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 30,
+    "question": "The signals from which sources do the IRS use?",
+    "options": {
+      "A": "Satellites",
+      "B": "Ground transmitters",
+      "C": "Its own measurements of aircraft accelerations and angular rates"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 31,
+    "question": "On the figure, what is the meaning of MDA and VIS data?",
+    "options": {
+      "A": "MDA and VIS depends on MAX speed during circling approach and means the minimum altitude for circling approach initiation and visual maneuvering area accordingly",
+      "B": "MDA and VIS depends on MAX speed during instrument approach and means the go-around altitude and visibility accordingly",
+      "C": "MDA and VIS depends on MAX speed during circling approach and means weather minima MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-371"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 32,
+    "question": "Cost index 0 corresponds to:",
+    "options": {
+      "A": "Minimum fuel consumption",
+      "B": "Minimum flight time",
+      "C": "Long Range Cruise"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 33,
+    "question": "Cost index 999 corresponds to:",
+    "options": {
+      "A": "Minimum fuel consumption",
+      "B": "Minimum flight time",
+      "C": "Long Range Cruise"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 34,
+    "question": "When flying at cruise altitude, the aircraft navigates using radio navaids only.",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 35,
+    "question": "The Flight Path vector (FPV) represents the lateral and vertical trajectory of the aircraft with respect to the ground. On the lateral scale, it indicates the aircraft's track. On the vertical scale, it indicates the aircraft's flight path angle.",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 36,
+    "question": "At what height does the RA indication appear on PFDs?",
+    "options": {
+      "A": "1000ft",
+      "B": "2500ft",
+      "C": "5500ft"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 37,
+    "question": "During operation in the RVSM airspace what overshoot or undershoot is allowed during level change?",
+    "options": {
+      "A": "150 feet",
+      "B": "250 feet",
+      "C": "300 feet"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 38,
+    "question": "What kind of turbulence should be reported to ATC during cruise for RVSM operation?",
+    "options": {
+      "A": "Moderate turbulence",
+      "B": "Stronger than severe turbulence",
+      "C": "Greater than moderate wake turbulence MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-372"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 39,
+    "question": "Departure procedures based on standard climb gradient:",
+    "options": {
+      "A": "3.3%",
+      "B": "2.5%",
+      "C": "2.7%"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 40,
+    "question": "Departure procedures assume that one engine is inoperative.",
+    "options": {
+      "A": "True",
+      "B": "Fault"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 41,
+    "question": "Additional buffer area of the holding pattern extended beyond the boundary is:",
+    "options": {
+      "A": "5.0 NM",
+      "B": "3.0 NM",
+      "C": "1.5 NM"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 42,
+    "question": "Look at the picture. Name holding pattern parts:",
+    "options": {
+      "A": "1- outbound, 2- first turn, 3- inbound, 4- base turn",
+      "B": "1- inbound, 2- first turn, 3- outbound, 4- final turn",
+      "C": "1- inbound, 2- fix end, 3- outbound, 4- outbound end"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 43,
+    "question": "In holding pattern pilots should correct timing & lateral navigation for known winds.",
+    "options": {
+      "A": "True",
+      "B": "Fault"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 44,
+    "question": "Holding pattern timing at or below 14000ft is:",
+    "options": {
+      "A": "1 minute",
+      "B": "1 minute and 30 seconds",
+      "C": "45 seconds"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 45,
+    "question": "Holding pattern timing above 14 000 ft is:",
+    "options": {
+      "A": "1 minute",
+      "B": "1 minute and 30 seconds",
+      "C": "45 seconds"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 46,
+    "question": "Standard missed approach procedures is based on a climb gradient",
+    "options": {
+      "A": "3.3%",
+      "B": "2.5% MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-373",
+      "C": "2.7%"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 47,
+    "question": "Look at the picture. There are 3 entry sectors into the holding pattern. Name them:",
+    "options": {
+      "A": "1- offset entry, 2- parallel entry, 3- direct entry",
+      "B": "1- parallel entry, 2- offset entry, 3- direct entry",
+      "C": "C.1- inbound entry, 2- procedure turn entry, 3- direct entry"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 48,
+    "question": "Who is responsible for development of procedures, required in case of engine failure which occurs after V1?",
+    "options": {
+      "A": "The operator",
+      "B": "Local authorities",
+      "C": "Jeppesen"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 49,
+    "question": "Please identify the type of NPA approach depictured in the chart:",
+    "options": {
+      "A": "Stepdown descent",
+      "B": "Constant angle descent",
+      "C": "Continuous descent final approach (CDFA)"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 50,
+    "question": "Fly-by waypoint:",
+    "options": {
+      "A": "Requires the use of turn anticipation to avoid overshoot of the next flight segment",
+      "B": "Precludes any turn until the waypoint is overflown and is followed by an intercept maneuver of the next flight segment",
+      "C": "Indicates initial approach segment"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 51,
+    "question": "Fly-over waypoint:",
+    "options": {
+      "A": "Precludes any turn until the waypoint is overflown and is followed by an intercept maneuver of the next flight segment",
+      "B": "Requires the use of turn anticipation to avoid overshoot of the next flight segment MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-374",
+      "C": "Indicates final approach segment"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 52,
+    "question": "What information will be available if ADIRS IR rotary selectors are set to ATT position?",
+    "options": {
+      "A": "Attitude & Track",
+      "B": "Attitude & Heading",
+      "C": "Altitude & Heading"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.2.  Воздушная навигация ВС Airbus 319/320/321",
+    "id": 53,
+    "question": "What is the difference between profile depicted by dash line (1) and hard line (2)?",
+    "options": {
+      "A": "Dash line represents profile for NPA while hard line represents profile for PA",
+      "B": "Dash line represents approximate profile for visual approach while hard line stands for instrument approach",
+      "C": "Dash line represents profile for PA while hard line represents profile for NPA"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 1,
+    "question": "What is the Russian term may be used as analogue for “Drift Angle”?",
+    "options": {
+      "A": "Угол сноса.",
+      "B": "Угол Упреждения.",
+      "C": "Угол Крена."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 2,
+    "question": "What is the Russian term may be used as analogue for “Crab Angle”?",
+    "options": {
+      "A": "Угол сноса.",
+      "B": "Угол Упреждения.",
+      "C": "Угол Крена."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 3,
+    "question": "What is the Russian term may be used as analogue for “Track”?",
+    "options": {
+      "A": "Фактический Путевой Угол.",
+      "B": "Заданный Путевой Угол.",
+      "C": "Курс."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 4,
+    "question": "What is the Russian term may be used as analogue for “Course”?",
+    "options": {
+      "A": "Фактический Путевой Угол.",
+      "B": "Заданный Путевой Угол.",
+      "C": "Курс."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 5,
+    "question": "What is the Russian term may be used as analogue for “Heading”?",
+    "options": {
+      "A": "Фактический Путевой Угол.",
+      "B": "Заданный Путевой Угол.",
+      "C": "Курс."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 6,
+    "question": "What is a difference between terms: “Course” and “Track”?",
+    "options": {
+      "A": "No any difference.",
+      "B": "Course is intended flight path of an aircraft over the ground, but Track is actual flight path.",
+      "C": "Course is actual flight path of an aircraft over the ground, but Track is intended flight path."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 7,
+    "question": "What is the Russian term may be used as analogue for “QDR”?",
+    "options": {
+      "A": "Магнитный пеленг самолёта (МПС).",
+      "B": "Заданный магнитный путевой угол (ЗМПУ).",
+      "C": "Атмосферное давление."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 8,
+    "question": "What is the Russian term may be used as analogue for “QDM”?",
+    "options": {
+      "A": "Магнитный пеленг радиостанции (МПР).",
+      "B": "Магнитный путевой угол (МПУ).",
+      "C": "Атмосферное давление. MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-377"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 9,
+    "question": "What is a difference between Minimum Safe Altitude and Minimum Sector Altitude?",
+    "options": {
+      "A": "Both altitudes are for emergency purposes only and not guarantee any NAVAID reception, but if MSA divided into sectors with the different value, the word “sector” must be used instead of “safe”.",
+      "B": "Minimum Safe Altitude provides a 1000 ft obstacle clearance within 25 nm from NAV facility, but Minimum Sector Altitude also provides a 1000 ft obstacle clearance and guarantees one of aerodrome NAVAID reception.",
+      "C": "Minimum Safe Altitude measured from ARP, but Minimum Sector Altitude from NAVAID facility."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 10,
+    "question": "Choice the definition which is similar to “Visual Approach”:",
+    "options": {
+      "A": "Flight and approach under VFR.",
+      "B": "Uncompleted IFR approach with the visual reference to terrain on the final phase of approach and landing.",
+      "C": "Any approach under VFR conditions."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 11,
+    "question": "What is the Russian term may be used as analogue for “Turn anticipation”?",
+    "options": {
+      "A": "ЛУР.",
+      "B": "КРЕН.",
+      "C": "Радиус разворота."
+    },
+    "correct_answer": "А"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 12,
+    "question": "QNH is:",
+    "options": {
+      "A": "The atmospheric pressure on the MSL.",
+      "B": "Altitude above MSL based on local station pressure.",
+      "C": "The atmospheric pressure on RWY threshold point."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 13,
+    "question": "What is the main attribute of Non-Precision approach?",
+    "options": {
+      "A": "No any azimuth guidance.",
+      "B": "No any electronic glideslope is provided.",
+      "C": "No any lighting system available on the RWY approach area."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 14,
+    "question": "What is the reason of Missed Approach Point in an Instrument Approach procedure determination?",
+    "options": {
+      "A": "To ensure obstacle clearance in case of missed approach.",
+      "B": "To ensure safety separation between aircrafts in the traffic circuit over the aerodrome.",
+      "C": "To ensure point at which missed approach procedure must be initiated."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 15,
+    "question": "Track is:",
+    "options": {
+      "A": "The intended direction of flight in the horizontal plan measured in degrees from North.",
+      "B": "The actual direction of flight in the horizontal plan measured in degrees from North.",
+      "C": "The direction of the longitudinal axis of the aircraft measured in degrees from North."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 16,
+    "question": "Heading is:",
+    "options": {
+      "A": "The intended direction of flight in the horizontal plan measured in degrees from North.",
+      "B": "The actual direction of flight in the horizontal plan measured in degrees from North. MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-378",
+      "C": "The direction of the longitudinal axis of the aircraft measured in degrees from North."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 17,
+    "question": "Course is:",
+    "options": {
+      "A": "The intended direction of flight in the horizontal plan measured in degrees from North.",
+      "B": "The actual direction of flight in the horizontal plan measured in degrees from North.",
+      "C": "The direction of the longitudinal axis of the aircraft measured in degrees from North."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 18,
+    "question": "CRP is:",
+    "options": {
+      "A": "Compulsory reporting point – points which must be reported to ATC.",
+      "B": "Common Route Point – point of intersection of two or more airways (ATS routes).",
+      "C": "Created Route Point – point added to FMS."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 19,
+    "question": "Altitude (ICAO) measured from MSL:",
+    "options": {
+      "A": "True.",
+      "B": "False."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 20,
+    "question": "Airport Elevation:",
+    "options": {
+      "A": "The highest point within an airport.",
+      "B": "The elevation of ARP.",
+      "C": "The highest point of an airports usable runways measured from MSL."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 21,
+    "question": "Speed will increase over the period of the flight for lower CI values:",
+    "options": {
+      "A": "True.",
+      "B": "False"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 22,
+    "question": "The method for determining minimum cost speed (ECONomy speed) is to combine the time related costs and fuel cost for a flight segment. Cost Index (CI) is defined as:",
+    "options": {
+      "A": "Ratio between time related inflight costs & fuel cost.",
+      "B": "Ratio between distance related inflight costs & fuel cost.",
+      "C": "Ratio between fuel cost and crew cost."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 23,
+    "question": "You are in RTE page & you entered an OFFSET of 2nm... The OFST light will illuminate on the CDU. If on an Offset, the airplane will not enter a pre-planned holding pattern (HOLD page).",
+    "options": {
+      "A": "True.",
+      "B": "False."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 24,
+    "question": "The FMC position (FMC POS) is a radio updated position, not an IRS position. This DME-DME position is more accurate than an IRU position.",
+    "options": {
+      "A": "True.",
+      "B": "False. MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-379"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 25,
+    "question": "With 3 IRSs available: if any latitude or longitude data from one IRU differs from the weighted average by 30 nm or more for more than 5 seconds, data from that IRU will not be used for the remainder of the flight.",
+    "options": {
+      "A": "True.",
+      "B": "False."
+    },
+    "correct_answer": "А"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 26,
+    "question": "Quick alignment of the IRUs takes approximately:",
+    "options": {
+      "A": "30 seconds.",
+      "B": "1 minute.",
+      "C": "2 minutes."
+    },
+    "correct_answer": "А"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 27,
+    "question": "A full alignment of the IRUs takes approximately ___ minutes.",
+    "options": {
+      "A": "5.",
+      "B": "8.",
+      "C": "10."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 28,
+    "question": "If message ENTER IRS POS appears after position entry.",
+    "options": {
+      "A": "It is normal. No action required.",
+      "B": "You should check POS REF 3/3 to verify all IRUs took correct position.",
+      "C": "You should cancel the message."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 29,
+    "question": "If the LEFT FMC fails, how is the First Officer's CDU affected?",
+    "options": {
+      "A": "The F/O CDU display will fail.",
+      "B": "The F/O CDU is not affected.",
+      "C": "The F/O CDU will operate at 1/2 the normal data entry rate."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 30,
+    "question": "How are the pilots automatically notified of an LNAV mode not-intercept heading situation?",
+    "options": {
+      "A": "Flashing ND symbology.",
+      "B": "The AFDS automatically turning the airplane to intercept the LNAV route.",
+      "C": "The display of a scratch pad message in the CDU's."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 31,
+    "question": "With LNAV armed, the A/P automatically turns the airplane to an intercept heading for the LNAV route?",
+    "options": {
+      "A": "True.",
+      "B": "False."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 32,
+    "question": "When LNAV is selected, within which distance from the active leg does the LNAV mode engage?",
+    "options": {
+      "A": "Turning radius.",
+      "B": "2 miles.",
+      "C": "4 miles."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 33,
+    "question": "What Cost Index (CI) should be entered if a maximum range speed is desired?",
+    "options": {
+      "A": "0. MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-380",
+      "B": "100.",
+      "C": "999."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 34,
+    "question": "Which of the following occurs when all of the IRSs enter the NAV mode?",
+    "options": {
+      "A": "The ‘SET IRS POS’ line goes blank.",
+      "B": "The 'LAST POS' line goes blank.",
+      "C": "Both 'SET IRS POS' and 'LAST POS' go blank."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 35,
+    "question": "Can the crew manually enter a different GMT on the POS INIT page?",
+    "options": {
+      "A": "Yes, but only the hour.",
+      "B": "Yes, but only the minutes.",
+      "C": "No."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 36,
+    "question": "How many of the 3 IRS's use the position entered on the POS INIT page?",
+    "options": {
+      "A": "One.",
+      "B": "Two.",
+      "C": "Three."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 37,
+    "question": "Which instrument source select switch should be selected to ALT if the MAP flag is displayed on the ND?",
+    "options": {
+      "A": "FMC switch.",
+      "B": "EFI switch.",
+      "C": "IRS switch."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 38,
+    "question": "Which indicates a modification to the active route?",
+    "options": {
+      "A": "Dashed blue line.",
+      "B": "Dashed white line.",
+      "C": "Continuous magenta line."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 39,
+    "question": "The RIGHT IRU is being used in its backup ATT mode. For this mode to be effective, what information must the crew enter periodically?",
+    "options": {
+      "A": "Present position.",
+      "B": "Windspeed & direction.",
+      "C": "Heading."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 40,
+    "question": "You are in cruise with VNAV + LNAV engaged + A/P CENTER CMD. What happens to the A/P if the Captain chooses the Alternate FMC?",
+    "options": {
+      "A": "The A/P disengages.",
+      "B": "The A/P remains engaged but reverts to ALT HOLD & HDG HOLD modes.",
+      "C": "No change occurs in the A/P."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 41,
+    "question": "What is a significance of the IRS NAV ONLY message on the CDU?",
+    "options": {
+      "A": "You may see a shift in the ND map. MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-381",
+      "B": "The FMC has examined input from radio aids to navigation and determined that the IRS position is the most accurate.",
+      "C": "One FMC has failed and cannot process radio navigation information."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 42,
+    "question": "You have selected Alternative FMC... Which FCC(s) will communicate with the RIGHT FMC?",
+    "options": {
+      "A": "RIGHT FCC only.",
+      "B": "RIGHT & CENTER FCCs.",
+      "C": "RIGHT, CENTER & LEFT FCCs."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.6.3.  Воздушная навигация Boeing 757/767",
+    "id": 43,
+    "question": "Flight Directors are ON prior to Takeoff... You have selected LNAV & VNAV after takeoff. What will happen if you do not select the Autopilot (A/P)?",
+    "options": {
+      "A": "Nothing. The FMC cannot operate unless the A/P is engaged.",
+      "B": "The FMC commands the flight control surfaces to fly the airplane according to the most efficient route.",
+      "C": "The FMC, through the FCC, drives the command bars on the PFD to allow you to fly the computed LNAV & VNAV path."
+    },
+    "correct_answer": "C"
   },
   {
     "section": "3.7. Авиационная метеорология",
@@ -20789,6 +26785,304 @@ const windowQuestions = [
     "correct_answer": "C"
   },
   {
+    "section": "3.9.1. Бортовые аварийно-спасательные средства ВС Airbus A 330",
+    "id": 1,
+    "question": "Where is Crash Axe is located?",
+    "options": {
+      "A": "At the cockpit",
+      "B": "Aft cabin area",
+      "C": "One at the cockpit, one at the aft cabin area."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.9.1. Бортовые аварийно-спасательные средства ВС Airbus A 330",
+    "id": 2,
+    "question": "Когда используется НАЗ?",
+    "options": {
+      "A": "Только при аварийной посадке на воду",
+      "B": "Только при аварийной посадке на сушу",
+      "C": "При аварийной посадке ВС и на сушу, и на воду."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.9.1. Бортовые аварийно-спасательные средства ВС Airbus A 330",
+    "id": 3,
+    "question": "Огнетушители ВС предназначены для тушения:",
+    "options": {
+      "A": "только электропроводку и пластик",
+      "B": "только текстиль, бумагу или пластик",
+      "C": "все виды пожара"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.9.1. Бортовые аварийно-спасательные средства ВС Airbus A 330",
+    "id": 4,
+    "question": "Две функции переключателя смесителя кислорода:",
+    "options": {
+      "A": "100% - чистый кислород, normal (“N”) –смесь кислорода с воздухом",
+      "B": "100% - чистый кислород, emerg –смесь кислорода с воздухом",
+      "C": "100% - чистый кислород, TEST – для проверки постоянного потока кислорода."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.9.1. Бортовые аварийно-спасательные средства ВС Airbus A 330",
+    "id": 5,
+    "question": "How many QDMs are located in the cockpit?",
+    "options": {
+      "A": "4",
+      "B": "3",
+      "C": "2"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.9.1. Бортовые аварийно-спасательные средства ВС Airbus A 330",
+    "id": 6,
+    "question": "Which emergency equipment is located in the cockpit?",
+    "options": {
+      "A": "Life vests, QDM, Smoke hood, signalling kit, flashlight, Smoke hood, crash axe",
+      "B": "Life vests, flashlight, ELT, QDM, Smoke hood, oxygen cylinder, crash axe",
+      "C": "Life vests, QDM, Smoke hood, flashlights, crash axe, fire extinguisher, Smoke hood, fireproof gloves, escape ropes. MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-417"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.9.1. Бортовые аварийно-спасательные средства ВС Airbus A 330",
+    "id": 7,
+    "question": "A330 is equipped with:",
+    "options": {
+      "A": "6 dual-lane sliderafts and 2 single-lane escape slides",
+      "B": "8 dual-lane sliderafts",
+      "C": "4 dual-lane sliderafts and 4 single-lane escape slides"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.9.1. Бортовые аварийно-спасательные средства ВС Airbus A 330",
+    "id": 8,
+    "question": "The A330 has:",
+    "options": {
+      "A": "6 cabin doors and 2 emergency exits",
+      "B": "4 cabin doors and 4 emergency exits",
+      "C": "8 cabin doors and 2 emergency exits"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.9.1. Бортовые аварийно-спасательные средства ВС Airbus A 330",
+    "id": 9,
+    "question": "When is necessary to push EVAC COMMAND pushbutton?",
+    "options": {
+      "A": "After “EVACUATE! EVACUATE!” command",
+      "B": "Before “EVACUATE! EVACUATE!” command",
+      "C": "Before passengers disembarkation."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.9.1. Бортовые аварийно-спасательные средства ВС Airbus A 330",
+    "id": 10,
+    "question": "“ATTENTION, CREW AT STATION” command means:",
+    "options": {
+      "A": "Emergency evacuation in progress",
+      "B": "Warn that emergency evacuation may soon be required",
+      "C": "Disarm all slides."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.9.1. Бортовые аварийно-спасательные средства ВС Airbus A 330",
+    "id": 11,
+    "question": "In case of emergency evacuation the flight crew should evacuate the aircraft via the cockpit windows using escape ropes.",
+    "options": {
+      "A": "True",
+      "B": "False",
+      "C": "Only if it is not possible to reach the passenger cabin."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.9.1. Бортовые аварийно-спасательные средства ВС Airbus A 330",
+    "id": 12,
+    "question": "“FINISH PREPARATION” command means:",
+    "options": {
+      "A": "2 min remaining before emergency landing",
+      "B": "10 sec remaining before emergency landing",
+      "C": "30 sec remaining before emergency landing"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.9.1. Бортовые аварийно-спасательные средства ВС Airbus A 330",
+    "id": 13,
+    "question": "Время работы переносного радиобуя.",
+    "options": {
+      "A": "не менее 48 часов",
+      "B": "не менее 24 часов",
+      "C": "не менее 12 часов MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-418"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.9.1. Бортовые аварийно-спасательные средства ВС Airbus A 330",
+    "id": 14,
+    "question": "Which command is use in case of crew incapacitation?",
+    "options": {
+      "A": "“ATTENTION, CREW AT STATIONS”",
+      "B": "“ATTENTION, PURSER TO THE COCKPIT”",
+      "C": "“PURSER TO THE COCKPIT, PLEASE!”"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.9.1. Бортовые аварийно-спасательные средства ВС Airbus A 330",
+    "id": 15,
+    "question": "When command “BRACE FOR IMPACT” command is use?",
+    "options": {
+      "A": "2 min before emergency landing",
+      "B": "30-40 sec before emergency landing",
+      "C": "10 sec before emergency landing"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.9.1. Бортовые аварийно-спасательные средства ВС Airbus A 330",
+    "id": 16,
+    "question": "Emergency exits 4R and 4L are used to emergency evacuation:",
+    "options": {
+      "A": "After ditching",
+      "B": "After emergency landing",
+      "C": "After ditching or emergency landing"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.9.1. Бортовые аварийно-спасательные средства ВС Airbus A 330",
+    "id": 17,
+    "question": "The fixed oxygen system in the cabin supplies oxygen to the cabin occupants in case of:",
+    "options": {
+      "A": "Rapid descent",
+      "B": "Depressurisation",
+      "C": "Smoke in the cabin"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.9.1. Бортовые аварийно-спасательные средства ВС Airbus A 330",
+    "id": 18,
+    "question": "A330 is equipped with __ fire extinguishers:",
+    "options": {
+      "A": "7",
+      "B": "8",
+      "C": "10"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.9.1. Бортовые аварийно-спасательные средства ВС Airbus A 330",
+    "id": 19,
+    "question": "Which exits are equipped with single-lane escape slides?",
+    "options": {
+      "A": "4R and 4L",
+      "B": "3R and 3L",
+      "C": "1R and 1L"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.9.1. Бортовые аварийно-спасательные средства ВС Airbus A 330",
+    "id": 20,
+    "question": "Which exits are equipped with dual-lane sliderafts?",
+    "options": {
+      "A": "1R and 1L",
+      "B": "1,2,3 R and 1,2,3 L",
+      "C": "1,2,4R and 1,2,4 L MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-419"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.9.1. Бортовые аварийно-спасательные средства ВС Airbus A 330",
+    "id": 21,
+    "question": "Когда пассажир должен надуть спасательный жилет?",
+    "options": {
+      "A": "После покидания ВС",
+      "B": "Сразу, как только надел жилет",
+      "C": "У выхода, перед покиданием ВС"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.9.1. Бортовые аварийно-спасательные средства ВС Airbus A 330",
+    "id": 22,
+    "question": "В каких случаях все члены экипажа и пассажиры должны быть обеспечены спасательными жилетами?",
+    "options": {
+      "A": "Если расстояние до берега превышает дальность планирования",
+      "B": "Если продолжительность полета над водой больше 30 минут",
+      "C": "Если траектория взлета или захода на посадку проходит над водной поверхностью",
+      "D": "Во всех перечисленных случаях"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.9.1. Бортовые аварийно-спасательные средства ВС Airbus A 330",
+    "id": 23,
+    "question": "Сколько человек, при необходимости, может удерживать спасательный жилет на водной поверхности?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.9.1. Бортовые аварийно-спасательные средства ВС Airbus A 330",
+    "id": 24,
+    "question": "Можно ли использовать выходы 4R и 4L при эвакуации на воду?",
+    "options": {
+      "A": "Нет, выходы будут ниже ватерлинии",
+      "B": "Могут использоваться все выходы",
+      "C": "Могут, если их использование не угрожает плавучести ВС"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.9.1. Бортовые аварийно-спасательные средства ВС Airbus A 330",
+    "id": 25,
+    "question": "Когда необходимо использовать пиротехнические сигнальные средства из НАЗ?",
+    "options": {
+      "A": "Сразу после попадания на плавсредство",
+      "B": "Только когда спасательная команда в пределах видимости или слышимости",
+      "C": "Каждые 2 часа"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.9.1. Бортовые аварийно-спасательные средства ВС Airbus A 330",
+    "id": 26,
+    "question": "В какой момент следует начать эвакуацию на воде?",
+    "options": {
+      "A": "После полной остановки ВС",
+      "B": "По команде КВС",
+      "C": "Сразу после касания водной поверхности"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.9.1. Бортовые аварийно-спасательные средства ВС Airbus A 330",
+    "id": 27,
+    "question": "Как отсоединить трап-плот от самолета?",
+    "options": {
+      "A": "Поднять клапан фартука трапа, достать нож-стропорез, перерезать шнуровку и швартовочную стропу",
+      "B": "Поднять клапан фартука трапа, дернуть ручку отсоединения, швартовочную стропу обрезать ножом",
+      "C": "Высвободить штангу из креплений на полу, швартовочный стропа при этом оборвется MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-420"
+    },
+    "correct_answer": "B"
+  },
+  {
     "section": "3.9.2. Бортовые аварийно-спасательные средства ВС Airbus A 320/321",
     "id": 28,
     "question": "В каких случая эвакуацию необходимо начинать, не ожидая команды?",
@@ -21925,5 +28219,1073 @@ const windowQuestions = [
       "B": "False."
     },
     "correct_answer": "А"
+  },
+  {
+    "section": "3.11.   Руководство полетов по EDTO (ETOPS)",
+    "id": 1,
+    "question": "Select correct definition of EDTO:",
+    "options": {
+      "A": "Any operations by an aeroplane with two or more turbine engines where the diversion time to an en-route alternate aerodrome is greater than the threshold time established by the State of the Operator.",
+      "B": "Any operations over a route that contains a point further than 60 minutes flying time from an adequate airport at the selected one-engine-out diversion speed schedule in still air and ISA conditions.",
+      "С": "Any flight over water on a twin-engine ETOPS designed aircraft."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.11.   Руководство полетов по EDTO (ETOPS)",
+    "id": 2,
+    "question": "What kind of approval must be obtained by operator to conduct EDTO flights?",
+    "options": {
+      "А": "Approval for Extended diversion time operations issued by Head of company.",
+      "B": "Approval for Extended diversion time operations issued by CAA.",
+      "C": "Approval for Extended diversion time operations issued by Aircraft Manufacturer"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.11.   Руководство полетов по EDTO (ETOPS)",
+    "id": 3,
+    "question": "It is allowed to exceed the runway PCN (Pavement Classification Number), when an airport is used in case of emergency.",
+    "options": {
+      "A": "True.",
+      "В": "False."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.11.   Руководство полетов по EDTO (ETOPS)",
+    "id": 4,
+    "question": "An aerodrome is considered adequate for EDTO planning when it has been assessed to meet fundamental considerations other than weather, including required runway length and an available approach procedure.",
+    "options": {
+      "A": "True.",
+      "В": "False."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.11.   Руководство полетов по EDTO (ETOPS)",
+    "id": 5,
+    "question": "Adequate aerodromes used for EDTO planning are generally listed in the approved operator’s manual, and the required ETOPS/EDTO en-route alternate aerodrome(s) for a specific flight shall be specified in the operational flight plan and ATS flight plan.",
+    "options": {
+      "A": "True.",
+      "B": "False."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.11.   Руководство полетов по EDTO (ETOPS)",
+    "id": 6,
+    "question": "What kinds of ground operational assistance are mandatory for adequate airport?",
+    "options": {
+      "A": "ATC, Meteorological and Air Information Services and ability to receive and accommodate the passengers.",
+      "B": "ATC, Meteorological.",
+      "C": "ATC, sufficient lighting, communications, weather reporting, Navaids, and emergency services."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.11.   Руководство полетов по EDTO (ETOPS)",
+    "id": 7,
+    "question": "What kinds of landing facilities (navaids) are mandatory for adequate airport?",
+    "options": {
+      "A": "ILS, VOR, NDB.",
+      "B": "ILS, MLS, PAR.",
+      "C": "At least one instrument approach procedure available for an instrument approach MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-440"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.11.   Руководство полетов по EDTO (ETOPS)",
+    "id": 8,
+    "question": "What validity period must be considered for the forecast weather conditions when nominating an ETOPS/EDTO en-route alternate aerodrome?",
+    "options": {
+      "A": "The period commencing at the earliest potential time of landing and ending 1 hour after the latest nominated time of use of that aerodrome.",
+      "B": "The time period begins at the earliest Estimated Time of Arrival (ETA) at the airport and ends two hours after the latest ETA.",
+      "C": "The period commencing at the estimated time of departure and ending at the estimated time of arrival at destination."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.11.   Руководство полетов по EDTO (ETOPS)",
+    "id": 9,
+    "question": "What is a parameter included necessarily to company EDTO approval?",
+    "options": {
+      "A": "Maximum diversion distance.",
+      "B": "Maximum diversion time.",
+      "C": "Maximum diversion distance and time."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.11.   Руководство полетов по EDTO (ETOPS)",
+    "id": 10,
+    "question": "What Maximum EDTO diversion time for MY FREIGHTER (Boeing 767)?",
+    "options": {
+      "A": "180 min.",
+      "B": "240 min.",
+      "C": "120 min."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.11.   Руководство полетов по EDTO (ETOPS)",
+    "id": 11,
+    "question": "Actual diversion time in flight may be higher than the diversion time used to establish the EDTO area of operation, provided that the planned route remains within the applicable still-air range from an en- route alternate aerodrome.",
+    "options": {
+      "A": "True.",
+      "B": "False"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.11.   Руководство полетов по EDTO (ETOPS)",
+    "id": 12,
+    "question": "Maximum Diversion Distance is used for:",
+    "options": {
+      "A": "Pre-flight calculations.",
+      "B": "Defining of diversion strategy during the flight.",
+      "C": "Dimensioning of the area of operations."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.11.   Руководство полетов по EDTO (ETOPS)",
+    "id": 13,
+    "question": "EDTO Area of Operations:",
+    "options": {
+      "A": "Represented by circles centered on the origin and destination aerodromes.",
+      "B": "Represented by the area enclosed within arcs/circles centered on the selected EDTO en-route alternate aerodromes, using the approved maximum diversion distance.",
+      "C": "Represented only by the diversion distance shown in the computerized flight plan."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.11.   Руководство полетов по EDTO (ETOPS)",
+    "id": 14,
+    "question": "EDTO Entry Point (EEP) is:",
+    "options": {
+      "A": "The first point on the route that is beyond the applicable EDTO threshold time/distance from an en-route alternate aerodrome.",
+      "B": "The point on the route located at the approved maximum diversion time from an en-route alternate aerodrome.",
+      "C": "The point on the route located at equal flying time from two selected EDTO en-route alternate aerodromes. MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-441"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.11.   Руководство полетов по EDTO (ETOPS)",
+    "id": 15,
+    "question": "An EDTO route may have multiple EDTO sectors, separated by non-EDTO segments.",
+    "options": {
+      "A": "True.",
+      "B": "False."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.11.   Руководство полетов по EDTO (ETOPS)",
+    "id": 16,
+    "question": "What is a point on the route located at the same flying time from two selected EDTO en-route alternate aerodromes?",
+    "options": {
+      "A": "EEP.",
+      "B": "ETP.",
+      "C": "CP"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.11.   Руководство полетов по EDTO (ETOPS)",
+    "id": 17,
+    "question": "When one of ETPs (usually last on the route) can become critical point (CP)?",
+    "options": {
+      "A": "Always.",
+      "B": "When the carriage of additional EDTO fuel reserves is required, because fuel difference between the standard fuel expected to be on board (fuel to continue) and the required EDTO diversion fuel (fuel to divert) is minimum or negative.",
+      "C": "When the carriage of additional EDTO fuel reserves is required on any cases."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.11.   Руководство полетов по EDTO (ETOPS)",
+    "id": 18,
+    "question": "One-engine-inoperative diversion speed is used for:",
+    "options": {
+      "A": "Defining the maximum diversion distance / area of operation.",
+      "B": "Establishing the MY FREIGHTER Company Routes.",
+      "C": "Performing Drift Down Descent."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.11.   Руководство полетов по EDTO (ETOPS)",
+    "id": 19,
+    "question": "The size of EDTO area of operations depends on:",
+    "options": {
+      "A": "The maximum diversion range, the one-engine-inoperative diversion speed, and the number and location of the selected EDTO en-route alternate aerodromes.",
+      "B": "The availability of Navigational Aids on route.",
+      "C": "The weather conditions at the alternate airports"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.11.   Руководство полетов по EDTO (ETOPS)",
+    "id": 20,
+    "question": "What is a difference between standard and EDTO fuel calculations?",
+    "options": {
+      "A": "Additional fuel definition for approach, go-around, holding and another approach over the alternate.",
+      "B": "Additional fuel definition for diversion to the alternate and approach there.",
+      "C": "Defining of additional fuel (critical fuel reserve), if this fuel reserve is required for particular flight."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.11.   Руководство полетов по EDTO (ETOPS)",
+    "id": 21,
+    "question": "How are ETOPS/EDTO en-route alternate aerodrome planning minima determined?",
+    "options": {
+      "A": "By adding the applicable additional limits to the published operating minima for the available approach procedure.",
+      "B": "By automatically reducing the minima when two or more CAT I ILS/GLS approaches are available on separate runways.",
+      "C": "By using the normal published landing minima without any additional margin."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.11.   Руководство полетов по EDTO (ETOPS)",
+    "id": 22,
+    "question": "The EDTO dispatch planning minima apply until dispatch.",
+    "options": {
+      "A": "True.",
+      "B": "False. MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-442"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.11.   Руководство полетов по EDTO (ETOPS)",
+    "id": 23,
+    "question": "What are the crew procedures necessary to conduct additionally during EDTO flight?",
+    "options": {
+      "A": "Engine and system parameters monitoring; weather monitoring; fuel monitoring.",
+      "B": "Aircraft systems monitoring; weather monitoring; fuel monitoring, diversion planning with respect to all operational considerations.",
+      "C": "Diversion planning, fuel planning, communication with company dispatch."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.11.   Руководство полетов по EDTO (ETOPS)",
+    "id": 24,
+    "question": "If the engine failure occurred during EDTO segment, what operational factors must be considered by the CPT during decision-making?",
+    "options": {
+      "A": "Selected EDTO alternate always preferable.",
+      "B": "Nearest adequate airport always preferable.",
+      "C": "Closest adequate airport is preferable, but actual weather situation (alternate and en-route) and all another operational factors must be considered."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.11.   Руководство полетов по EDTO (ETOPS)",
+    "id": 25,
+    "question": "Select the correct decision in case of impossibility to meet EDTO dispatch requirements before particular flight:",
+    "options": {
+      "A": "Authorised MDH/MDA plus 400 ft and authorised visibility plus 1500 m.",
+      "B": "Authorised DH/DA plus 200 ft and authorised visibility plus 800 m.",
+      "C": "No additional limits are required."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.11.   Руководство полетов по EDTO (ETOPS)",
+    "id": 27,
+    "question": "According to ICAO 10085, what additional limits are added to the operating minima for precision approach when determining ETOPS en-route alternate planning minima?",
+    "options": {
+      "A": "Authorised DH/DA plus 200 ft and authorised visibility plus 800 m.",
+      "B": "Authorised MDH/MDA plus 400 ft and authorised visibility plus 1 500 m.",
+      "C": "No additional limits are required."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.11.   Руководство полетов по EDTO (ETOPS)",
+    "id": 28,
+    "question": "In the event of a diversion on an EDTO flight, the flight crew is not obligated to divert to the primary EDTO alternate aerodrome listed on the flight plan and may choose a different aerodrome as the nearest suitable landing site if this is deemed to be a safer course of action based on prevailing operational conditions.",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.11.   Руководство полетов по EDTO (ETOPS)",
+    "id": 29,
+    "question": "An aeroplane should not be released on an EDTO flight unless the air operator’s operations manual and/or as applicable the EDTO flight operations manual (EFOM) contain(s) sufficient performance data to support all phases of any applicable EDTO operation, including flight preparation and en-route operations",
+    "options": {
+      "A": "True",
+      "B": "False MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-443"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.11.   Руководство полетов по EDTO (ETOPS)",
+    "id": 30,
+    "question": "What should be verified/completed before dispatching an ETOPS/EDTO flight?",
+    "options": {
+      "A": "Aircraft EDTO serviceability/status including applicable MEL/CDL restrictions, ETOPS/EDTO en-route alternate selection and weather, critical fuel planning, and required flight documentation.",
+      "B": "EDTO QRH checks, emergency checklists and all abnormal procedures.",
+      "C": "Only the EDTO area of operation and diversion strategy; MEL/CDL and fuel planning are not required."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.11.   Руководство полетов по EDTO (ETOPS)",
+    "id": 31,
+    "question": "According to ICAO Doc 10085, which ICAO provisions does the EDTO Manual support?",
+    "options": {
+      "A": "Annex 6 - Operation of Aircraft, Part I, Section 4.7 and Attachment C.",
+      "B": "PANS-ATM Doc 4444, Annex 11 and Doc 8168.",
+      "C": "FAA AC 120-42B, JAA AMJ 120-42 and ICAO Annex 19."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.11.   Руководство полетов по EDTO (ETOPS)",
+    "id": 32,
+    "question": "What must be verified before proceeding beyond the EDTO Entry Point (EEP)?",
+    "options": {
+      "A": "The forecast weather at the EDTO alternate aerodromes identified on the OFP is equal to or exceeds the published operating minima for the expected runway and approach procedure during the applicable validity period.",
+      "B": "The EDTO dispatch planning minima must still be met until the aircraft reaches the EEP.",
+      "C": "Weather at EDTO alternates may be below published operating minima if the Commander considers it safe to continue."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.11.   Руководство полетов по EDTO (ETOPS)",
+    "id": 33,
+    "question": "For an aircraft with either 120-minute or 180-minute maximum approved diversion time, an operator may request an increase in the operator’s approved diversion time for specific routes, provided that the requested diversion time does not exceed either 115% of the maximum approved diversion time or the time-limited system capability minus 15 minutes.",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_answer": "А"
+  },
+  {
+    "section": "3.11.   Руководство полетов по EDTO (ETOPS)",
+    "id": 34,
+    "question": "Which documentation should be provided to the flight crew before an ETOPS/EDTO flight?",
+    "options": {
+      "A": "NOTAMs, weather forecasts/reports, OFP, ATS flight plan with required ETOPS/EDTO en-route alternates, and relevant route/EDTO chart or plotting chart.",
+      "B": "Only NOTAMs, weather forecasts and escape routes.",
+      "C": "Only the OFP and destination weather."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.11.   Руководство полетов по EDTO (ETOPS)",
+    "id": 35,
+    "question": "An extension of the operator’s approved diversion time up to 115% of the maximum approved diversion time:",
+    "options": {
+      "A": "May be used regardless of the aeroplane’s most limiting time-limited system and cargo fire suppression capability.",
+      "B": "Must take into account the aeroplane’s most limiting time-limited system capability, including cargo fire suppression capability where applicable.",
+      "C": "Must take into account only the cargo fire suppression capability."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.11.   Руководство полетов по EDTO (ETOPS)",
+    "id": 36,
+    "question": "The operator’s approved diversion time is an operational limit that should not exceed either: the maximum approved diversion time, or the time-limited system capability minus 15 minutes.",
+    "options": {
+      "A": "True",
+      "B": "False MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-444"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 37,
+    "question": "Choose the correct statement:",
+    "options": {
+      "A": "The 60-minute area of operation and associated 60-minute threshold distance calculation is normally based on a High Engine Inoperative speed up to the maximum permissible operating speed or Mach number (VMO/MMO according FCOM limitations) in order to maximize the area of operation.",
+      "B": "The 60-minute area of operation and associated 60-minute threshold distance calculation is normally based on the operator’s approved and proposed One-Engine Inoperative cruise speed according the chosen diversion strategies in order to optimize the area of operation. MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-445"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 1,
+    "question": "Что соответствует концепции CRM при оценке качества предполетного брифинга?",
+    "options": {
+      "A": "Полнота стандартного брифинга (когда полностью учтены все требуемые процедурой авиакомпании элементы)",
+      "B": "Готовность к непредвиденным обстоятельствам (выделены вероятные усложнения полета, намечен оптимальный порядок действий и распределены обязанности так, чтобы избежать смятения, растерянности и отвлечения внимания)",
+      "C": "И то и другое"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 2,
+    "question": "В условиях высокой вероятности психофизиологической перегрузки экипажа особенно важно:",
+    "options": {
+      "A": "Понимать, кто принимает указания руководства авиакомпании",
+      "B": "Понимать, кто ведет радиосвязь с органом ОрВД",
+      "C": "Понимать, кто пилотирует ВС в данный момент"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 3,
+    "question": "Что соответствует концепции CRM при распознавании и устранении ошибок в полете?",
+    "options": {
+      "A": "Соблюдать процедуры эксплуатанта, реагировать и уведомлять о замеченной ошибке члена экипажа, рискуя вызвать ухудшение межличностных отношений",
+      "B": "Помнить, что человеческие отношения превыше всего, закрывать глаза на ошибки коллег",
+      "C": "Знать процедуры эксплуатанта, но некоторые операции производить как удобнее и быстрее; заметив ошибки членов экипажа не уведомлять о них во имя сохранения хороших межличностных отношений в экипаже"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 4,
+    "question": "Контроль за ошибками человека предполагает (множественный выбор):",
+    "options": {
+      "A": "Сведение к минимуму возможность ошибок",
+      "B": "Улучшение взаимодействия членов экипажа",
+      "C": "Недопущение действий, приводящих к ошибкам",
+      "D": "Сведение к минимуму последствий ошибок"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 5,
+    "question": "Позитивное проецирование - это :",
+    "options": {
+      "A": "Навыки, знания и опыт, приобретенные в одной ситуации, которые можно применить и в другой",
+      "B": "Действия, осуществляемые исходя из личных убеждений",
+      "C": "Определенные навыки, полученные в результате негативного опыта"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 6,
+    "question": "Лидерство в экипаже - это :",
+    "options": {
+      "A": "Обладание определенными навыками, полученными в результате положительного опыта",
+      "B": "Идеи и действия, которые оказывают влияние на мысли и поведение окружающих",
+      "C": "Совокупность физиологических особенностей человека",
+      "D": "Формальный признак члена экипажа MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-447"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 7,
+    "question": "Толерантность к ошибкам - это:",
+    "options": {
+      "A": "Абсолютное недопущение никаких даже самых мелких ошибок",
+      "B": "Способность системы реагировать на ошибку без серьезных последствий",
+      "C": "Серьезный анализ ситуации, в которой была допущена ошибка",
+      "D": "Отсутствие какой- либо реакции на ошибки"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 8,
+    "question": "Чтобы предупредить психофизиологическую перегрузку, необходимо:",
+    "options": {
+      "A": "Планировать действия экипажа для выполнения нескольких задач одновременно",
+      "B": "Планировать действия экипажа так, чтобы исключить необходимость выполнения нескольких задач одновременно"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 9,
+    "question": "Принятие решения – это выбор альтернативы?",
+    "options": {
+      "A": "Да",
+      "B": "Нет"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 12,
+    "question": "Комплекс физиологических изменений в организме, вызванных процессом труда, понижающих работоспособность и создающие противоречия между требуемыми характеристиками человека для выполнения определенной работы и имеющимися характеристиками в данный момент – это:",
+    "options": {
+      "A": "стресс",
+      "B": "демотивация",
+      "C": "утомление"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 13,
+    "question": "Объем информации о других людях, воспринимаемых человеком через невербальное общение, составляет",
+    "options": {
+      "A": "7% и менее",
+      "B": "от 20% до 30%",
+      "C": "90% и более",
+      "D": "от 50% до 60% MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-448"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 14,
+    "question": "Опытные экипажи в нормальных условиях допускают:",
+    "options": {
+      "A": "7-9 ошибок в час",
+      "B": "1-2 ошибки в час",
+      "C": "3 - 5 ошибок в час"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 15,
+    "question": "Мотивация - это:",
+    "options": {
+      "A": "Способность человека превосходить свои возможности",
+      "B": "Понятие, отражающее разницу межу тем, что человек в состоянии делать и тем, что он хочет делать",
+      "C": "Денежная компенсация затраченных на выполнение задачи сил",
+      "D": "Выработка в себе новых качеств, позволяющих не заботиться о материальном вознаграждении"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 16,
+    "question": "Состояние психологической напряженности, вызванное трудностями в решении конкретной задачи, опасностями, возникающими при решении этой задачи, независимо от происходящих опасностей – это:",
+    "options": {
+      "A": "стресс",
+      "B": "демотивация",
+      "C": "утомление"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 17,
+    "question": "Нарушения, которые люди совершают в следствии дефицита времени, высокой рабочей нагрузки или плохой эргономики кабины ВС ради выполнения задачи (полета) называются :",
+    "options": {
+      "A": "ситуативными",
+      "B": "привычными",
+      "C": "оптимизирующими"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 18,
+    "question": "Устный канал коммуникации (средство передачи информации):",
+    "options": {
+      "A": "Жесты, мимика, позы",
+      "B": "Прямой диалог, радиосвязь, селектор",
+      "C": "Записки, условные знаки"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 19,
+    "question": "Подход, при котором проблемы человеческого фактора решаются до их возникновения называется:",
+    "options": {
+      "A": "ретроактивным",
+      "B": "проактивным",
+      "C": "ретроспективным"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 21,
+    "question": "Для прекращения развития «цепи ошибок» и нормализации ситуации необходимо и достаточно:",
+    "options": {
+      "A": "«Разорвать» одно звено цепи",
+      "B": "Одновременно уничтожить всю цепь",
+      "C": "«Разорвать» два и более звеньев цепи"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 22,
+    "question": "Ошибка типа «пропуск» это:",
+    "options": {
+      "A": "тип ошибки, когда пилот выполняет действие, которое не планировалось (например, словесная оговорка)",
+      "B": "тип ошибки, когда пилот забывает что-либо сделать. Например, вы пустить шасси",
+      "C": "тип ошибок, когда пилот что-либо делает, полагая, что действия правильные, а фактически –  это не так. Например, выключает не тот двигатель"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 23,
+    "question": "Что соответствует концепции CRM при оценке рисков и выборе решения ?",
+    "options": {
+      "A": "Не обдумывать долго и принимать любое решение, которое кажется более или менее подходящим",
+      "B": "В связи с дефицитом времени ни с кем не советоваться, никакие риски не оценивать, принятие решения с экипажем не обсуждать",
+      "C": "Рассматривать несколько вариантов решения и оценивать риски, связанные с каждым вариантом решения, советуясь при этом с экипажем",
+      "D": "Тщательно и досконально изучить все варианты и принять самостоятельное решение, исходя из собственного опыта"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 24,
+    "question": "В процессе передачи информации передающий обязан:",
+    "options": {
+      "A": "передать информацию ясно и точно, лаконично, и своевременно; запросить подтверждение или ответ, сообщать о планах",
+      "B": "передать информацию ясно и точно, лаконично, и своевременно",
+      "C": "передать информацию ясно и точно, лаконично, и своевременно; сообщать о планах",
+      "D": "передать информацию ясно и точно, лаконично, и своевременно, запросить подтверждение или ответ"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 25,
+    "question": "Среди видов внимания выделяют:",
+    "options": {
+      "A": "Избирательное, распределенное, концентрированное и непрерывное внимание",
+      "B": "Пристальное и рассредоточенное внимание",
+      "C": "Концентрированное и непрерывное внимание",
+      "D": "Избирательное и распределенное внимание"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 26,
+    "question": "Может ли радость вызывать стресс в форме аффекта (очень сильного, кратковременного эмоционального состояния, сопровождаемого резко выраженными двигательными проявлениями и изменениями в функциях внутренних органов):",
+    "options": {
+      "A": "Нет не может",
+      "B": "Может"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 27,
+    "question": "Ситуационная осознанность в условиях кабины экипажа включает следующие элементы:",
+    "options": {
+      "A": "Восприятие важных элементов (например, показания приборов) и осознание их значения MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-450",
+      "B": "Восприятие важных элементов (например, показания приборов)",
+      "C": "Восприятие важных элементов (например, показания приборов) и осознание их значения, проекция состояния в будущее"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 28,
+    "question": "Для снижения вероятности психофизиологической перегрузки экипажа необходимо:",
+    "options": {
+      "A": "Концентрировать решение задач на самом опытном члене экипажа",
+      "B": "Распределять задачи между членами экипажа"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 29,
+    "question": "Концептуальная модель «человеческого фактора» - SHELL - включает:",
+    "options": {
+      "A": "Процедуры, чувства человека, мотивацию человека, восприятие человека",
+      "B": "Процедуры, самолет, окружающую среду и человека",
+      "C": "Процедуры, человека, систему «самолёт-самолёт»",
+      "D": "Окружающую среду, внутренние побуждения человека, восприятие человека, процедуры"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 30,
+    "question": "Согласно модели «Швейцарского сыра» Джеймса Ризона:",
+    "options": {
+      "A": "Только совокупность факторов приводит к неблагоприятным последствиям",
+      "B": "Все последствия предрешены, так же как и вкус швейцарского сыра",
+      "C": "Только один фактор может привести к неблагоприятным последствиям"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 31,
+    "question": "Под «эустрессом» понимают:",
+    "options": {
+      "A": "То же, что и под «дистрессом»",
+      "B": "Стресс вообще",
+      "C": "Положительную форму стресса",
+      "D": "Отрицательную форму стресса"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 32,
+    "question": "Создание и поддержание команды. Примеры положительной практики. (множественны й выбор)",
+    "options": {
+      "A": "Устанавливает атмосферу участия и открытости коммуникаций",
+      "B": "Соревнуется с другими",
+      "C": "Поощряет предоставление информации и обратной связи членами экипажа"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 34,
+    "question": "Ошибочное действие типа промах:",
+    "options": {
+      "A": "действие, которое выполнено не так как планировалось",
+      "B": "действие, выполненное при помощи интуиции",
+      "C": "действие, вызванное отказом памяти",
+      "D": "применение неправильных правил MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-451"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 35,
+    "question": "Виды памяти:",
+    "options": {
+      "A": "Короткая/кратковременная и долговременная память",
+      "B": "Ультракороткая, короткая/кратковременная и долговременная память",
+      "C": "Ультракороткая и короткая/кратковременная память",
+      "D": "Ультракороткая и долговременная память"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 36,
+    "question": "Программа управления ресурсами экипажа (CRM) не включает приобретение навыков:",
+    "options": {
+      "A": "пилотирования",
+      "B": "межличностных отношений",
+      "C": "лидерства"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 37,
+    "question": "Что соответствует концепции CRM при работе в команде. Примеры хорошей практики (множественный выбор)",
+    "options": {
+      "A": "Применять нестандартные процедуры без объяснений",
+      "B": "Соблюдать SOP",
+      "C": "Вмешиваться в действия экипажа при отклонении от стандартов"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 39,
+    "question": "Осознание состояния систем ВС (множественный выбор)",
+    "options": {
+      "A": "не спрашивать об изменениях",
+      "B": "не сообщать об изменении состояния систем",
+      "C": "следить и сообщать об изменении состояния систем",
+      "D": "сообщать о вводе данных и изменении состояния систем"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 41,
+    "question": "Отрицательная форма стресса называется:",
+    "options": {
+      "A": "Эустресс",
+      "B": "Дистресс MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-452"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 42,
+    "question": "Что соответствует концепции CRM в отношении гибкости и адаптивности к меняющимся условиям?",
+    "options": {
+      "A": "Выполнять работу так же, как выполнял ее до этого",
+      "B": "Сопротивляться новым идеям, процедурам, правилам (обосновывая это тем, не делал такого раньше и старые правила удобнее)",
+      "C": "Прислушиваться к новым решениям, однако не решаться пойти на их выполнение, боясь ответственности за неверное выполнение задачи",
+      "D": "Адаптироваться к изменениям условий и целей, обновлять задачи с учетом ситуации, предвидеть изменения"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 43,
+    "question": "Возникновение «цепи ошибок» – это ситуация, в которой:",
+    "options": {
+      "A": "Одна ошибка создает условия для возникновения другой, усложняет условия выполнения следующей задачи и провоцирует новые ошибки",
+      "B": "Одновременное проявление нескольких не связанных друг с другом ошибок"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 44,
+    "question": "Нарушения, связанные с отказом от правил и порой не связанные с выполнением задания, совершаемые для удовлетворения собственных потребностей, называются:",
+    "options": {
+      "A": "оптимизирующими",
+      "B": "ситуативными",
+      "C": "привычными"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 45,
+    "question": "Реверсии – это ошибки пилота, находящегося в состоянии стресса, при этом:",
+    "options": {
+      "A": "сложившийся стереотип действий вреден (не нужен), но проявляется машинально",
+      "B": "сложившийся стереотип действий используется осознано"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 46,
+    "question": "При автоматической деятельности, связанной с устойчивыми навыками (например, пилотирование самолета), участие сознания:",
+    "options": {
+      "A": "Максимально (80% и более)",
+      "B": "Минимально (около 10%)",
+      "C": "Находится в пределах 30-50%"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 48,
+    "question": "Под «запрограммированным решением» понимают:",
+    "options": {
+      "A": "Решение, перед принятием которого проводится процесс сбора необходимой информации",
+      "B": "Решение, которое подразумевает некоторую личную инициативу принимающего решение",
+      "C": "Решение, принимаемое в ситуациях, которые в определенной степени новые, внутренне не структурированы или сопряжены с неизвестными факторами MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-453",
+      "D": "Решение, принятое в результате реализации определенной последовательности шагов (как при решении математического уравнения)"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 49,
+    "question": "Какие взаимодействия между элементами не входят в модель SHELL?",
+    "options": {
+      "A": "человек-человек",
+      "B": "человек-природа",
+      "C": "человек - процедуры"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 50,
+    "question": "Управление стрессом . Стратегия компенсации это:",
+    "options": {
+      "A": "Воздействие на источник стресса, а не на симптомы. Человек либо приспосабливается к предъявляемым требованиям или меняет саму ситуацию",
+      "B": "Смягчение последствий стресса (медикаменты, алкоголь) или убеждение себя, что это не проблема"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 51,
+    "question": "Что соответствует концепции CRM при разрешении конфликта в экипаже",
+    "options": {
+      "A": "Предлагать единственно верные варианты решения конфликтных ситуаций",
+      "B": "Выносить разногласия на обсуждение и искать пути их решения",
+      "C": "Отстаивать свою точку зрения, указывать другим на их ошибки, не идти на компромисс",
+      "D": "Сохранять спокойствие"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 53,
+    "question": "Какими ресурсами располагает экипаж в полете?",
+    "options": {
+      "A": "Технические ресурсы, ресурс командира экипажа как человека ответственного за все происходящее на борту, его знания, умения и навыки",
+      "B": "Средства и источники информации; технические устройства; члены летного и кабинного экипажа; располагаемое время; среда , в которой экипаж выполняет свои функциональные обязанности"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 54,
+    "question": "Что соответствует концепции CRM при выборе стиля проведения предполетного брифинга",
+    "options": {
+      "A": "Интерактивный стиль брифинга",
+      "B": "Брифинг в форме монолога"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 55,
+    "question": "И сточниками стресса могут быть :",
+    "options": {
+      "A": "Личность, семья и близкие люди",
+      "B": "Компания и рабочее место",
+      "C": "Все варианты ответов верны",
+      "D": "Конкретная ситуация MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-454"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 56,
+    "question": "К стратегиям предотвращения ошибок не относится:",
+    "options": {
+      "A": "толерантность к ошибкам",
+      "B": "полное исключение ошибок",
+      "C": "перехват ошибок"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 57,
+    "question": "К познавательным навыкам человека относятся (множественный выбор):",
+    "options": {
+      "A": "Интуиция и врожденная осведомленность",
+      "B": "Аналитический склад ума и умение адаптироваться",
+      "C": "Ситуационная осознанность",
+      "D": "Планирование и принятие решений"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 59,
+    "question": "Люди в той обстановке, в которой они живут и трудятся, их взаимодействие с машинами, процедурами и окружающей обстановкой, а также взаимодействие людей  между собой – это:",
+    "options": {
+      "A": "технический фактор",
+      "B": "человеческий фактор",
+      "C": "культурологический фактор"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 60,
+    "question": "Нарушение – это:",
+    "options": {
+      "A": "предумышленный акт",
+      "B": "непреднамеренные действия",
+      "C": "необдуманные, интуитивные действия"
+    },
+    "correct_answer": "А"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 61,
+    "question": "Активные ошибки – это ошибки связанные :",
+    "options": {
+      "A": "с навыками, правилами и знаниями",
+      "B": "с навыками и правилами",
+      "C": "с навыками"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 62,
+    "question": "Постоянное решение однотипных задач формирует стереотип действий, который :",
+    "options": {
+      "A": "Снижает уровень осознанности действий",
+      "B": "Повышает уровень осознанности действий"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 63,
+    "question": "Нарушения, ставшие повседневной нормой (в подразделении или авиакомпании), например, в силу того , что члены экипажа считают процедуру слишком сложной, и нарушают ее, чтобы упростить задачу, сэкономить время называются",
+    "options": {
+      "A": "привычными",
+      "B": "оптимизирующими MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-455",
+      "C": "ситуативными"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 64,
+    "question": "Ошибочное намерение:",
+    "options": {
+      "A": "тип ошибки, когда пилот забывает что-либо сделать . Например, выпустить шасси",
+      "B": "тип ошибки, когда пилот выполняет действие, которое не планировалось (например, словесная оговорка)",
+      "C": "тип ошибок, когда пилот что-либо делает, полагая, что действия правильные, а фактически – это не так. Например, выключает не тот двигатель"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 65,
+    "question": "Практические рекомендации по управлению рабочей нагрузки экипажа (множественный выбор)",
+    "options": {
+      "A": "Приоритизировать вторичные задачи ради обеспечения ресурсов, для решения основных",
+      "B": "Распределять задачи между членами экипажа",
+      "C": "Летать 'в одиночку', на многочленном ВС, без привлечения других членов экипажа",
+      "D": "Принимать вторичные задачи выше основных",
+      "E": "Неадекватно планировать рабочую нагрузку",
+      "F": "Игнорировать признаки стресса и усталости"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 66,
+    "question": "В процессе приема информации принимающий обязан:",
+    "options": {
+      "A": "подтверждать",
+      "B": "подтверждать; повторять",
+      "C": "подтверждать; повторять; перефразировать информацию",
+      "D": "подтверждать; повторять; перефразировать информацию прояснять и отвечать"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 67,
+    "question": "Под действием (процессом взаимодействия человека с объектом для достижения определенной цели) понимают:",
+    "options": {
+      "A": "Принятие решения, реализация",
+      "B": "Принятие решения",
+      "C": "Принятие решения, реализация, контроль исполнения и коррекция при необходимости"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 69,
+    "question": "Осознание времени (множественный выбор)",
+    "options": {
+      "A": "удивляться результатам событий",
+      "B": "не обсуждать связь прошлых событий с настоящим и будущим",
+      "C": "прогнозировать возможность проблем в будущем",
+      "D": "не распределять приоритеты по времени",
+      "E": "обсуждать стратегию действий в усложненной обстановке MF.FLT3-47 Тестовые вопросы контроля знаний членов летных экипажей ООО «MY FREIGHTER» 22.04.2026 Страница 3-456"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 70,
+    "question": "Десинхроноз у пилотов чаще возникает при полетах:",
+    "options": {
+      "A": "На Юг",
+      "B": "С Запада на Восток или с Востока на Запад",
+      "C": "На Север"
+    },
+    "correct_answer": "В"
+  },
+  {
+    "section": "3.12. Возможности и ограничения человека в летной деятельности (CRM)",
+    "id": 71,
+    "question": "Латентные (скрытые) ошибки – это:",
+    "options": {
+      "A": "Ошибки (условия или события в прошлом, например ошибки в конструкции ВС)",
+      "B": "Непосредственные ошибки или действия, ставшие причиной ошибок"
+    },
+    "correct_answer": "A"
   }
 ];

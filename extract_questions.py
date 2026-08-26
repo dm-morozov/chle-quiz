@@ -34,7 +34,7 @@ def parse_pdf():
     
     q_start_regex = re.compile(r'^(\d+)\.\s+(.*)')
     opt_start_regex = re.compile(r'^([A-ZА-Я])\.\s+(.*)')
-    ans_key_regex = re.compile(r'(\d+)\.-([A-ZА-Я])')
+    ans_key_regex = re.compile(r'(\d+)\.?-([A-ZА-Я])')
     
     for line in lines:
         line = line.strip()
@@ -44,7 +44,7 @@ def parse_pdf():
         if re.search(r'\d{2}\.\d{2}\.\d{4}\s+Страница\s+\d+-\d+', line) or line.startswith('Издание 2, Ревизия 0'):
             continue
             
-        if "Перечень правильных ответов" in line:
+        if "Перечень правильных ответов" in line or "Список правильных ответов" in line:
             parsing_answers = True
             parsing_questions = False
             m_prefix = re.match(r'^(3\.\d+(?:\.\d+)?)\.\d+', line)
@@ -52,7 +52,14 @@ def parse_pdf():
                 current_answer_prefix = m_prefix.group(1)
             continue
             
-        if "Перечень вопросов" in line:
+        m_sec = re.match(r'^(3\.\d+(?:\.\d+)?)\.?\s+([А-ЯA-Z].*)', line)
+        if m_sec and 'правильных ответов' not in line and '...' not in line:
+            title = m_sec.group(2).strip()
+            if title not in ["Перечень вопросов", "Список вопросов"]:
+                current_section = line.replace('Перечень вопросов', '').replace('Список вопросов', '').strip()
+                parsing_answers = False
+            
+        if "Перечень вопросов" in line or "Список вопросов" in line:
             parsing_questions = True
             parsing_answers = False
             continue
@@ -65,11 +72,6 @@ def parse_pdf():
                 if current_answer_prefix not in answer_keys:
                     answer_keys[current_answer_prefix] = {}
                 answer_keys[current_answer_prefix][qnum] = ans
-            
-            m_sec = re.match(r'^(3\.\d+(?:\.\d+)?)\.?\s+([А-ЯA-Z].*)', line)
-            if m_sec and 'Перечень' not in line and 'Список' not in line and '...' not in line:
-                current_section = line
-                parsing_answers = False
             continue
             
         if parsing_questions:
@@ -99,10 +101,6 @@ def parse_pdf():
                     current_options[current_opt_letter] += " " + line
                 else:
                     current_q_text.append(line)
-            else:
-                m_sec = re.match(r'^(3\.\d+(?:\.\d+)?)\.?\s+([А-ЯA-Z].*)', line)
-                if m_sec and 'Перечень' not in line and 'Список' not in line and '...' not in line:
-                    current_section = line
 
     # Add last question
     if current_q_num is not None:
