@@ -1,6 +1,6 @@
 (() => {
     const TARGET_URL = 'https://pilotspace.ru/';
-    const TOTAL_SECONDS = 10;
+    const TOTAL_SECONDS = 30;
     let remaining = TOTAL_SECONDS;
     let isPaused = false;
     let timerId = null;
